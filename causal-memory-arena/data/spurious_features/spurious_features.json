@@ -1,0 +1,352 @@
+[
+  {
+    "id": "train_3968",
+    "premise": "Statement1: Consumer advocate : there is no doubt that the government is responsible for the increased cost of gasoline, because the government's policies have significantly increased consumer demand for fuel, and as a result of increasing demand, the price of gasoline has risen steadily.",
+    "hypothesis": "Premise1: The government can bear responsibility for that which it indirectly causes.",
+    "causal_feature": "indirect cause",
+    "spurious_feature": "government's policies"
+  },
+  {
+    "id": "train_316",
+    "premise": "Statement1: To suit the needs of corporate clients, advertising agencies have successfully modified a strategy originally developed for political campaigns. Statement2: This strategy aims to provide clients with free publicity and air time by designing an advertising campaign that is controversial, thus drawing prime-time media coverage and evoking public comment by officials.",
+    "hypothesis": "Premise1: The usefulness of an advertising campaign is based solely on the degree to which the campaign's advertisements persuade their audiences.",
+    "causal_feature": "degree to which the campaign's advertisements persuade their audiences",
+    "spurious_feature": "strategy aimed at providing free publicity and air time"
+  },
+  {
+    "id": "train_4399",
+    "premise": "Statement1: Consumer magazine : because front-loading washers use less water than top-loading washers, ordinary powder detergent does not dissolve readily in front-loading washers. Statement2: So, to get clothes really clean in a front-loading machine you need to use a detergent formulated especially for front-loading washers, instead of ordinary powder detergent.",
+    "hypothesis": "Premise1: A laundry detergent does not get clothes really clean in a washer unless it dissolves readily in it.",
+    "causal_feature": "detergent dissolution",
+    "spurious_feature": "front-loading machines"
+  },
+  {
+    "id": "train_2130",
+    "premise": "Statement1: The dean of computing must be respected by the academic staff and be competent to oversee the use of computers on campus. Statement2: The only deans whom academics respect are those who hold doctoral degrees, and only someone who really knows about computers can competently oversee the use of computers on campus. Furthermore, the board of trustees has decided that the dean of computing must be selected from among this university's staff. Statement3: Therefore, the dean of computing must be a professor from this university's computer science department.",
+    "hypothesis": "Premise1: Among this university's staff members with doctoral degrees, only those in the computer science department really know about computers.",
+    "causal_feature": "holding doctoral degrees is necessary for being respected",
+    "spurious_feature": "knowing about computers is not sufficient to be competent"
+  },
+  {
+    "id": "train_1423",
+    "premise": "Statement1: Consumer advocate : ephedra is a naturally occurring compound that some people use as a weight-loss aid. Statement2: Recently, the government prohibited the sale of dietary supplements containing ephedra on the grounds that ephedra has been shown to have grave side effects. This prohibition is unreasonable. Statement3: Echinacea is another natural compound that has been shown to have side effects, yet echinacea is widely available at health food stores.",
+    "hypothesis": "Premise1: The side effects of echinacea and ephedra are comparably serious.",
+    "causal_feature": "unrelated information",
+    "spurious_feature": "comparability of side effects"
+  },
+  {
+    "id": "train_594",
+    "premise": "Statement1: Often patients with ankle fractures that are stable, and thus do not require surgery, are given follow-up x-rays because their orthopedists are concerned about possibly having misjudged the stability of the fracture. Statement2: When a number of follow-up x-rays were reviewed, however, all the fractures that had initially been judged stable were found to have healed correctly. Statement3: Therefore, it is a waste of money to order follow-up x-rays of ankle fracture initially judged stable.",
+    "hypothesis": "Premise1: X-rays of patients of many different orthopedists working in several hospitals were reviewed.",
+    "causal_feature": "Statement 1",
+    "spurious_feature": "Statement 2"
+  },
+  {
+    "id": "train_3979",
+    "premise": "Statement1: More and more law firms specializing in corporate taxes are paid on a contingency-fee basis. Statement2: Under this arrangement, if a case is won, the firm usually receives more than it would have received if it had been paid on the alternate hourly rate basis. If the case is lost, the firm receives nothing. Statement3: Most firms are likely to make more under the contingency-fee arrangement.",
+    "hypothesis": "Premise1: Since the majority of firms specialize in certain kinds of cases, they are able to assess accurately their chances of winning each potential case",
+    "causal_feature": "specialization in specific types of cases",
+    "spurious_feature": "accuracy of assessing winning chances"
+  },
+  {
+    "id": "train_4104",
+    "premise": "Statement1: It is popularly believed that a poem has whatever meaning is assigned to it by the reader. Statement2: But objective evaluation of poetry is possible only if this popular belief is false ; for the aesthetic value of a poem can not be discussed unless it is possible for at least two readers to agree on the correct interpretation of the poem.",
+    "hypothesis": "Premise1: A given poem can be objectively evaluated only if the poem's aesthetic value can be discussed.",
+    "causal_feature": "the aesthetic value of a poem can not be discussed unless it is possible for at least two readers to agree on the correct interpretation of the poem.",
+    "spurious_feature": "a poem has whatever meaning is assigned to it by the reader."
+  },
+  {
+    "id": "train_1182",
+    "premise": "Statement1: Critic : rock music is musically bankrupt and socially destructive, but at least the album covers of rock lps from the 1960s and 1970s often featured innovative visual art. Statement2: But now, since the success of digital music has almost ended the production of lps, rock music has nothing going for it.",
+    "hypothesis": "Premise1: Digital music is not distributed with accompanying innovative visual art.",
+    "causal_feature": "Digital music",
+    "spurious_feature": "Innovative visual art"
+  },
+  {
+    "id": "train_2941",
+    "premise": "Statement1: Music critic : fewer and fewer musicians are studying classical music, decreasing the likelihood that those with real aptitude for such music will be performing it. Audiences who hear these performances will not appreciate classical music's greatness and will thus decamp to other genres. Statement2: So to maintain classical music's current meager popularity, we must encourage more young musicians to enter the field.",
+    "hypothesis": "Premise1: Most people who appreciate classical music come to do so through old recordings rather than live performances.",
+    "causal_feature": "audience preference changes",
+    "spurious_feature": "recording medium"
+  },
+  {
+    "id": "train_939",
+    "premise": "Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pundra made darfir's manufactured products a bargain on world markets, and darfir's exports were up substantially. Statement2: Now some politicians are saying that, in order to cause another similarly sized increase in exports, the government should allow the pundra to become weak again.",
+    "hypothesis": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
+    "causal_feature": "Statement1",
+    "spurious_feature": "Statement2"
+  },
+  {
+    "id": "train_1248",
+    "premise": "Statement1: Educator : some experimental educational programs, based on the principle that children's first education should take place at home, instruct parents in how to be their child's\" first teacher. This shows that these programs are successful and should be expanded. Statement2: The school performance of the children in these programs is better than average.",
+    "hypothesis": "Premise1: Most of the parents participating in the programs have prior experience as educators.",
+    "causal_feature": "Educational programs instruct parents in how to be their child's first teacher",
+    "spurious_feature": "The success of the programs"
+  },
+  {
+    "id": "train_4022",
+    "premise": "Statement1: Super express shipping company has implemented a new distribution system that can get almost every package to its destination the day after it is sent. The company worries that this more efficient system will result in lower sales of its premium next-day delivery service, because its two day service will usually arrive the following day anyway. Statement2: The company plans to encourage sales of its next-day service by intentionally delaying delivery of its two-day packages so that they will not be delivered the following day, even if the package arrives at its destination city in time for next-day delivery.",
+    "hypothesis": "Premise1: Deliberate delay of packages will not affect the company's image in a way that significantly reduces its ability to attract and retain customers",
+    "causal_feature": "no impact on customer perception",
+    "spurious_feature": "intentional delay timing"
+  },
+  {
+    "id": "train_2437",
+    "premise": "Statement1: The photographs that the store developed were quite unsatisfactory. Statement2: The customer claims to have handled the film correctly. Neither the film nor the camera was defective. If a store does not process pictures properly, the customer is owed a refund, so if the customer's claim is correct, the store owes her a refund.",
+    "hypothesis": "Premise1: If neither the film nor the camera was defective, and the customer handled the film correctly, then the store processed it improperly.",
+    "causal_feature": "store processing improper",
+    "spurious_feature": "customer handling correct"
+  },
+  {
+    "id": "train_2644",
+    "premise": "Statement1: Human intelligence is not possible without human emotions. Statement2: A computer is something that can never have emotions, so for that reason alone a computer will never be able to display intelligence.",
+    "hypothesis": "Premise1: Being intelligent requires the capacity to have emotions.",
+    "causal_feature": "human intelligence requires human emotions",
+    "spurious_feature": "computer lacks emotions"
+  },
+  {
+    "id": "train_3914",
+    "premise": "Statement1: The miscarriage of justice in the barker case was due to the mistaken views held by some of the forensic scientists involved in the case, who believed that they owed allegiance only to the prosecuting lawyers. Statement2: Justice was thwarted because these forensic scientists failed to provide evidence impartially to both the defense and the prosecution. Statement3: Hence it is not forensic evidence in general that should be condemned for this injustice.",
+    "hypothesis": "Premise1: Most forensic scientists acknowledge a professional obligation to provide evidence impartially to both the defense and the prosecution.",
+    "causal_feature": "forensic scientists owe allegiance only to the prosecuting lawyers",
+    "spurious_feature": "justice was thwarted because these forensic scientists failed to provide evidence impartially to both the defense and the prosecution"
+  },
+  {
+    "id": "train_4467",
+    "premise": "Statement1: Naturalist : sent2: the recent claims that the tasmanian tiger is not extinct are false. Statement2: The tasmanian tiger's natural habitat was taken over by sheep farming decades ago, resulting in the animal's systematic elimination from the area. Since then naturalists working in the region have discovered no hard evidence of its survival, such as carcasses or tracks. Statement3: In spite of alleged sightings of the animal, the tasmanian tiger no longer exists.",
+    "hypothesis": "Premise1: The tasmanian tiger did not move and adapt to a different region in response to the loss of habitat.",
+    "causal_feature": "natural adaptation",
+    "spurious_feature": "habitat loss"
+  },
+  {
+    "id": "train_390",
+    "premise": "Statement1: Tax reformer : the proposed tax reform legislation is being criticized by political groups on the right for being too specific and by political groups on the left for being too vague. Statement2: Since one and the same statement can not be both too specific and too vague, the criticisms just go to show that the legislation is framed just as it should be.",
+    "hypothesis": "Premise1: The proposed legislation is not made up of a set of statements some of which are overly specific and some of which are overly vague.",
+    "causal_feature": "criticisms showing framing adequacy",
+    "spurious_feature": "legislation being criticized"
+  },
+  {
+    "id": "train_168",
+    "premise": "Statement1: If one wants to succeed, then one should act as though one were genuinely confident about one's abilities, even if one actually distrusts one's skills. Statement2: Success is much more easily obtained by those who genuinely believe themselves capable of succeeding than by those filled with self-doubts.",
+    "hypothesis": "Premise1: Genuine confidence is often a by-product of pretended self-confidence.",
+    "causal_feature": "genuine confidence is often a by-product of pretended self-confidence",
+    "spurious_feature": "pretended self-confidence"
+  },
+  {
+    "id": "train_2814",
+    "premise": "Statement1: A company has developed a new sensing device that, according to the company's claims, detects weak, ultralow-frequency electromagnetic signals associated with a beating heart. These signals, which pass through almost any physical obstruction, are purportedly detected by the device even at significant distances. Statement2: Therefore, if the company 's claims are true, their device will radically improve emergency teams ability to locate quickly people who are trapped within the wreckage of collapsed buildings.",
+    "hypothesis": "Premise1: The device gives a distinctive reading when the signals it detects come from human beings rather than from any other living beings.",
+    "causal_feature": "detecting human-specific signals",
+    "spurious_feature": "distinction between humans and non-humans"
+  },
+  {
+    "id": "train_2710",
+    "premise": "Statement1: Virginia and her brother william disagree over when their father was born : virginia claims it was in 1935 and william claims it was in 1933. sent2: the hospital where their father was born has no records for 1933 but has complete records for 1935 -- records that do not include a birth record for their father. Statement2: Therefore, he must have been born in 1933.",
+    "hypothesis": "Premise1: Either virginia's claim or william's claim is correct.",
+    "causal_feature": "disagreement",
+    "spurious_feature": "records"
+  },
+  {
+    "id": "train_3939",
+    "premise": "Statement1: Human skin gives off an array of gaseous substances, including carbon dioxide and lactic acid, both of which attract mosquitoes. However, neither of these two substances, whether alone or combined with one another, will attract mosquitoes as much as a bare human arm will, even in complete darkness, where a mosquito has no visual cues. Statement2: Therefore, some other gaseous substance given off by human skin also attracts mosquitoes.",
+    "hypothesis": "Premise1: Mosquitoes are not attracted to humans by body heat.",
+    "causal_feature": "human skin's gaseous emissions",
+    "spurious_feature": "body heat"
+  },
+  {
+    "id": "train_2662",
+    "premise": "Statement1: Downtown petropolis boasted over 100 large buildings 5 years ago. Statement2: Since then, 60 of those buildings have been demolished. Statement3: Since the number of large buildings in a downtown is an indicator of the economic health of that downtown, it is clear that downtown petropolis is in a serious state of economic decline.",
+    "hypothesis": "Premise1: Significantly fewer than 60 new large buildings have been built in downtown petropolis during the past 5 years.",
+    "causal_feature": "The reduction in large building stock (Statement1) leads to a decrease in economic indicators (Statement2)",
+    "spurious_feature": "The demolition of buildings (Statement2)"
+  },
+  {
+    "id": "train_548",
+    "premise": "Statement1: Acme's bank loan must be immediately repaid in full if acme's earnings fall below $ 1 million per year. If acme has to repay the entire loan immediately, it will have to declare bankruptcy. Statement2: Acme had seemed safe from bankruptcy, having reported annual earnings of well over $ 1 million in each year it has had the bank loan. Statement3: However, acme has now admitted overstating its earnings for last year, so it will have to declare bankruptcy.",
+    "hypothesis": "Premise1: Acme's earnings for last year, when accurately stated, are below $1 million",
+    "causal_feature": "statement3",
+    "spurious_feature": "statement2"
+  },
+  {
+    "id": "train_1851",
+    "premise": "Statement1: Economist : in today's post-industrial economy, higher education is essential for achieving prosperity. Statement2: Without a college degree or higher, citizens do not have access to the highest quartile of salaries, and only individuals earning salaries in this highest quartile have enough disposable income to buy real estate and invest in long term assets.",
+    "hypothesis": "Premise1: Prosperity has to include ownership of real estate or long term assets.",
+    "causal_feature": "higher education leads to prosperity",
+    "spurious_feature": "ownership of real estate"
+  },
+  {
+    "id": "train_1170",
+    "premise": "Statement1: Companies wishing to boost sales of merchandise should use in-store displays to catch customers'attention. Statement2: According to a marketing study, today's busy shoppers have less time for coupon-clipping and pay little attention to direct-mail advertising ; instead, they make two-thirds of their buying decisions on the spot at the store.",
+    "hypothesis": "Premise1: In-store displays that catch customers' attention increase the likelihood that customers will decide on the spot to buy the company's merchandise.",
+    "causal_feature": "In-store displays",
+    "spurious_feature": "coupon-clipping"
+  },
+  {
+    "id": "train_97",
+    "premise": "Statement1: Art critic : nowadays, museum visitors seldom pause to look at a work of art for even a full minute. Statement2: They look, perhaps take a snapshot, and move on. Statement3: This tells us something about how our relationship to art has changed over time. People have become less willing to engage with works of art than they once were.",
+    "hypothesis": "Premise1: The amount of time spent looking at a work of art is a reliable measure of engagement with that work",
+    "causal_feature": "duration of observation",
+    "spurious_feature": "reliability of engagement measurement"
+  },
+  {
+    "id": "train_2815",
+    "premise": "Statement1: Critic : people today place an especially high value on respect for others ; yet, in their comedy acts, many of today's most popular comedians display blatant disrespect for others. But when people fail to live up to the very ideals they hold in highest esteem, exaggeration of such failings often forms the basis of successful comedy. Statement2: Thus the current popularity of comedians who display disrespect in their acts is hardly surprising.",
+    "hypothesis": "Premise1: People who value an ideal especially highly do not always succeed in living up to this ideal.",
+    "causal_feature": "people who value an ideal especially highly do not always succeed in living up to this ideal.",
+    "spurious_feature": "blatant disrespect for others"
+  },
+  {
+    "id": "train_3551",
+    "premise": "Statement1: Politician : a major social problem is children hurting other children. The results of a recent experiment by psychologists establish that watching violent films is at least partly responsible for this aggressive behavior. Statement2: The psychologists conducted an experiment in which one group of children watched a film of people punching bobo the clown dolls. A second group of children was not shown the film. Afterward, both groups of children played together in a room containing a bobo doll. Most of the children who had seen the film punched the bobo doll, while most of the other children did not.",
+    "hypothesis": "Premise1: The children who had been shown the film were found to be no more likely than the children who had not been shown the film to punch other children.",
+    "causal_feature": "correlation does not imply causation",
+    "spurious_feature": "children's aggression is influenced by various factors beyond just viewing violent content"
+  },
+  {
+    "id": "train_838",
+    "premise": "Statement1: Margaret came home after a long day of work to find her front door open and her waste basket knocked over with all of the contents strewn about the kitchen floor. Statement2: She believes that her dog must have knocked it over in search for some food scraps to eat, but this belief can not be correct. Statement3: Her husband took the dog with him to work all day.",
+    "hypothesis": "Premise1: Margaret's husband brought the dog home on his lunch break.",
+    "causal_feature": "Statement3",
+    "spurious_feature": "Statement1"
+  },
+  {
+    "id": "train_385",
+    "premise": "Statement1: Editorial : despite the fact that recent military success has made the prime minister personally popular, her party will lose the next election unless the economy is no longer in recession ; the electorate will blame the state of the economy on her, even though she is hardly responsible for it and her policies will be beneficial in the long run.",
+    "hypothesis": "Premise1: The prime minister's party will not win the next election if the electorate believes the prime minister is responsible for a continuing recession.",
+    "causal_feature": "cause-and-effect",
+    "spurious_feature": "recession"
+  },
+  {
+    "id": "train_2379",
+    "premise": "Statement1: Advertisement : the new reflex computer represents a conceptual advance. Statement2: Unlike traditional computers, the reflex has a built-in monitoring function that continuously checks all other computer operations and lets you know if they are malfunctioning in any way, thus preventing the loss of data. Statement3: With the reflex, therefore, you'll never lose data again!",
+    "hypothesis": "Premise1: The monitoring function of the reflex is not subject to frequent unpredictable malfunctioning.",
+    "causal_feature": "built-in monitoring function",
+    "spurious_feature": "unpredictable malfunctioning"
+  },
+  {
+    "id": "train_4071",
+    "premise": "Statement1: Therapist : cognitive psychotherapy focuses on changing a patient's conscious beliefs. Statement2: Thus, cognitive psychotherapy is likely to be more effective at helping patients overcome psychological problems than are forms of psychotherapy that focus on changing unconscious beliefs and desires, since only conscious beliefs are under the patient's direct conscious control.",
+    "hypothesis": "Premise1: It is difficult for any form of psychotherapy to be effective without focusing on mental states that are under the patient's direct conscious control.",
+    "causal_feature": "conscious beliefs",
+    "spurious_feature": "unconscious beliefs and desires"
+  },
+  {
+    "id": "train_3741",
+    "premise": "Statement1: A scientific study provides evidence that crows are capable of recognizing threatening people and can even pass their concerns on to other crows. Statement2: Researchers wearing rubber caveman masks trapped wild crows and then released them in the same area. Years later, people wearing the same masks near where the crows had been trapped were shrieked at and dive-bombed by crows.",
+    "hypothesis": "Premise1: Some of the crows that shrieked at and dive-bombed people wearing the masks were not among the crows that had been trapped",
+    "causal_feature": "The shrieking and diving behavior is learned from observing others",
+    "spurious_feature": "Wearing rubber caveman masks"
+  },
+  {
+    "id": "train_3643",
+    "premise": "Statement1: Physiological research has uncovered disturbing evidence linking a number of structural disorders to jogging. Among the ailments seemingly connected with this now-popular sport are spinal disk displacements, stress fractures of the feet and ankles, knee and hip joint deterioration, and tendonitis. Statement2: Furthermore, these injuries do not occur exclusively among beginning runners -- veteran joggers suffer an equal percentage of injuries. Statement3: What the accumulating data suggest is that the human anatomy is not able to withstand the stresses of jogging.",
+    "hypothesis": "Premise1: The link between jogging and certain structural disorders appears to be a causal one.",
+    "causal_feature": "disturbing evidence",
+    "spurious_feature": "link between jogging and structural disorders"
+  },
+  {
+    "id": "train_2314",
+    "premise": "Sent1:\" life expectancy\" is the average age at death of the entire live-born population. Statement1: In the middle of the nineteenth century, life expectancy in north america was 40 years, whereas now it is nearly 80 years. Statement2: Thus, in those days, people must have been considered old at an age that we now consider the prime of life.",
+    "hypothesis": "Premise1: Most of the gains in life expectancy in the last 150 years have come from reductions in the number of infants who die in their first year of life.",
+    "causal_feature": "cause and effect",
+    "spurious_feature": "time period"
+  },
+  {
+    "id": "train_2201",
+    "premise": "Statement1: Some political thinkers hope to devise a form of government in which every citizen's rights are respected. But such a form of government is impossible. Statement2: For any government must be defined and controlled by laws that determine its powers and limits ; and it is inevitable that some individuals will learn how to interpret these laws to gain a greater share of political power than others have.",
+    "hypothesis": "Premise1: In any form of government, if anybody gains a greater share of political power than others have, then somebody's rights will be violated.",
+    "causal_feature": "Somebody's rights being violated",
+    "spurious_feature": "Any individual gaining more political power"
+  },
+  {
+    "id": "train_3917",
+    "premise": "Statement1: Anthropological studies indicate that distinct cultures differ in their moral codes. Statement2: Thus, as long as there are distinct cultures, there are no values shared across cultures.",
+    "hypothesis": "Premise1: As a result of advancing technology and global communication, we will someday all share the same culture and the same values.",
+    "causal_feature": "Advancing technology and global communication",
+    "spurious_feature": "Distinct cultures"
+  },
+  {
+    "id": "train_3097",
+    "premise": "Statement1: Insurers and doctors are well aware that the incidence of lower-back injuries among office workers who spend long hours sitting is higher than that among people who regularly do physical work of a type known to place heavy stresses on the lower back. Statement2: This shows that office equipment and furniture are not properly designed to promote workers'health.",
+    "hypothesis": "Premise1: Consistent physical exercise is one of the most effective ways to prevent or recover from lower-back injuries.",
+    "causal_feature": "consistent physical exercise",
+    "spurious_feature": "office equipment and furniture design"
+  },
+  {
+    "id": "train_250",
+    "premise": "Statement1: Correctly measuring the productivity of service workers is complex. Statement2: Consider, for example, postal workers : they are often said to be more productive if more letters are delivered per postal worker. What if more letters are lost or delayed per worker at the same time that more are delivered? Statement3: But is this really true?",
+    "hypothesis": "Premise1: The quality of services rendered can appropriately be ignored in computing productivity.",
+    "causal_feature": "complexity of measurement",
+    "spurious_feature": "quality of services rendering"
+  },
+  {
+    "id": "train_1471",
+    "premise": "Statement1: Sparva, unlike treland's other provinces, requires automobile insurers to pay for any medical treatment sought by someone who has been involved in an accident ; in the other provinces, insurers pay for nonemergency treatment only if they preapprove the treatment. Statement2: Clearly, sparva's less restrictive policy must be the explanation for the fact that altogether insurers there pay for far more treatments after accidents than insurers in other provinces, even though sparva does not have the largest population.",
+    "hypothesis": "Premise1: There are fewer traffic accidents annually in sparva than in any of the provinces of comparable or greater population.",
+    "causal_feature": "Sparva's unique insurance policy",
+    "spurious_feature": "Traffic accident frequency comparison"
+  },
+  {
+    "id": "train_3200",
+    "premise": "Statement1: Guidebook writer : i have visited hotels throughout the country and have noticed that in those built before 1930 the quality of the original carpentry work is generally superior to that in hotels built afterward. Statement2: Clearly carpenters working on hotels before 1930 typically worked with more skill, care, and effort than carpenters who have worked on hotels built subsequently.",
+    "hypothesis": "Premise1: The better the quality of original carpentry in a building, the less likely that building is to fall into disuse and be demolished.",
+    "causal_feature": "quality of original carpentry",
+    "spurious_feature": "building's lifespan"
+  },
+  {
+    "id": "train_2556",
+    "premise": "Statement1: The principal of school x has proposed a plan that would add an hour-long study period to the end of the school day. Statement2: She claims that the extension would improve the school 's average score on the math section of the state assessment by allowing students more time to complete math homework that they would n't otherwise have time to complete.",
+    "hypothesis": "Premise1: The core components of school x's math curriculum are not aligned with the topics tested on the state math assessment.",
+    "causal_feature": "math curriculum alignment",
+    "spurious_feature": "extension of study period"
+  },
+  {
+    "id": "train_2715",
+    "premise": "Statement1: It has been said that authors who write in order to give pleasure can not impart to their readers the truth of their subject matter. That claim can not be true. Statement2: If it were, one could determine the truthfulness of a book simply by looking at its sales figures. If the book were very popular, one could reasonably conclude that it gave people pleasure and therefore that at least some of what is written in the book is not true.",
+    "hypothesis": "Premise1: A book will not give its readers pleasure unless it was intended by its author to have that effect.",
+    "causal_feature": "If it were, one could determine the truthfulness of a book simply by looking at its sales figures.",
+    "spurious_feature": "It has been said that authors who write in order to give pleasure can not impart to their readers the truth of their subject matter."
+  },
+  {
+    "id": "train_3866",
+    "premise": "Statement1: Economist : in free market systems, the primary responsibility of corporate executives is to determine a nation's industrial technology, the pattern of work organization, location of industry, and resource allocation. They also are the decision makers, though subject to significant consumer control, on what is to be produced and in what quantities. Statement2: In short, a large category of major decisions is turned over to business executives. Statement3: Thus, business executives have become public officials.",
+    "hypothesis": "Premise1: Making decisions about patterns of work organization, resource allocation, and location of industry is not the core of a public official's job.",
+    "causal_feature": "correlation does not imply causation",
+    "spurious_feature": "business executives making decisions"
+  },
+  {
+    "id": "train_1023",
+    "premise": "Statement1: Statistics from the national booksellers association indicate that during the last five years most bookstores have started to experience declining revenues from the sale of fiction, despite national campaigns to encourage people to read more fiction. Statement2: Therefore, these reading campaigns have been largely unsuccessful.",
+    "hypothesis": "Premise1: Mail order book clubs have enjoyed substantial growth in fiction sales throughout the last five years.",
+    "causal_feature": "declining revenues",
+    "spurious_feature": "substantial growth"
+  },
+  {
+    "id": "train_1407",
+    "premise": "Statement1: J.j. thomson, the discoverer of the electron and a recipient of the nobel prize in physics, trained many physicists, among them seven nobel prize winners, 32 fellows of the royal society of london, and 83 professors of physics. Statement2: This shows that the skills needed for creative research can be taught and learned.",
+    "hypothesis": "Premise1: At least one of the eminent scientists trained by j. j. thomson was not a creative researcher before coming to study with him.",
+    "causal_feature": "Training by J.J. Thomson",
+    "spurious_feature": "Creativity"
+  },
+  {
+    "id": "train_3308",
+    "premise": "Statement1: Auditor : xyz, a construction company, purchased 20 new trucks 3 years ago, and there is no record of any of those trucks being sold last year. Statement2: Records indicate, however, that xyz sold off all of its diesel-powered trucks last year. Statement3: We can thus conclude that none of the 20 trucks purchased 3 years ago were diesel powered.",
+    "hypothesis": "Premise1: None of the 20 trucks was sold before last year.",
+    "causal_feature": "no information",
+    "spurious_feature": "statement1"
+  },
+  {
+    "id": "train_713",
+    "premise": "Statement1: Old rose varieties have less vibrant colors than modern rose varieties, but are superior in fragrance. Statement2: This situation has arisen because the modern rose varieties were developed to meet customer demand and marketed mainly through catalogs : colors, but not fragrances, can be photographed.",
+    "hypothesis": "Premise1: Breeding roses to enhance one trait often has unanticipated consequences for other traits.",
+    "causal_feature": "breeding roses",
+    "spurious_feature": "colors"
+  },
+  {
+    "id": "train_2258",
+    "premise": "Statement1: Psychologist : it is well known that becoming angry often induces temporary incidents of high blood pressure. Statement2: A recent study further showed, however, that people who are easily angered are significantly more likely to have permanently high blood pressure than are people who have more tranquil personalities. Statement3: Coupled with the long-established fact that those with permanently high blood pressure are especially likely to have heart disease, the recent findings indicate that heart disease can result from psychological factors.",
+    "hypothesis": "Premise1: The physiological factors that cause permanently high blood pressure generally make people quick to anger.",
+    "causal_feature": "becoming angry often induces temporary incidents of high blood pressure",
+    "spurious_feature": "psychological factors causing permanently high blood pressure"
+  }
+]

@@ -1,0 +1,6432 @@
+[
+  {
+    "id": "crass_1",
+    "query_type": "causal",
+    "condition_A": "The treasure chest would have remained closed.",
+    "condition_B": "What would have happened if the woman had not opened the treasure chest?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_1",
+    "query_type": "spurious",
+    "condition_A": "The treasure chest would have been open.",
+    "condition_B": "What would have happened if the woman had not opened the treasure chest?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_2",
+    "query_type": "causal",
+    "condition_A": "The hostages would have remained in danger.",
+    "condition_B": "What would have happened if the police officer had not calmed the hostage-taker?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_2",
+    "query_type": "spurious",
+    "condition_A": "The hostage-taker would have released the hostages anyway.",
+    "condition_B": "What would have happened if the police officer had not calmed the hostage-taker?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_3",
+    "query_type": "causal",
+    "condition_A": "Without a barrier, the man would have been eaten.",
+    "condition_B": "What would have happened if the man had talked to the lion?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_3",
+    "query_type": "spurious",
+    "condition_A": "Without a barrier, the lion would have been eaten.",
+    "condition_B": "What would have happened if the man had talked to the lion?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_3",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the man had talked to the lion?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_4",
+    "query_type": "causal",
+    "condition_A": "The girl would have been angry.",
+    "condition_B": "What would have happened if the girl had slapped the boy?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_4",
+    "query_type": "spurious",
+    "condition_A": "The girl would have been happy.",
+    "condition_B": "What would have happened if the girl had slapped the boy?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_5",
+    "query_type": "causal",
+    "condition_A": "She would have been liable to prosecution.",
+    "condition_B": "What would have happened if the girl had killed the boy?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_5",
+    "query_type": "spurious",
+    "condition_A": "The boy would have been arrested for assault.",
+    "condition_B": "What would have happened if the girl had killed the boy?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_5",
+    "query_type": "spurious",
+    "condition_A": "The boy would have kissed the girl.",
+    "condition_B": "What would have happened if the girl had killed the boy?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_6",
+    "query_type": "causal",
+    "condition_A": "She would have been burned.",
+    "condition_B": "What would have happened if the woman had touched the fire?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_6",
+    "query_type": "spurious",
+    "condition_A": "She would not have been burned.",
+    "condition_B": "What would have happened if the woman had touched the fire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_6",
+    "query_type": "spurious",
+    "condition_A": "She would have seen fire.",
+    "condition_B": "What would have happened if the woman had touched the fire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_7",
+    "query_type": "causal",
+    "condition_A": "The fire would have become larger.",
+    "condition_B": "What would have happened if the woman had fed the fire?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_7",
+    "query_type": "spurious",
+    "condition_A": "The fire would have been not hungry anymore.",
+    "condition_B": "What would have happened if the woman had fed the fire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_7",
+    "query_type": "spurious",
+    "condition_A": "The fire would have been on the woman's shoulder.",
+    "condition_B": "What would have happened if the woman had fed the fire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_8",
+    "query_type": "causal",
+    "condition_A": "The lake would have been a crime scene.",
+    "condition_B": "What would have happened if a corpse had floated in the pond?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_8",
+    "query_type": "spurious",
+    "condition_A": "The corpse would have swum back to the barge.",
+    "condition_B": "What would have happened if a corpse had floated in the pond?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_8",
+    "query_type": "spurious",
+    "condition_A": "The corpse would have been shot.",
+    "condition_B": "What would have happened if a corpse had floated in the pond?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_9",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if a branch had sung in the pond?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_9",
+    "query_type": "spurious",
+    "condition_A": "It would have been the usual branch singing.",
+    "condition_B": "What would have happened if a branch had sung in the pond?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_9",
+    "query_type": "spurious",
+    "condition_A": "It would have been a great concert.",
+    "condition_B": "What would have happened if a branch had sung in the pond?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_9",
+    "query_type": "spurious",
+    "condition_A": "It would have got stuck.",
+    "condition_B": "What would have happened if a branch had sung in the pond?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_10",
+    "query_type": "causal",
+    "condition_A": "The plane would have crashed.",
+    "condition_B": "What would have happened if a plane had landed in the forest?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_10",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if a plane had landed in the forest?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_10",
+    "query_type": "spurious",
+    "condition_A": "The plane would have landed safe and sound.",
+    "condition_B": "What would have happened if a plane had landed in the forest?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_10",
+    "query_type": "spurious",
+    "condition_A": "In a forest you will find lots of planes.",
+    "condition_B": "What would have happened if a plane had landed in the forest?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_11",
+    "query_type": "causal",
+    "condition_A": "A big one would have started a wildfire.",
+    "condition_B": "What would have happened if a meteor had landed in the forest?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_11",
+    "query_type": "spurious",
+    "condition_A": "The bird would have liked the meteor.",
+    "condition_B": "What would have happened if a meteor had landed in the forest?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_12",
+    "query_type": "causal",
+    "condition_A": "It would have been dangerous and illegal.",
+    "condition_B": "What would have happened if a child had driven on the highway?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_12",
+    "query_type": "spurious",
+    "condition_A": "The child would have probably died.",
+    "condition_B": "What would have happened if a child had driven on the highway?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_12",
+    "query_type": "spurious",
+    "condition_A": "The woman would have been a licensed driver.",
+    "condition_B": "What would have happened if a child had driven on the highway?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_12",
+    "query_type": "spurious",
+    "condition_A": "The child wouldn't be driving.",
+    "condition_B": "What would have happened if a child had driven on the highway?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_13",
+    "query_type": "causal",
+    "condition_A": "The man would have died.",
+    "condition_B": "What would have happened if a man had fallen from the skyscraper?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_13",
+    "query_type": "spurious",
+    "condition_A": "The whole city would be destroyed.",
+    "condition_B": "What would have happened if a man had fallen from the skyscraper?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_13",
+    "query_type": "spurious",
+    "condition_A": "The man would have landed joyfully.",
+    "condition_B": "What would have happened if a man had fallen from the skyscraper?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_13",
+    "query_type": "spurious",
+    "condition_A": "Pebbles don't fall from skyscrapers.",
+    "condition_B": "What would have happened if a man had fallen from the skyscraper?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_14",
+    "query_type": "causal",
+    "condition_A": "The laptop would have been crushed.",
+    "condition_B": "What would have happened if a laptop had fallen from a skyscraper?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_14",
+    "query_type": "spurious",
+    "condition_A": "The pebble would have bounced off the concrete and fallen to the ground.",
+    "condition_B": "What would have happened if a laptop had fallen from a skyscraper?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_14",
+    "query_type": "spurious",
+    "condition_A": "The laptop would have hit the pebble.",
+    "condition_B": "What would have happened if a laptop had fallen from a skyscraper?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_15",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the child had born a mother?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_15",
+    "query_type": "spurious",
+    "condition_A": "The child would have had a healthy baby.",
+    "condition_B": "What would have happened if the child had born a mother?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_15",
+    "query_type": "spurious",
+    "condition_A": "The baby would've been fine.",
+    "condition_B": "What would have happened if the child had born a mother?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_16",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the mother had born a stroller?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_16",
+    "query_type": "spurious",
+    "condition_A": "The child would have ridden in the perambulator.",
+    "condition_B": "What would have happened if the mother had born a stroller?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_16",
+    "query_type": "spurious",
+    "condition_A": "The mother would have had a healthy perambulator.",
+    "condition_B": "What would have happened if the mother had born a stroller?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_17",
+    "query_type": "causal",
+    "condition_A": "He would have got wet.",
+    "condition_B": "What would have happened if the man had caught a water balloon?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_17",
+    "query_type": "spurious",
+    "condition_A": "He would have died.",
+    "condition_B": "What would have happened if the man had caught a water balloon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_17",
+    "query_type": "spurious",
+    "condition_A": "He would have remained dry.",
+    "condition_B": "What would have happened if the man had caught a water balloon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_17",
+    "query_type": "spurious",
+    "condition_A": "He would have caught the ball and not the balloon.",
+    "condition_B": "What would have happened if the man had caught a water balloon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_18",
+    "query_type": "causal",
+    "condition_A": "He would have got hurt.",
+    "condition_B": "What would have happened if the man had caught a refrigerator?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_18",
+    "query_type": "spurious",
+    "condition_A": "That man would have been a refrigerator.",
+    "condition_B": "What would have happened if the man had caught a refrigerator?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_18",
+    "query_type": "spurious",
+    "condition_A": "He would have thrown it back.",
+    "condition_B": "What would have happened if the man had caught a refrigerator?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_18",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the man had caught a refrigerator?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_19",
+    "query_type": "causal",
+    "condition_A": "He would have had a delicious dish.",
+    "condition_B": "What would have happened if the mortician had prepared a dinner?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_19",
+    "query_type": "spurious",
+    "condition_A": "Morticians cannot prepare dinners.",
+    "condition_B": "What would have happened if the mortician had prepared a dinner?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_19",
+    "query_type": "spurious",
+    "condition_A": "The dinner would have been buried.",
+    "condition_B": "What would have happened if the mortician had prepared a dinner?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_19",
+    "query_type": "spurious",
+    "condition_A": "The mortician would have killed the corpse.",
+    "condition_B": "What would have happened if the mortician had prepared a dinner?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_20",
+    "query_type": "causal",
+    "condition_A": "The journey would have come to an end.",
+    "condition_B": "What would have happened if the family had ended the trip?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_20",
+    "query_type": "spurious",
+    "condition_A": "The journey would have begun.",
+    "condition_B": "What would have happened if the family had ended the trip?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_20",
+    "query_type": "spurious",
+    "condition_A": "The family would have used their car.",
+    "condition_B": "What would have happened if the family had ended the trip?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_21",
+    "query_type": "causal",
+    "condition_A": "It would have looked silly.",
+    "condition_B": "What would have happened if the president had ridden a garden hose?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_21",
+    "query_type": "spurious",
+    "condition_A": "There are no garden horses.",
+    "condition_B": "What would have happened if the president had ridden a garden hose?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_21",
+    "query_type": "spurious",
+    "condition_A": "They would have been faster.",
+    "condition_B": "What would have happened if the president had ridden a garden hose?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_21",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the president had ridden a garden hose?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_22",
+    "query_type": "causal",
+    "condition_A": "She or he would have been faster.",
+    "condition_B": "What would have happened if the president had ridden a motorcycle?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_22",
+    "query_type": "spurious",
+    "condition_A": "The horse would have died.",
+    "condition_B": "What would have happened if the president had ridden a motorcycle?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_22",
+    "query_type": "spurious",
+    "condition_A": "She or he would have enjoyed riding the horse.",
+    "condition_B": "What would have happened if the president had ridden a motorcycle?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_23",
+    "query_type": "causal",
+    "condition_A": "That would have been an exceptionally painful experience for the man.",
+    "condition_B": "What would have happened if the horse had mounted the man?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_23",
+    "query_type": "spurious",
+    "condition_A": "The horse would have died.",
+    "condition_B": "What would have happened if the horse had mounted the man?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_23",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the horse had mounted the man?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_24",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the planter grows in the plant?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_24",
+    "query_type": "spurious",
+    "condition_A": "It would have grown quicker.",
+    "condition_B": "What would have happened if the planter grows in the plant?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_24",
+    "query_type": "spurious",
+    "condition_A": "The plant would have suffered.",
+    "condition_B": "What would have happened if the planter grows in the plant?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_24",
+    "query_type": "spurious",
+    "condition_A": "The planter would have cultivated the plant.",
+    "condition_B": "What would have happened if the planter grows in the plant?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_25",
+    "query_type": "causal",
+    "condition_A": "She would have survived.",
+    "condition_B": "What would have happened if the woman had distributed potassium cyanide?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_25",
+    "query_type": "spurious",
+    "condition_A": "She would have been vomiting.",
+    "condition_B": "What would have happened if the woman had distributed potassium cyanide?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_25",
+    "query_type": "spurious",
+    "condition_A": "She would have died.",
+    "condition_B": "What would have happened if the woman had distributed potassium cyanide?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_26",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the woman had watched potassium cyanide?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_26",
+    "query_type": "spurious",
+    "condition_A": "She would have died.",
+    "condition_B": "What would have happened if the woman had watched potassium cyanide?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_27",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the student had drunk numbers?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_27",
+    "query_type": "spurious",
+    "condition_A": "The student would have had a stomachache.",
+    "condition_B": "What would have happened if the student had drunk numbers?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_27",
+    "query_type": "spurious",
+    "condition_A": "It would have been tasty.",
+    "condition_B": "What would have happened if the student had drunk numbers?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_27",
+    "query_type": "spurious",
+    "condition_A": "The student would have improved his or her counting skills.",
+    "condition_B": "What would have happened if the student had drunk numbers?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_28",
+    "query_type": "causal",
+    "condition_A": "That would have been a case of domestic abuse.",
+    "condition_B": "What would have happened if the prince had beaten the princess?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_28",
+    "query_type": "spurious",
+    "condition_A": "The princess would have been happy.",
+    "condition_B": "What would have happened if the prince had beaten the princess?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_28",
+    "query_type": "spurious",
+    "condition_A": "The king would have had a bad time at the coronation.",
+    "condition_B": "What would have happened if the prince had beaten the princess?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_28",
+    "query_type": "spurious",
+    "condition_A": "That would have been a great fight.",
+    "condition_B": "What would have happened if the prince had beaten the princess?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_29",
+    "query_type": "causal",
+    "condition_A": "There would have been environmental pollution.",
+    "condition_B": "What would have happened if the oil tanker had broken up in an ocean?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_29",
+    "query_type": "spurious",
+    "condition_A": "The oil tanker would have continued to carry oil.",
+    "condition_B": "What would have happened if the oil tanker had broken up in an ocean?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_29",
+    "query_type": "spurious",
+    "condition_A": "The oil tanker would have been saved.",
+    "condition_B": "What would have happened if the oil tanker had broken up in an ocean?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_30",
+    "query_type": "causal",
+    "condition_A": "The family would have been hurt.",
+    "condition_B": "What would have happened if the bus had run over the family?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_30",
+    "query_type": "spurious",
+    "condition_A": "The bus would have successfully unloaded the family.",
+    "condition_B": "What would have happened if the bus had run over the family?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_30",
+    "query_type": "spurious",
+    "condition_A": "The bus would have been faster than the family.",
+    "condition_B": "What would have happened if the bus had run over the family?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_30",
+    "query_type": "spurious",
+    "condition_A": "Buses do not unload families.",
+    "condition_B": "What would have happened if the bus had run over the family?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_31",
+    "query_type": "causal",
+    "condition_A": "The police would try to catch him.",
+    "condition_B": "What would have happened if the man had committed the crime?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_31",
+    "query_type": "spurious",
+    "condition_A": "That would have been highly unlikely.",
+    "condition_B": "What would have happened if the man had committed the crime?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_31",
+    "query_type": "spurious",
+    "condition_A": "He would have been innocent.",
+    "condition_B": "What would have happened if the man had committed the crime?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_32",
+    "query_type": "causal",
+    "condition_A": "He would have been a detective.",
+    "condition_B": "What would have happened if the man had cleared up the crime?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_32",
+    "query_type": "spurious",
+    "condition_A": "He would have been the owner of the crime scene.",
+    "condition_B": "What would have happened if the man had cleared up the crime?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_32",
+    "query_type": "spurious",
+    "condition_A": "The room would have been clean by now.",
+    "condition_B": "What would have happened if the man had cleared up the crime?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_33",
+    "query_type": "causal",
+    "condition_A": "Their relationship would be put in jeopardy.",
+    "condition_B": "What would have happened if the woman had cheated on the man?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_33",
+    "query_type": "spurious",
+    "condition_A": "The man would be embarrassed having been caught cheating.",
+    "condition_B": "What would have happened if the woman had cheated on the man?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_33",
+    "query_type": "spurious",
+    "condition_A": "The man would have been very happy and marry her.",
+    "condition_B": "What would have happened if the woman had cheated on the man?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_34",
+    "query_type": "causal",
+    "condition_A": "The dog would have been punished.",
+    "condition_B": "What would have happened if the dog had bitten the child?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_34",
+    "query_type": "spurious",
+    "condition_A": "The child would have been happy.",
+    "condition_B": "What would have happened if the dog had bitten the child?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_34",
+    "query_type": "spurious",
+    "condition_A": "The dog would have been praised.",
+    "condition_B": "What would have happened if the dog had bitten the child?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_35",
+    "query_type": "causal",
+    "condition_A": "In case someone finds out they would get in trouble and lose their office.",
+    "condition_B": "What would have happened if the politician had accepted a bribe?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_35",
+    "query_type": "spurious",
+    "condition_A": "Politicians accept invitations all the time.",
+    "condition_B": "What would have happened if the politician had accepted a bribe?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_35",
+    "query_type": "spurious",
+    "condition_A": "They would have been congratulated.",
+    "condition_B": "What would have happened if the politician had accepted a bribe?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_35",
+    "query_type": "spurious",
+    "condition_A": "Politicians should accept invitations and bribes.",
+    "condition_B": "What would have happened if the politician had accepted a bribe?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_36",
+    "query_type": "causal",
+    "condition_A": "He or she would have been punished.",
+    "condition_B": "What would have happened if the slaughterer had slain a child?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_36",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the slaughterer had slain a child?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_36",
+    "query_type": "spurious",
+    "condition_A": "The pig would have slaughtered the child.",
+    "condition_B": "What would have happened if the slaughterer had slain a child?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_36",
+    "query_type": "spurious",
+    "condition_A": "The child would have eaten the pig.",
+    "condition_B": "What would have happened if the slaughterer had slain a child?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_37",
+    "query_type": "causal",
+    "condition_A": "Avalanches don't roll uphill.",
+    "condition_B": "What would have happened if the avalanche had rolled up the hill?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_37",
+    "query_type": "spurious",
+    "condition_A": "It would have caused an earthquake.",
+    "condition_B": "What would have happened if the avalanche had rolled up the hill?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_37",
+    "query_type": "spurious",
+    "condition_A": "It would have rolled quickly.",
+    "condition_B": "What would have happened if the avalanche had rolled up the hill?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_38",
+    "query_type": "causal",
+    "condition_A": "I'm not sure: thieves usually don't call the police.",
+    "condition_B": "What would have happened if the thief had called the police?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_38",
+    "query_type": "spurious",
+    "condition_A": "The police would have to clear a mission to find him or her.",
+    "condition_B": "What would have happened if the thief had called the police?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_38",
+    "query_type": "spurious",
+    "condition_A": "The police would not have arrested the thief.",
+    "condition_B": "What would have happened if the thief had called the police?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_39",
+    "query_type": "causal",
+    "condition_A": "The lighting of the match would not have occurred.",
+    "condition_B": "What would have happened if the boy had ditched the match?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_39",
+    "query_type": "spurious",
+    "condition_A": "He would have been disqualified.",
+    "condition_B": "What would have happened if the boy had ditched the match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_39",
+    "query_type": "spurious",
+    "condition_A": "The game would have ended tied.",
+    "condition_B": "What would have happened if the boy had ditched the match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_39",
+    "query_type": "spurious",
+    "condition_A": "I don't know.",
+    "condition_B": "What would have happened if the boy had ditched the match?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_40",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the car had parked beneath the tree?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_40",
+    "query_type": "spurious",
+    "condition_A": "The car would have been hit by the tree.",
+    "condition_B": "What would have happened if the car had parked beneath the tree?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_40",
+    "query_type": "spurious",
+    "condition_A": "I think it would have crashed into the tree.",
+    "condition_B": "What would have happened if the car had parked beneath the tree?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_41",
+    "query_type": "causal",
+    "condition_A": "The window would have stayed intact.",
+    "condition_B": "What would have happened if the stone had flown by the window?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_41",
+    "query_type": "spurious",
+    "condition_A": "The window would have been shattered.",
+    "condition_B": "What would have happened if the stone had flown by the window?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_41",
+    "query_type": "spurious",
+    "condition_A": "I would have been hit by a stone.",
+    "condition_B": "What would have happened if the stone had flown by the window?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_42",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the stone had talked to the window?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_42",
+    "query_type": "spurious",
+    "condition_A": "It would have been an engaging and entertaining stone window conversation.",
+    "condition_B": "What would have happened if the stone had talked to the window?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_42",
+    "query_type": "spurious",
+    "condition_A": "I think it would have spoken to me! I love talking to windows! It's my favorite thing to do!",
+    "condition_B": "What would have happened if the stone had talked to the window?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_43",
+    "query_type": "causal",
+    "condition_A": "The student would need additional studying.",
+    "condition_B": "What would have happened if the student had not understood the idea?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_43",
+    "query_type": "spurious",
+    "condition_A": "The student would have been happy.",
+    "condition_B": "What would have happened if the student had not understood the idea?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_43",
+    "query_type": "spurious",
+    "condition_A": "The student would have increased the probability of performing better on the next test.",
+    "condition_B": "What would have happened if the student had not understood the idea?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_44",
+    "query_type": "causal",
+    "condition_A": "Most people of the winning country would have been happy.",
+    "condition_B": "What would have happened if the country had won the war?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_44",
+    "query_type": "spurious",
+    "condition_A": "Most people of the winning country would have been sad.",
+    "condition_B": "What would have happened if the country had won the war?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_44",
+    "query_type": "spurious",
+    "condition_A": "The war would have continued.",
+    "condition_B": "What would have happened if the country had won the war?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_45",
+    "query_type": "causal",
+    "condition_A": "An explosion would have been prevented.",
+    "condition_B": "What would have happened if the woman had defused the bomb?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_45",
+    "query_type": "spurious",
+    "condition_A": "An explosion would have occurred.",
+    "condition_B": "What would have happened if the woman had defused the bomb?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_45",
+    "query_type": "spurious",
+    "condition_A": "Most people would have been sad.",
+    "condition_B": "What would have happened if the woman had defused the bomb?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_46",
+    "query_type": "causal",
+    "condition_A": "The thing would not have been visible.",
+    "condition_B": "What would have happened if the girl had concealed the thing?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_46",
+    "query_type": "spurious",
+    "condition_A": "The thing would have been revealed.",
+    "condition_B": "What would have happened if the girl had concealed the thing?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_46",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the girl had concealed the thing?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_47",
+    "query_type": "causal",
+    "condition_A": "He would be sad.",
+    "condition_B": "What would have happened if he had lost the friend?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_47",
+    "query_type": "spurious",
+    "condition_A": "He would be happy.",
+    "condition_B": "What would have happened if he had lost the friend?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_47",
+    "query_type": "spurious",
+    "condition_A": "They would drink beers.",
+    "condition_B": "What would have happened if he had lost the friend?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_47",
+    "query_type": "spurious",
+    "condition_A": "They would laugh together.",
+    "condition_B": "What would have happened if he had lost the friend?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_48",
+    "query_type": "causal",
+    "condition_A": "He would have been very upset.",
+    "condition_B": "What would have happened if he had lost his job.",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_48",
+    "query_type": "spurious",
+    "condition_A": "He would get a pay raise.",
+    "condition_B": "What would have happened if he had lost his job.",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_48",
+    "query_type": "spurious",
+    "condition_A": "He would have continued working in his job.",
+    "condition_B": "What would have happened if he had lost his job.",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_48",
+    "query_type": "spurious",
+    "condition_A": "He would be happy.",
+    "condition_B": "What would have happened if he had lost his job.",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_49",
+    "query_type": "causal",
+    "condition_A": "The team would have been sad.",
+    "condition_B": "What would have happened if the team had lost the game?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_49",
+    "query_type": "spurious",
+    "condition_A": "The team would have been happy.",
+    "condition_B": "What would have happened if the team had lost the game?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_49",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the team had lost the game?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_50",
+    "query_type": "causal",
+    "condition_A": "The train would have been fine.",
+    "condition_B": "What would have happened if the train had crashed into a feather?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_50",
+    "query_type": "spurious",
+    "condition_A": "The train would have had a headache.",
+    "condition_B": "What would have happened if the train had crashed into a feather?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_50",
+    "query_type": "spurious",
+    "condition_A": "The train would have been destroyed.",
+    "condition_B": "What would have happened if the train had crashed into a feather?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_51",
+    "query_type": "causal",
+    "condition_A": "The man would have died.",
+    "condition_B": "What would have happened if the man had drowned in the ocean?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_51",
+    "query_type": "spurious",
+    "condition_A": "The man would have had a good time.",
+    "condition_B": "What would have happened if the man had drowned in the ocean?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_51",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the man had drowned in the ocean?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_52",
+    "query_type": "causal",
+    "condition_A": "The picture would not have been visible.",
+    "condition_B": "What would have happened if the child had erased the picture?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_52",
+    "query_type": "spurious",
+    "condition_A": "The picture would have been visible.",
+    "condition_B": "What would have happened if the child had erased the picture?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_53",
+    "query_type": "causal",
+    "condition_A": "The match would have been rendered useless.",
+    "condition_B": "What would have happened if the boy had broken the match?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_53",
+    "query_type": "spurious",
+    "condition_A": "He would have been disqualified.",
+    "condition_B": "What would have happened if the boy had broken the match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_53",
+    "query_type": "spurious",
+    "condition_A": "The same thing would have happened.",
+    "condition_B": "What would have happened if the boy had broken the match?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_54",
+    "query_type": "causal",
+    "condition_A": "He would be injured or have a stomachache.",
+    "condition_B": "What would have happened if the boy had swallowed the match?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_54",
+    "query_type": "spurious",
+    "condition_A": "He would have struck the match anyway.",
+    "condition_B": "What would have happened if the boy had swallowed the match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_54",
+    "query_type": "spurious",
+    "condition_A": "He would have been happy.",
+    "condition_B": "What would have happened if the boy had swallowed the match?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_55",
+    "query_type": "causal",
+    "condition_A": "The match would be useless.",
+    "condition_B": "What would have happened if the boy had watered the match?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_55",
+    "query_type": "spurious",
+    "condition_A": "The match would be dry.",
+    "condition_B": "What would have happened if the boy had watered the match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_56",
+    "query_type": "causal",
+    "condition_A": "The bird would have been injured.",
+    "condition_B": "What would have happened if the bird had hit the bridge?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_56",
+    "query_type": "spurious",
+    "condition_A": "The bird would have caused damage to the bridge.",
+    "condition_B": "What would have happened if the bird had hit the bridge?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_57",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the house had built a craftsman?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_57",
+    "query_type": "spurious",
+    "condition_A": "The house would have been built faster.",
+    "condition_B": "What would have happened if the house had built a craftsman?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_57",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the house had built a craftsman?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_57",
+    "query_type": "spurious",
+    "condition_A": "The craftsman would have hands.",
+    "condition_B": "What would have happened if the house had built a craftsman?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_58",
+    "query_type": "causal",
+    "condition_A": "She would have been less hungry.",
+    "condition_B": "What would have happened if the mother had eaten the sandwich?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_58",
+    "query_type": "spurious",
+    "condition_A": "She would have put the sandwich in her bag.",
+    "condition_B": "What would have happened if the mother had eaten the sandwich?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_58",
+    "query_type": "spurious",
+    "condition_A": "The sandwich would have been eaten by someone else.",
+    "condition_B": "What would have happened if the mother had eaten the sandwich?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_59",
+    "query_type": "causal",
+    "condition_A": "The dog would have been hurt.",
+    "condition_B": "What would have happened if the dog had run into the tree?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_59",
+    "query_type": "spurious",
+    "condition_A": "The dog would not have been hurt.",
+    "condition_B": "What would have happened if the dog had run into the tree?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_59",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the dog had run into the tree?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_59",
+    "query_type": "spurious",
+    "condition_A": "The tree would have been cut down.",
+    "condition_B": "What would have happened if the dog had run into the tree?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_60",
+    "query_type": "causal",
+    "condition_A": "The friend would have been dead.",
+    "condition_B": "What would have happened if the man had killed the friend?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_60",
+    "query_type": "spurious",
+    "condition_A": "The friend would have been alive.",
+    "condition_B": "What would have happened if the man had killed the friend?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_60",
+    "query_type": "spurious",
+    "condition_A": "The man would have talked to his friend.",
+    "condition_B": "What would have happened if the man had killed the friend?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_61",
+    "query_type": "causal",
+    "condition_A": "Nothing would have happened.",
+    "condition_B": "What would have happened if the dog had buried the bone?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_61",
+    "query_type": "spurious",
+    "condition_A": "The dog would have eaten the bone.",
+    "condition_B": "What would have happened if the dog had buried the bone?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_62",
+    "query_type": "causal",
+    "condition_A": "The guest would not have gotten their drinks.",
+    "condition_B": "What would have happened if the bartender had drunk the drinks?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_62",
+    "query_type": "spurious",
+    "condition_A": "The guest would have gotten their drinks.",
+    "condition_B": "What would have happened if the bartender had drunk the drinks?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_63",
+    "query_type": "causal",
+    "condition_A": "Nothing would have happened.",
+    "condition_B": "What would have happened if the car had slowed down on the road?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_63",
+    "query_type": "spurious",
+    "condition_A": "The car would have been faster.",
+    "condition_B": "What would have happened if the car had slowed down on the road?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_64",
+    "query_type": "causal",
+    "condition_A": "The food would have been rendered useless.",
+    "condition_B": "What would have happened if the food had been burnt?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_64",
+    "query_type": "spurious",
+    "condition_A": "The food would have been edible.",
+    "condition_B": "What would have happened if the food had been burnt?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_65",
+    "query_type": "causal",
+    "condition_A": "The man would have bitten the spider.",
+    "condition_B": "What would have happened if a spider had come down above his mouth?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_65",
+    "query_type": "spurious",
+    "condition_A": "The spider would have bitten the man.",
+    "condition_B": "What would have happened if a spider had come down above his mouth?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_66",
+    "query_type": "causal",
+    "condition_A": "He could not have won.",
+    "condition_B": "What would have happened if he had not competed?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_66",
+    "query_type": "spurious",
+    "condition_A": "He could have won.",
+    "condition_B": "What would have happened if he had not competed?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_67",
+    "query_type": "causal",
+    "condition_A": "She would not have participated.",
+    "condition_B": "What would have happened if she had been afraid of water?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_67",
+    "query_type": "spurious",
+    "condition_A": "She would have participated.",
+    "condition_B": "What would have happened if she had been afraid of water?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_68",
+    "query_type": "causal",
+    "condition_A": "The neighbors would have slept well.",
+    "condition_B": "What would have happened if the dog had not barked?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_68",
+    "query_type": "spurious",
+    "condition_A": "The neighbors would have slept badly.",
+    "condition_B": "What would have happened if the dog had not barked?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_69",
+    "query_type": "causal",
+    "condition_A": "It would have gotten injured.",
+    "condition_B": "What would have happened if the goat had fallen down the mountain?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_69",
+    "query_type": "spurious",
+    "condition_A": "It would have been well.",
+    "condition_B": "What would have happened if the goat had fallen down the mountain?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_70",
+    "query_type": "causal",
+    "condition_A": "The laundry could not get wet.",
+    "condition_B": "What would have happened if the laundry had been brought inside from the clothesline before the rain?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_70",
+    "query_type": "spurious",
+    "condition_A": "The laundry could get wet.",
+    "condition_B": "What would have happened if the laundry had been brought inside from the clothesline before the rain?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_71",
+    "query_type": "causal",
+    "condition_A": "She would not have to pay a fee.",
+    "condition_B": "What would have happened if the girl had returned her library book on time?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_71",
+    "query_type": "spurious",
+    "condition_A": "She would get a free present.",
+    "condition_B": "What would have happened if the girl had returned her library book on time?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_71",
+    "query_type": "spurious",
+    "condition_A": "She would have to pay a fee.",
+    "condition_B": "What would have happened if the girl had returned her library book on time?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_72",
+    "query_type": "causal",
+    "condition_A": "The cat would not have gotten wet.",
+    "condition_B": "What would have happened if the cat had jumped over the puddle?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_72",
+    "query_type": "spurious",
+    "condition_A": "The cat would have gotten wet.",
+    "condition_B": "What would have happened if the cat had jumped over the puddle?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_73",
+    "query_type": "causal",
+    "condition_A": "The cup would have been broken.",
+    "condition_B": "What would have happened if the woman had dropped the cup?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_73",
+    "query_type": "spurious",
+    "condition_A": "The cup would not have been broken.",
+    "condition_B": "What would have happened if the woman had dropped the cup?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_74",
+    "query_type": "causal",
+    "condition_A": "He could not go for a ride.",
+    "condition_B": "What would have happened if the man had sold his bike?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_74",
+    "query_type": "spurious",
+    "condition_A": "He could go for a ride.",
+    "condition_B": "What would have happened if the man had sold his bike?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_75",
+    "query_type": "causal",
+    "condition_A": "She would get sad.",
+    "condition_B": "What would have happened if the woman had burned the waffles?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_75",
+    "query_type": "spurious",
+    "condition_A": "She would get happy.",
+    "condition_B": "What would have happened if the woman had burned the waffles?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_76",
+    "query_type": "causal",
+    "condition_A": "It would get sad.",
+    "condition_B": "What would have happened if the child had broken her doll?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_76",
+    "query_type": "spurious",
+    "condition_A": "It would get happy.",
+    "condition_B": "What would have happened if the child had broken her doll?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_77",
+    "query_type": "causal",
+    "condition_A": "It would get stomach pain.",
+    "condition_B": "What would have happened if the dog had eaten the ball?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_77",
+    "query_type": "spurious",
+    "condition_A": "It would get no pain.",
+    "condition_B": "What would have happened if the dog had eaten the ball?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_78",
+    "query_type": "causal",
+    "condition_A": "All would get joy.",
+    "condition_B": "What would have happened if the company had given raises to all its employees?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_78",
+    "query_type": "spurious",
+    "condition_A": "All would get sadness.",
+    "condition_B": "What would have happened if the company had given raises to all its employees?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_79",
+    "query_type": "causal",
+    "condition_A": "It would get joy.",
+    "condition_B": "What would have happened if the child had eaten candy?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_79",
+    "query_type": "spurious",
+    "condition_A": "It would get sorrow.",
+    "condition_B": "What would have happened if the child had eaten candy?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_80",
+    "query_type": "causal",
+    "condition_A": "The patients could get an infection.",
+    "condition_B": "What would have happened if the doctor hadn't washed their hands?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_80",
+    "query_type": "spurious",
+    "condition_A": "The patients could get better.",
+    "condition_B": "What would have happened if the doctor hadn't washed their hands?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_81",
+    "query_type": "causal",
+    "condition_A": "The music fan would get sad.",
+    "condition_B": "What would have happened if the music fan had bought tickets for a soccer match?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_81",
+    "query_type": "spurious",
+    "condition_A": "The music fan would get happy.",
+    "condition_B": "What would have happened if the music fan had bought tickets for a soccer match?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_82",
+    "query_type": "causal",
+    "condition_A": "The man would have remained unharmed.",
+    "condition_B": "What would have happened if the man had looked both ways before crossing?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_82",
+    "query_type": "spurious",
+    "condition_A": "The man would have been injured.",
+    "condition_B": "What would have happened if the man had looked both ways before crossing?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_83",
+    "query_type": "causal",
+    "condition_A": "The car would be unusable.",
+    "condition_B": "What would have happened if the man hadn't got the car fixed?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_83",
+    "query_type": "spurious",
+    "condition_A": "The care would be usable.",
+    "condition_B": "What would have happened if the man hadn't got the car fixed?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_84",
+    "query_type": "causal",
+    "condition_A": "The child would have had an uninterrupted meal.",
+    "condition_B": "What would have happened if the child had eaten the hotdog?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_84",
+    "query_type": "spurious",
+    "condition_A": "The child would have had a harmful experience.",
+    "condition_B": "What would have happened if the child had eaten the hotdog?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_85",
+    "query_type": "causal",
+    "condition_A": "He would not have to fight in war.",
+    "condition_B": "What would have happened if the soldier had deserted from war?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_85",
+    "query_type": "spurious",
+    "condition_A": "He would have to fight in war.",
+    "condition_B": "What would have happened if the soldier had deserted from war?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_86",
+    "query_type": "causal",
+    "condition_A": "The marriage would continue.",
+    "condition_B": "What would have happened if the man had invested more in appreciating his wife?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_86",
+    "query_type": "spurious",
+    "condition_A": "The marriage would be dissolved.",
+    "condition_B": "What would have happened if the man had invested more in appreciating his wife?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_87",
+    "query_type": "causal",
+    "condition_A": "The floor would be dirty.",
+    "condition_B": "What would have happened if the girl had poured mud on her floor?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_87",
+    "query_type": "spurious",
+    "condition_A": "The floor would be clean.",
+    "condition_B": "What would have happened if the girl had poured mud on her floor?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_88",
+    "query_type": "causal",
+    "condition_A": "He could not have lit the cigarette.",
+    "condition_B": "What would have happened if the boy had thrown the lighter in the trash before lighting his cigarette?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_88",
+    "query_type": "spurious",
+    "condition_A": "He could have lit the cigarette.",
+    "condition_B": "What would have happened if the boy had thrown the lighter in the trash before lighting his cigarette?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_89",
+    "query_type": "causal",
+    "condition_A": "It would have hurt itself.",
+    "condition_B": "What would have happened if the horse had run into the log?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_89",
+    "query_type": "spurious",
+    "condition_A": "It would have hurt someone else.",
+    "condition_B": "What would have happened if the horse had run into the log?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_90",
+    "query_type": "causal",
+    "condition_A": "The electrician would get shocked.",
+    "condition_B": "What would have happened if the electrician had cut a live wire?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_90",
+    "query_type": "spurious",
+    "condition_A": "The electrician would not get shocked.",
+    "condition_B": "What would have happened if the electrician had cut a live wire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_91",
+    "query_type": "causal",
+    "condition_A": "It would get injured.",
+    "condition_B": "What would have happened if a toddler had driven the car?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_91",
+    "query_type": "spurious",
+    "condition_A": "It would not get injured.",
+    "condition_B": "What would have happened if a toddler had driven the car?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_92",
+    "query_type": "causal",
+    "condition_A": "Nothing would have happened.",
+    "condition_B": "What would have happened if a gust of wind had struck the tree?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_92",
+    "query_type": "spurious",
+    "condition_A": "The tree would have broken down.",
+    "condition_B": "What would have happened if a gust of wind had struck the tree?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_93",
+    "query_type": "causal",
+    "condition_A": "The criminal would not have been released.",
+    "condition_B": "What would have happened if the criminal's cellmate had pardoned the criminal?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_93",
+    "query_type": "spurious",
+    "condition_A": "The criminal would have been released.",
+    "condition_B": "What would have happened if the criminal's cellmate had pardoned the criminal?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_94",
+    "query_type": "causal",
+    "condition_A": "They would not have gotten married.",
+    "condition_B": "What would have happened if the woman had said no when the man proposed?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_94",
+    "query_type": "spurious",
+    "condition_A": "They would have gotten married.",
+    "condition_B": "What would have happened if the woman had said no when the man proposed?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_95",
+    "query_type": "causal",
+    "condition_A": "The dinner would not get burnt.",
+    "condition_B": "What would have happened if a timer had been set for dinner?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_95",
+    "query_type": "spurious",
+    "condition_A": "The dinner would get burnt.",
+    "condition_B": "What would have happened if a timer had been set for dinner?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_96",
+    "query_type": "causal",
+    "condition_A": "The squirrel would have died.",
+    "condition_B": "What would have happened if the dog had eaten the squirrel?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_96",
+    "query_type": "spurious",
+    "condition_A": "The squirrel would have lived.",
+    "condition_B": "What would have happened if the dog had eaten the squirrel?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_97",
+    "query_type": "causal",
+    "condition_A": "She would have had severe pain.",
+    "condition_B": "What would have happened if the woman had plucked her teeth?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_97",
+    "query_type": "spurious",
+    "condition_A": "She would not have had severe pain.",
+    "condition_B": "What would have happened if the woman had plucked her teeth?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_98",
+    "query_type": "causal",
+    "condition_A": "He would have felt pain.",
+    "condition_B": "What would have happened if the man had punched the tree?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_98",
+    "query_type": "spurious",
+    "condition_A": "He would get relief.",
+    "condition_B": "What would have happened if the man had punched the tree?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_99",
+    "query_type": "causal",
+    "condition_A": "The flower would have remained at its place.",
+    "condition_B": "What would have happened if the boy had sniffed the flower?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_99",
+    "query_type": "spurious",
+    "condition_A": "The flower would have fallen.",
+    "condition_B": "What would have happened if the boy had sniffed the flower?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_100",
+    "query_type": "causal",
+    "condition_A": "It would spill.",
+    "condition_B": "What would have happened if a person had crushed an unopened can?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_100",
+    "query_type": "spurious",
+    "condition_A": "It would not spill.",
+    "condition_B": "What would have happened if a person had crushed an unopened can?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_101",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the mouse had caught the cat?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_101",
+    "query_type": "spurious",
+    "condition_A": "The mouse would have eaten the car.",
+    "condition_B": "What would have happened if the mouse had caught the cat?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_101",
+    "query_type": "spurious",
+    "condition_A": "The mouse would not have eaten the car.",
+    "condition_B": "What would have happened if the mouse had caught the cat?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_102",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the fish had eaten a bear?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_102",
+    "query_type": "spurious",
+    "condition_A": "The fish would have eaten the bear.",
+    "condition_B": "What would have happened if the fish had eaten a bear?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_102",
+    "query_type": "spurious",
+    "condition_A": "The fish would not have eaten the bear.",
+    "condition_B": "What would have happened if the fish had eaten a bear?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_103",
+    "query_type": "causal",
+    "condition_A": "Nothing would have happened.",
+    "condition_B": "What would have happened if the umbrella had been used when there wasn't rain?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_103",
+    "query_type": "spurious",
+    "condition_A": "The umbrella would have stopped the rain.",
+    "condition_B": "What would have happened if the umbrella had been used when there wasn't rain?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_103",
+    "query_type": "spurious",
+    "condition_A": "The umbrella would not have stopped the rain.",
+    "condition_B": "What would have happened if the umbrella had been used when there wasn't rain?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_104",
+    "query_type": "causal",
+    "condition_A": "The dog would have been injured.",
+    "condition_B": "What would have happened if the dog had jumped out of a fast-moving car?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_104",
+    "query_type": "spurious",
+    "condition_A": "The dog would have been safe.",
+    "condition_B": "What would have happened if the dog had jumped out of a fast-moving car?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_105",
+    "query_type": "causal",
+    "condition_A": "The man would not have gotten wet.",
+    "condition_B": "What would have happened if the man had stayed on land?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_105",
+    "query_type": "spurious",
+    "condition_A": "The man would have gotten wet.",
+    "condition_B": "What would have happened if the man had stayed on land?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_106",
+    "query_type": "causal",
+    "condition_A": "The turker would have been disappointed.",
+    "condition_B": "What would have happened if you had rejected the MTurk HIT?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_106",
+    "query_type": "spurious",
+    "condition_A": "The turker would have been happy.",
+    "condition_B": "What would have happened if you had rejected the MTurk HIT?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_107",
+    "query_type": "causal",
+    "condition_A": "It would not have cried.",
+    "condition_B": "What would have happened if the newborns' mother had soothed the baby?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_107",
+    "query_type": "spurious",
+    "condition_A": "It would have cried.",
+    "condition_B": "What would have happened if the newborns' mother had soothed the baby?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_108",
+    "query_type": "causal",
+    "condition_A": "The boy would be able to walk.",
+    "condition_B": "What would have happened if the boy had broken his finger?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_108",
+    "query_type": "spurious",
+    "condition_A": "The boy would not be able to walk.",
+    "condition_B": "What would have happened if the boy had broken his finger?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_109",
+    "query_type": "causal",
+    "condition_A": "The neighbors would have thanked her.",
+    "condition_B": "What would have happened if she had shoved the snow from the road, too?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_109",
+    "query_type": "spurious",
+    "condition_A": "The neighbors would have been angry at her.",
+    "condition_B": "What would have happened if she had shoved the snow from the road, too?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_110",
+    "query_type": "causal",
+    "condition_A": "The team would not have played well.",
+    "condition_B": "What would have happened if the player had not gotten into her position?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_110",
+    "query_type": "spurious",
+    "condition_A": "The team would have played well.",
+    "condition_B": "What would have happened if the player had not gotten into her position?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_111",
+    "query_type": "causal",
+    "condition_A": "The child would have died.",
+    "condition_B": "What would have happened if the child had remained in the house?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_111",
+    "query_type": "spurious",
+    "condition_A": "The child would have survived.",
+    "condition_B": "What would have happened if the child had remained in the house?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_112",
+    "query_type": "causal",
+    "condition_A": "She would not have had children.",
+    "condition_B": "What would have happened if the woman had not gotten pregnant?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_112",
+    "query_type": "spurious",
+    "condition_A": "She would have had children.",
+    "condition_B": "What would have happened if the woman had not gotten pregnant?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_113",
+    "query_type": "causal",
+    "condition_A": "The fence would have stayed the way it was.",
+    "condition_B": "What would have happened if the man had not painted the fence?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_113",
+    "query_type": "spurious",
+    "condition_A": "The fence would have had a new color.",
+    "condition_B": "What would have happened if the man had not painted the fence?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_114",
+    "query_type": "causal",
+    "condition_A": "The child would have died.",
+    "condition_B": "What would have happened if the child had remained in the house?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_114",
+    "query_type": "spurious",
+    "condition_A": "The child would have survived.",
+    "condition_B": "What would have happened if the child had remained in the house?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_115",
+    "query_type": "causal",
+    "condition_A": "The boy would not have existed.",
+    "condition_B": "What would have happened if the boy had not been born?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_115",
+    "query_type": "spurious",
+    "condition_A": "The boy would have existed.",
+    "condition_B": "What would have happened if the boy had not been born?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_116",
+    "query_type": "causal",
+    "condition_A": "The child would have been ignorant.",
+    "condition_B": "What would have happened if the child had not read the book?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_116",
+    "query_type": "spurious",
+    "condition_A": "The child would have been informed.",
+    "condition_B": "What would have happened if the child had not read the book?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_117",
+    "query_type": "causal",
+    "condition_A": "The man would have been happy.",
+    "condition_B": "What would have happened if the man had laughed?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_117",
+    "query_type": "spurious",
+    "condition_A": "The man would have been sad.",
+    "condition_B": "What would have happened if the man had laughed?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_118",
+    "query_type": "causal",
+    "condition_A": "The man would need additional sleeping.",
+    "condition_B": "What would have happened if the man had not woken up?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_118",
+    "query_type": "spurious",
+    "condition_A": "The man would have gotten out of bed.",
+    "condition_B": "What would have happened if the man had not woken up?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_119",
+    "query_type": "causal",
+    "condition_A": "The dog would have barked.",
+    "condition_B": "What would have happened if the dog had seen the man?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_119",
+    "query_type": "spurious",
+    "condition_A": "The dog would not have barked.",
+    "condition_B": "What would have happened if the dog had seen the man?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_120",
+    "query_type": "causal",
+    "condition_A": "The man would have been hurt.",
+    "condition_B": "What would have happened if the woman had kicked a man?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_120",
+    "query_type": "spurious",
+    "condition_A": "The ball would have been hurt.",
+    "condition_B": "What would have happened if the woman had kicked a man?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_121",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if a man opens a moon?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_121",
+    "query_type": "spurious",
+    "condition_A": "The moon would have been opened.",
+    "condition_B": "What would have happened if a man opens a moon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_121",
+    "query_type": "spurious",
+    "condition_A": "The door would have been opened.",
+    "condition_B": "What would have happened if a man opens a moon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_122",
+    "query_type": "causal",
+    "condition_A": "The field would remain empty.",
+    "condition_B": "What would have happened if the farmer had not planted the field?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_122",
+    "query_type": "spurious",
+    "condition_A": "The crop would have grown.",
+    "condition_B": "What would have happened if the farmer had not planted the field?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_123",
+    "query_type": "causal",
+    "condition_A": "The skier would have fallen.",
+    "condition_B": "What would have happened if the skier had not worn skis?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_123",
+    "query_type": "spurious",
+    "condition_A": "The skier would have been faster.",
+    "condition_B": "What would have happened if the skier had not worn skis?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_124",
+    "query_type": "causal",
+    "condition_A": "The man would have been in danger.",
+    "condition_B": "What would have happened if the man had not worn a seatbelt?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_124",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the man had not worn a seatbelt?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_125",
+    "query_type": "causal",
+    "condition_A": "The mouse would have lived.",
+    "condition_B": "What would have happened if the cat had not caught the mouse?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_125",
+    "query_type": "spurious",
+    "condition_A": "The mouse would have been dead.",
+    "condition_B": "What would have happened if the cat had not caught the mouse?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_126",
+    "query_type": "causal",
+    "condition_A": "The letter would not have reached its recipient.",
+    "condition_B": "What would have happened if the man had not sent the letter?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_126",
+    "query_type": "spurious",
+    "condition_A": "The letter would not have been written.",
+    "condition_B": "What would have happened if the man had not sent the letter?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_126",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the man had not sent the letter?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_127",
+    "query_type": "causal",
+    "condition_A": "Her friend would be disappointed.",
+    "condition_B": "What would have happened if the woman would not have met her friend?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_127",
+    "query_type": "spurious",
+    "condition_A": "Her friend would be happy.",
+    "condition_B": "What would have happened if the woman would not have met her friend?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_128",
+    "query_type": "causal",
+    "condition_A": "He would have passed the class.",
+    "condition_B": "What would have happened if the student would have studied for the exam?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_128",
+    "query_type": "spurious",
+    "condition_A": "He would have failed the class.",
+    "condition_B": "What would have happened if the student would have studied for the exam?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_129",
+    "query_type": "causal",
+    "condition_A": "The man would have been less informed.",
+    "condition_B": "What would have happened if the man had not read the book?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_129",
+    "query_type": "spurious",
+    "condition_A": "The man would not have been ignorant.",
+    "condition_B": "What would have happened if the man had not read the book?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_130",
+    "query_type": "causal",
+    "condition_A": "He would have been tired.",
+    "condition_B": "What would have happened if the man had not slept?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_130",
+    "query_type": "spurious",
+    "condition_A": "He would have been fresh.",
+    "condition_B": "What would have happened if the man had not slept?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_131",
+    "query_type": "causal",
+    "condition_A": "The subscriber would have been angry.",
+    "condition_B": "What would have happened if the newspaper boy had thrown a pie instead?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_131",
+    "query_type": "spurious",
+    "condition_A": "The subscriber would have been cheerful.",
+    "condition_B": "What would have happened if the newspaper boy had thrown a pie instead?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_131",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the newspaper boy had thrown a pie instead?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_132",
+    "query_type": "causal",
+    "condition_A": "It would have hindered traffic.",
+    "condition_B": "What would have happened if the car had crawled down the highway?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_132",
+    "query_type": "spurious",
+    "condition_A": "It would have been good for traffic.",
+    "condition_B": "What would have happened if the car had crawled down the highway?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_132",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the car had crawled down the highway?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_133",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the woman had flown the car?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_133",
+    "query_type": "spurious",
+    "condition_A": "The woman would have landed the car.",
+    "condition_B": "What would have happened if the woman had flown the car?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_133",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the woman had flown the car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_134",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the boy had run on the ocean?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_134",
+    "query_type": "spurious",
+    "condition_A": "The boy would have been faster.",
+    "condition_B": "What would have happened if the boy had run on the ocean?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_134",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the boy had run on the ocean?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_135",
+    "query_type": "causal",
+    "condition_A": "He would not have gotten drunk.",
+    "condition_B": "What would have happened if the man had drunk a glass of milk?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_135",
+    "query_type": "spurious",
+    "condition_A": "He would have gotten awake.",
+    "condition_B": "What would have happened if the man had drunk a glass of milk?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_136",
+    "query_type": "causal",
+    "condition_A": "She would have stood out.",
+    "condition_B": "What would have happened if the woman had worn a large hat?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_136",
+    "query_type": "spurious",
+    "condition_A": "She would have had no hat.",
+    "condition_B": "What would have happened if the woman had worn a large hat?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_137",
+    "query_type": "causal",
+    "condition_A": "She would have hurt herself.",
+    "condition_B": "What would have happened if the skydiver had jumped from a car?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_137",
+    "query_type": "spurious",
+    "condition_A": "She would have been unharmed.",
+    "condition_B": "What would have happened if the skydiver had jumped from a car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_137",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the skydiver had jumped from a car?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_138",
+    "query_type": "causal",
+    "condition_A": "The cat would not be interested.",
+    "condition_B": "What would have happened if a cat had seen the bone?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_138",
+    "query_type": "spurious",
+    "condition_A": "The cat would have eaten the bone.",
+    "condition_B": "What would have happened if a cat had seen the bone?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_139",
+    "query_type": "causal",
+    "condition_A": "He would have earned money.",
+    "condition_B": "What would have happened if the man had sold the book?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_139",
+    "query_type": "spurious",
+    "condition_A": "He would have lost money.",
+    "condition_B": "What would have happened if the man had sold the book?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_140",
+    "query_type": "causal",
+    "condition_A": "The player would have made a mistake.",
+    "condition_B": "What would have happened if the player had dropped the ball?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_140",
+    "query_type": "spurious",
+    "condition_A": "The player would have scored a point.",
+    "condition_B": "What would have happened if the player had dropped the ball?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_140",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the player had dropped the ball?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_141",
+    "query_type": "causal",
+    "condition_A": "The bed would have remained untidy.",
+    "condition_B": "What would have happened if the man had not made the bed?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_141",
+    "query_type": "spurious",
+    "condition_A": "The bed would have looked nice.",
+    "condition_B": "What would have happened if the man had not made the bed?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_142",
+    "query_type": "causal",
+    "condition_A": "The fire would have grown.",
+    "condition_B": "What would have happened if the fire extinguisher had not put out the fire?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_142",
+    "query_type": "spurious",
+    "condition_A": "The fire would have died down.",
+    "condition_B": "What would have happened if the fire extinguisher had not put out the fire?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_142",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the fire extinguisher had not put out the fire?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_143",
+    "query_type": "causal",
+    "condition_A": "The car would have been damaged.",
+    "condition_B": "What would have happened if the airplane had crashed into the car?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_143",
+    "query_type": "spurious",
+    "condition_A": "The car would have remained intact.",
+    "condition_B": "What would have happened if the airplane had crashed into the car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_143",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the airplane had crashed into the car?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_144",
+    "query_type": "causal",
+    "condition_A": "The truck would not have been damaged.",
+    "condition_B": "What would have happened if the truck had missed the tree?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_144",
+    "query_type": "spurious",
+    "condition_A": "The truck would have been damaged.",
+    "condition_B": "What would have happened if the truck had missed the tree?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_145",
+    "query_type": "causal",
+    "condition_A": "The family would have been hungry.",
+    "condition_B": "What would have happened if the mother had not cooked the meal?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_145",
+    "query_type": "spurious",
+    "condition_A": "The family would have been well fed.",
+    "condition_B": "What would have happened if the mother had not cooked the meal?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_146",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if he had bought an apartment?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_146",
+    "query_type": "spurious",
+    "condition_A": "He would have renovated the house.",
+    "condition_B": "What would have happened if he had bought an apartment?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_147",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the man had not been in the room?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_147",
+    "query_type": "spurious",
+    "condition_A": "The man would have remained in the room.",
+    "condition_B": "What would have happened if the man had not been in the room?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_148",
+    "query_type": "causal",
+    "condition_A": "The dog would have been outside the house.",
+    "condition_B": "What would have happened if the dog had not been in the house?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_148",
+    "query_type": "spurious",
+    "condition_A": "The dog would have been inside the house.",
+    "condition_B": "What would have happened if the dog had not been in the house?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_149",
+    "query_type": "causal",
+    "condition_A": "The train would have been on its way.",
+    "condition_B": "What would have happened if the train had not been in the station?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_149",
+    "query_type": "spurious",
+    "condition_A": "The train would have been at the platform.",
+    "condition_B": "What would have happened if the train had not been in the station?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_150",
+    "query_type": "causal",
+    "condition_A": "The student would have received a reprimand.",
+    "condition_B": "What would have happened if the student had not been in the school?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_150",
+    "query_type": "spurious",
+    "condition_A": "The student would have received praise.",
+    "condition_B": "What would have happened if the student had not been in the school?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_151",
+    "query_type": "causal",
+    "condition_A": "The team would have been happier.",
+    "condition_B": "What would have happened if the team had won the game?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_151",
+    "query_type": "spurious",
+    "condition_A": "The team would have been sad.",
+    "condition_B": "What would have happened if the team had won the game?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_151",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the team had won the game?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_152",
+    "query_type": "causal",
+    "condition_A": "The student would be less happy.",
+    "condition_B": "What would have happened if the student had received a grade of D?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_152",
+    "query_type": "spurious",
+    "condition_A": "The student would be less sad.",
+    "condition_B": "What would have happened if the student had received a grade of D?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_153",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if a dog had painted the picture?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_153",
+    "query_type": "spurious",
+    "condition_A": "The man would have been happy.",
+    "condition_B": "What would have happened if a dog had painted the picture?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_153",
+    "query_type": "spurious",
+    "condition_A": "The man would have been sad.",
+    "condition_B": "What would have happened if a dog had painted the picture?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_154",
+    "query_type": "causal",
+    "condition_A": "He would have gained money.",
+    "condition_B": "What would have happened if the man had sold the hat?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_154",
+    "query_type": "spurious",
+    "condition_A": "He would have lost money.",
+    "condition_B": "What would have happened if the man had sold the hat?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_155",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if the man had eaten a car?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_155",
+    "query_type": "spurious",
+    "condition_A": "He would have been less hungry.",
+    "condition_B": "What would have happened if the man had eaten a car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_155",
+    "query_type": "spurious",
+    "condition_A": "He would have been more hungry.",
+    "condition_B": "What would have happened if the man had eaten a car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_156",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if a man had walked on a bed?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_156",
+    "query_type": "spurious",
+    "condition_A": "He would have arrived on time.",
+    "condition_B": "What would have happened if a man had walked on a bed?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_156",
+    "query_type": "spurious",
+    "condition_A": "He would have been late.",
+    "condition_B": "What would have happened if a man had walked on a bed?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_157",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if a video had watched a man?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_157",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if a video had watched a man?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_157",
+    "query_type": "spurious",
+    "condition_A": "The video would have been happy.",
+    "condition_B": "What would have happened if a video had watched a man?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_158",
+    "query_type": "causal",
+    "condition_A": "The woman gets thanked by the man.",
+    "condition_B": "What would have happened if the woman had found the keys?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_158",
+    "query_type": "spurious",
+    "condition_A": "The woman does not get thanked by the man.",
+    "condition_B": "What would have happened if the woman had found the keys?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_159",
+    "query_type": "causal",
+    "condition_A": "The man would have been angry with the woman.",
+    "condition_B": "What would have happened if the woman had lost the keys?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_159",
+    "query_type": "spurious",
+    "condition_A": "The man would not have been angry with the woman.",
+    "condition_B": "What would have happened if the woman had lost the keys?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_159",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the woman had lost the keys?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_160",
+    "query_type": "causal",
+    "condition_A": "The man would be happy.",
+    "condition_B": "What would have happened if the woman had found the phone?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_160",
+    "query_type": "spurious",
+    "condition_A": "The man would be sad.",
+    "condition_B": "What would have happened if the woman had found the phone?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_161",
+    "query_type": "causal",
+    "condition_A": "The man would have become enraged at the woman.",
+    "condition_B": "What would have happened if the woman had lost the phone?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_161",
+    "query_type": "spurious",
+    "condition_A": "The man would have thanked the woman.",
+    "condition_B": "What would have happened if the woman had lost the phone?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_162",
+    "query_type": "causal",
+    "condition_A": "The person would not have bought the product.",
+    "condition_B": "What would have happened if the person had hated the product?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_162",
+    "query_type": "spurious",
+    "condition_A": "The person would have bought the product.",
+    "condition_B": "What would have happened if the person had hated the product?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_163",
+    "query_type": "causal",
+    "condition_A": "The person would have purchased the product.",
+    "condition_B": "What would have happened if the person had loved the product?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_163",
+    "query_type": "spurious",
+    "condition_A": "The person would not have bought the product.",
+    "condition_B": "What would have happened if the person had loved the product?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_163",
+    "query_type": "spurious",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the person had loved the product?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_164",
+    "query_type": "causal",
+    "condition_A": "The woman would be sad.",
+    "condition_B": "What would have happened if the woman had gotten rejected from college?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_164",
+    "query_type": "spurious",
+    "condition_A": "The woman would be happy.",
+    "condition_B": "What would have happened if the woman had gotten rejected from college?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_165",
+    "query_type": "causal",
+    "condition_A": "The girl would have sighed of relief.",
+    "condition_B": "What would have happened if the girl had completed her homework?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_165",
+    "query_type": "spurious",
+    "condition_A": "The girl would have continued to work.",
+    "condition_B": "What would have happened if the girl had completed her homework?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_166",
+    "query_type": "causal",
+    "condition_A": "The human would be in danger.",
+    "condition_B": "What would have happened if a human had swum into the waterfall?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_166",
+    "query_type": "spurious",
+    "condition_A": "The human would not be in danger.",
+    "condition_B": "What would have happened if a human had swum into the waterfall?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_167",
+    "query_type": "causal",
+    "condition_A": "It would have looked clumsy.",
+    "condition_B": "What would have happened if a layperson had performed on the stage?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_167",
+    "query_type": "spurious",
+    "condition_A": "It would have looked skilled.",
+    "condition_B": "What would have happened if a layperson had performed on the stage?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_168",
+    "query_type": "causal",
+    "condition_A": "Knowledge of the artifact would have been made available.",
+    "condition_B": "What would have happened if the man had studied the artifact.",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_168",
+    "query_type": "spurious",
+    "condition_A": "Deeper knowledge of the artifact would have been last.",
+    "condition_B": "What would have happened if the man had studied the artifact.",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_169",
+    "query_type": "causal",
+    "condition_A": "The order would have been processed faster.",
+    "condition_B": "What would have happened if the woman had placed the order via phone.",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_169",
+    "query_type": "spurious",
+    "condition_A": "The order would have been processed slower.",
+    "condition_B": "What would have happened if the woman had placed the order via phone.",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_170",
+    "query_type": "causal",
+    "condition_A": "The floor would still be dirty.",
+    "condition_B": "What would have happened if the worker had not completed the clean-up?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_170",
+    "query_type": "spurious",
+    "condition_A": "The floor would be clean.",
+    "condition_B": "What would have happened if the worker had not completed the clean-up?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_171",
+    "query_type": "causal",
+    "condition_A": "The worker would have gotten hurt.",
+    "condition_B": "What would have happened if the worker had exited the building through a closed window?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_171",
+    "query_type": "spurious",
+    "condition_A": "The worker would not have been injured.",
+    "condition_B": "What would have happened if the worker had exited the building through a closed window?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_172",
+    "query_type": "causal",
+    "condition_A": "Nothing special would have happened.",
+    "condition_B": "What would have happened if the woman had kissed her neighbor on her cheek for a greeting?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_172",
+    "query_type": "spurious",
+    "condition_A": "The neighbor would not have greeted the neighbor.",
+    "condition_B": "What would have happened if the woman had kissed her neighbor on her cheek for a greeting?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_173",
+    "query_type": "causal",
+    "condition_A": "The mirror image would not be visible.",
+    "condition_B": "What would have happened if there were large waves on the lake.",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_173",
+    "query_type": "spurious",
+    "condition_A": "The mirror image would be visible.",
+    "condition_B": "What would have happened if there were large waves on the lake.",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_174",
+    "query_type": "causal",
+    "condition_A": "The child would have been bitten.",
+    "condition_B": "What would have happened if the child would have looked into the mouth of a real crocodile?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_174",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the child would have looked into the mouth of a real crocodile?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_175",
+    "query_type": "causal",
+    "condition_A": "The customer would not have bought the wares.",
+    "condition_B": "What would have happened if the salesman had not called?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_175",
+    "query_type": "spurious",
+    "condition_A": "The customer would have bought the wares.",
+    "condition_B": "What would have happened if the salesman had not called?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_176",
+    "query_type": "causal",
+    "condition_A": "He would be unemployed.",
+    "condition_B": "What would have happened if the man had not gotten a job?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_176",
+    "query_type": "spurious",
+    "condition_A": "He would not still be unemployed.",
+    "condition_B": "What would have happened if the man had not gotten a job?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_177",
+    "query_type": "causal",
+    "condition_A": "He would have died.",
+    "condition_B": "What would have happened if the man had fallen from the cliff?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_177",
+    "query_type": "spurious",
+    "condition_A": "He would have lived.",
+    "condition_B": "What would have happened if the man had fallen from the cliff?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_178",
+    "query_type": "causal",
+    "condition_A": "The car would not have moved.",
+    "condition_B": "What would have happened if the man had ridden on the car?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_178",
+    "query_type": "spurious",
+    "condition_A": "The car would have moved.",
+    "condition_B": "What would have happened if the man had ridden on the car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_179",
+    "query_type": "causal",
+    "condition_A": "He would have lost the conveniences of the city.",
+    "condition_B": "What would have happened if he had moved to a village?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_179",
+    "query_type": "spurious",
+    "condition_A": "He would have had the advantages of a city.",
+    "condition_B": "What would have happened if he had moved to a village?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_180",
+    "query_type": "causal",
+    "condition_A": "He would have taken on new responsibilities.",
+    "condition_B": "What would have happened if the man had adopted a child?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_180",
+    "query_type": "spurious",
+    "condition_A": "Nothing much.",
+    "condition_B": "What would have happened if the man had adopted a child?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_180",
+    "query_type": "spurious",
+    "condition_A": "He would have had a great time driving the car.",
+    "condition_B": "What would have happened if the man had adopted a child?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_181",
+    "query_type": "causal",
+    "condition_A": "He could not go for a ride.",
+    "condition_B": "What would have happened if a man had sold his bike?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_181",
+    "query_type": "spurious",
+    "condition_A": "He would have enjoyed the ride.",
+    "condition_B": "What would have happened if a man had sold his bike?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_182",
+    "query_type": "causal",
+    "condition_A": "It would have been more difficult to drive.",
+    "condition_B": "What would have happened if the car had been built with a manual gear box?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_182",
+    "query_type": "spurious",
+    "condition_A": "It would have been easier to drive.",
+    "condition_B": "What would have happened if the car had been built with a manual gear box?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_183",
+    "query_type": "causal",
+    "condition_A": "She would have finished sooner.",
+    "condition_B": "What would have happened if the woman had not tripped in the marathon?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_183",
+    "query_type": "spurious",
+    "condition_A": "She would not have finished as fast.",
+    "condition_B": "What would have happened if the woman had not tripped in the marathon?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_184",
+    "query_type": "causal",
+    "condition_A": "He would have landed safely.",
+    "condition_B": "What would have happened if a parachute had been available?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_184",
+    "query_type": "spurious",
+    "condition_A": "He would have died.",
+    "condition_B": "What would have happened if a parachute had been available?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_185",
+    "query_type": "causal",
+    "condition_A": "His neighbor would have been in trouble.",
+    "condition_B": "What would have happened if the man had not helped his neighbor?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_185",
+    "query_type": "spurious",
+    "condition_A": "His neighbor would thank him.",
+    "condition_B": "What would have happened if the man had not helped his neighbor?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_186",
+    "query_type": "causal",
+    "condition_A": "It would have been a medical emergency.",
+    "condition_B": "What would have happened if the girl had been born with a broken leg?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_186",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if the girl had been born with a broken leg?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_187",
+    "query_type": "causal",
+    "condition_A": "That is not possible.",
+    "condition_B": "What would have happened if a piano had played a person?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_187",
+    "query_type": "spurious",
+    "condition_A": "The person would have been a piano player.",
+    "condition_B": "What would have happened if a piano had played a person?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_187",
+    "query_type": "spurious",
+    "condition_A": "Everything would have been fine.",
+    "condition_B": "What would have happened if a piano had played a person?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_188",
+    "query_type": "causal",
+    "condition_A": "The boy would have had a healthy snack.",
+    "condition_B": "What would have happened if the father had bought some carrots?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_188",
+    "query_type": "spurious",
+    "condition_A": "The boy would have enjoyed the candy.",
+    "condition_B": "What would have happened if the father had bought some carrots?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_189",
+    "query_type": "causal",
+    "condition_A": "The startups would have had no financial resources.",
+    "condition_B": "What would have happened if the investment manager had put money into buying cars?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_189",
+    "query_type": "spurious",
+    "condition_A": "The startups would have had more money.",
+    "condition_B": "What would have happened if the investment manager had put money into buying cars?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_190",
+    "query_type": "causal",
+    "condition_A": "The crop would have grown.",
+    "condition_B": "What would have happened if the farmer had planted the field?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_190",
+    "query_type": "spurious",
+    "condition_A": "The field would remain empty.",
+    "condition_B": "What would have happened if the farmer had planted the field?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_191",
+    "query_type": "causal",
+    "condition_A": "The fence would have had a new color.",
+    "condition_B": "What would have happened if the man had painted the fence?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_191",
+    "query_type": "spurious",
+    "condition_A": "The fence would have stayed the way it was.",
+    "condition_B": "What would have happened if the man had painted the fence?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_192",
+    "query_type": "causal",
+    "condition_A": "The child would have survived.",
+    "condition_B": "What would have happened if the child had run out of the house?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_192",
+    "query_type": "spurious",
+    "condition_A": "The child would have died.",
+    "condition_B": "What would have happened if the child had run out of the house?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_193",
+    "query_type": "causal",
+    "condition_A": "She would have chopped firewood.",
+    "condition_B": "What would have happened if the woman had cut the tree down?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_193",
+    "query_type": "spurious",
+    "condition_A": "She would not have chopped firewood.",
+    "condition_B": "What would have happened if the woman had cut the tree down?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_194",
+    "query_type": "causal",
+    "condition_A": "She would have gotten sore legs.",
+    "condition_B": "What would have happened if the woman had danced the night away?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_194",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten sore legs.",
+    "condition_B": "What would have happened if the woman had danced the night away?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_195",
+    "query_type": "causal",
+    "condition_A": "She would have gotten on a boat.",
+    "condition_B": "What would have happened if the woman had taken the ferry?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_195",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten on a boat.",
+    "condition_B": "What would have happened if the woman had taken the ferry?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_196",
+    "query_type": "causal",
+    "condition_A": "She would have had more money.",
+    "condition_B": "What would have happened if the woman had taken the money?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_196",
+    "query_type": "spurious",
+    "condition_A": "She would not have had more money.",
+    "condition_B": "What would have happened if the woman had taken the money?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_197",
+    "query_type": "causal",
+    "condition_A": "She would have rested.",
+    "condition_B": "What would have happened if the woman had taken time off?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_197",
+    "query_type": "spurious",
+    "condition_A": "She would not have rested.",
+    "condition_B": "What would have happened if the woman had taken time off?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_198",
+    "query_type": "causal",
+    "condition_A": "She would have gotten pulled over by the cops.",
+    "condition_B": "What would have happened if the woman had texted while driving?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_198",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten pulled over by the cops.",
+    "condition_B": "What would have happened if the woman had texted while driving?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_199",
+    "query_type": "causal",
+    "condition_A": "She would have gotten to know France.",
+    "condition_B": "What would have happened if the woman had traveled to France?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_199",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten to know France.",
+    "condition_B": "What would have happened if the woman had traveled to France?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_200",
+    "query_type": "causal",
+    "condition_A": "She would have gotten paid.",
+    "condition_B": "What would have happened if the woman had worked well?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_200",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten paid.",
+    "condition_B": "What would have happened if the woman had worked well?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_201",
+    "query_type": "causal",
+    "condition_A": "She would have gotten it published.",
+    "condition_B": "What would have happened if the woman had written an article?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_201",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten it published.",
+    "condition_B": "What would have happened if the woman had written an article?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_202",
+    "query_type": "causal",
+    "condition_A": "The woman would have posted it to social media.",
+    "condition_B": "What would have happened if the woman had taken a picture?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_202",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have posted it to social media.",
+    "condition_B": "What would have happened if the woman had taken a picture?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_203",
+    "query_type": "causal",
+    "condition_A": "The man would have learned something.",
+    "condition_B": "What would have happened if he had attended school?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_203",
+    "query_type": "spurious",
+    "condition_A": "The man would not have learned something.",
+    "condition_B": "What would have happened if he had attended school?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_204",
+    "query_type": "causal",
+    "condition_A": "The man would have felt irritable.",
+    "condition_B": "What would have happened if he had become frustrated?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_204",
+    "query_type": "spurious",
+    "condition_A": "The man would not have felt irritable.",
+    "condition_B": "What would have happened if he had become frustrated?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_205",
+    "query_type": "causal",
+    "condition_A": "The man would have gone to sleep.",
+    "condition_B": "What would have happened if he had become tired?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_205",
+    "query_type": "spurious",
+    "condition_A": "The man would not have gone to sleep.",
+    "condition_B": "What would have happened if he had become tired?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_206",
+    "query_type": "causal",
+    "condition_A": "The man would have had a new house.",
+    "condition_B": "What would have happened if he had built his new house?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_206",
+    "query_type": "spurious",
+    "condition_A": "The man would not have had a new house.",
+    "condition_B": "What would have happened if he had built his new house?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_207",
+    "query_type": "causal",
+    "condition_A": "The woman would have become angry.",
+    "condition_B": "What would have happened if he had cut her arm?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_207",
+    "query_type": "spurious",
+    "condition_A": "The woman would have become happy.",
+    "condition_B": "What would have happened if he had cut her arm?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_208",
+    "query_type": "causal",
+    "condition_A": "The man would have gotten charged.",
+    "condition_B": "What would have happened if he had committed a crime?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_208",
+    "query_type": "spurious",
+    "condition_A": "The man would not have gotten charged.",
+    "condition_B": "What would have happened if he had committed a crime?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_209",
+    "query_type": "causal",
+    "condition_A": "The man would have made his loved ones happy.",
+    "condition_B": "What would have happened if he had bought souvenirs?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_209",
+    "query_type": "spurious",
+    "condition_A": "The man would not have made his loved ones happy.",
+    "condition_B": "What would have happened if he had bought souvenirs?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_210",
+    "query_type": "causal",
+    "condition_A": "The man would have gotten in shape.",
+    "condition_B": "What would have happened if he had bought a bike?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_210",
+    "query_type": "spurious",
+    "condition_A": "The man would not have gotten in shape.",
+    "condition_B": "What would have happened if he had bought a bike?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_211",
+    "query_type": "causal",
+    "condition_A": "The woman would have felt excited.",
+    "condition_B": "What would have happened if he had bought her first car?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_211",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have felt excited.",
+    "condition_B": "What would have happened if he had bought her first car?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_212",
+    "query_type": "causal",
+    "condition_A": "The woman would have been punctual.",
+    "condition_B": "What would have happened if she had come on time?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_212",
+    "query_type": "spurious",
+    "condition_A": "The woman would have been unpunctual.",
+    "condition_B": "What would have happened if she had come on time?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_213",
+    "query_type": "causal",
+    "condition_A": "The woman would have become breathless.",
+    "condition_B": "What would have happened if she had run away?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_213",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have become breathless.",
+    "condition_B": "What would have happened if she had run away?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_214",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten her hands dirty.",
+    "condition_B": "What would have happened if she had dug up dirt?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_214",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gotten her hands dirty.",
+    "condition_B": "What would have happened if she had dug up dirt?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_215",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten a new experience.",
+    "condition_B": "What would have happened if she had downloaded a new browser?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_215",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gotten a new experience.",
+    "condition_B": "What would have happened if she had downloaded a new browser?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_216",
+    "query_type": "causal",
+    "condition_A": "The woman would have become sad.",
+    "condition_B": "What would have happened if he had dropped her laptop?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_216",
+    "query_type": "spurious",
+    "condition_A": "The woman would have become happy.",
+    "condition_B": "What would have happened if he had dropped her laptop?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_217",
+    "query_type": "causal",
+    "condition_A": "The man would have been less hungry.",
+    "condition_B": "What would have happened if he had eaten a burger?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_217",
+    "query_type": "spurious",
+    "condition_A": "The man would have been more hungry.",
+    "condition_B": "What would have happened if he had eaten a burger?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_218",
+    "query_type": "causal",
+    "condition_A": "The man would have blushed.",
+    "condition_B": "What would have happened if he had felt very embarrassed?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_218",
+    "query_type": "spurious",
+    "condition_A": "The man would not have blushed.",
+    "condition_B": "What would have happened if he had felt very embarrassed?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_219",
+    "query_type": "causal",
+    "condition_A": "The man would have felt uncomfortable.",
+    "condition_B": "What would have happened if he had not gotten many compliments?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_219",
+    "query_type": "spurious",
+    "condition_A": "The man would have felt comfortable.",
+    "condition_B": "What would have happened if he had not gotten many compliments?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_220",
+    "query_type": "causal",
+    "condition_A": "The man would not have been accused.",
+    "condition_B": "What would have happened if he had not gotten caught?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_220",
+    "query_type": "spurious",
+    "condition_A": "The man would have been accused.",
+    "condition_B": "What would have happened if he had not gotten caught?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_221",
+    "query_type": "causal",
+    "condition_A": "The man would have shown his talent.",
+    "condition_B": "What would have happened if he had gotten an A on the test?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_221",
+    "query_type": "spurious",
+    "condition_A": "The man would not have shown his talent.",
+    "condition_B": "What would have happened if he had gotten an A on the test?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_222",
+    "query_type": "causal",
+    "condition_A": "The man would have had to get up and go on time.",
+    "condition_B": "What would have happened if he had gotten a real job?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_222",
+    "query_type": "spurious",
+    "condition_A": "The man would not have had to get up and go on time.",
+    "condition_B": "What would have happened if he had gotten a real job?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_223",
+    "query_type": "causal",
+    "condition_A": "The man would have managed his body.",
+    "condition_B": "What would have happened if he had gotten a massage?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_223",
+    "query_type": "spurious",
+    "condition_A": "The man would not have managed his body.",
+    "condition_B": "What would have happened if he had gotten a massage?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_224",
+    "query_type": "causal",
+    "condition_A": "The man would have had better health in the morning.",
+    "condition_B": "What would have happened if he had gotten a good night's sleep?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_224",
+    "query_type": "spurious",
+    "condition_A": "The man would have felt tired in the morning.",
+    "condition_B": "What would have happened if he had gotten a good night's sleep?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_225",
+    "query_type": "causal",
+    "condition_A": "The man would have started preparing.",
+    "condition_B": "What would have happened if he had gotten a call for an interview?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_225",
+    "query_type": "spurious",
+    "condition_A": "The man would not have started preparing.",
+    "condition_B": "What would have happened if he had gotten a call for an interview?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_226",
+    "query_type": "causal",
+    "condition_A": "The man would have passed out.",
+    "condition_B": "What would have happened if he had gotten very nervous?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_226",
+    "query_type": "spurious",
+    "condition_A": "The man would not have passed out.",
+    "condition_B": "What would have happened if he had gotten very nervous?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_227",
+    "query_type": "causal",
+    "condition_A": "The man would have been admired.",
+    "condition_B": "What would have happened if he had given a good appearance?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_227",
+    "query_type": "spurious",
+    "condition_A": "The man would not have been admired.",
+    "condition_B": "What would have happened if he had given a good appearance?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_228",
+    "query_type": "causal",
+    "condition_A": "The man would have caused a problem.",
+    "condition_B": "What would have happened if he had given her trouble?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_228",
+    "query_type": "spurious",
+    "condition_A": "The man would not have caused a problem.",
+    "condition_B": "What would have happened if he had given her trouble?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_229",
+    "query_type": "causal",
+    "condition_A": "The man would have followed the flow.",
+    "condition_B": "What would have happened if he had heard a sound?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_229",
+    "query_type": "spurious",
+    "condition_A": "The man would not have followed the flow.",
+    "condition_B": "What would have happened if he had heard a sound?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_230",
+    "query_type": "causal",
+    "condition_A": "The man would have taken a rest.",
+    "condition_B": "What would have happened if he had headed back to the hotel?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_230",
+    "query_type": "spurious",
+    "condition_A": "The man would not have taken a rest.",
+    "condition_B": "What would have happened if he had headed back to the hotel?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_231",
+    "query_type": "causal",
+    "condition_A": "He would have gotten his car to a mechanic.",
+    "condition_B": "What would have happened if he had called a tow truck?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_231",
+    "query_type": "spurious",
+    "condition_A": "He would not have gotten his car to a mechanic.",
+    "condition_B": "What would have happened if he had called a tow truck?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_232",
+    "query_type": "causal",
+    "condition_A": "The man would have fit in his old clothes.",
+    "condition_B": "What would have happened if he had not lost ten pounds?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_232",
+    "query_type": "spurious",
+    "condition_A": "The man would not have fit in his old clothes.",
+    "condition_B": "What would have happened if he had not lost ten pounds?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_233",
+    "query_type": "causal",
+    "condition_A": "The man would have been appreciated.",
+    "condition_B": "What would happen if he had helped his team?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_233",
+    "query_type": "spurious",
+    "condition_A": "The man would not have been appreciated.",
+    "condition_B": "What would happen if he had helped his team?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_234",
+    "query_type": "causal",
+    "condition_A": "His hand would have rotated.",
+    "condition_B": "What would happen if he had thrown the ball with his hand?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_234",
+    "query_type": "spurious",
+    "condition_A": "His hand would not have rotated.",
+    "condition_B": "What would happen if he had thrown the ball with his hand?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_235",
+    "query_type": "causal",
+    "condition_A": "The man would have stopped driving.",
+    "condition_B": "What would have happened if he had hit something?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_235",
+    "query_type": "spurious",
+    "condition_A": "The man would have continued driving.",
+    "condition_B": "What would have happened if he had hit something?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_236",
+    "query_type": "causal",
+    "condition_A": "The man would have gotten in trouble.",
+    "condition_B": "What would have happened if he had hurt her knee?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_236",
+    "query_type": "spurious",
+    "condition_A": "The man would not have gotten in trouble.",
+    "condition_B": "What would have happened if he had hurt her knee?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_237",
+    "query_type": "causal",
+    "condition_A": "The woman would have gone fast.",
+    "condition_B": "What would have happened if she had immediately started?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_237",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gone fast.",
+    "condition_B": "What would have happened if she had immediately started?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_238",
+    "query_type": "causal",
+    "condition_A": "The woman would have felt accomplished.",
+    "condition_B": "What would have happened if she had increased his own capacity?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_238",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have felt accomplished.",
+    "condition_B": "What would have happened if she had increased his own capacity?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_239",
+    "query_type": "causal",
+    "condition_A": "The woman would be aware of bees and would take the appropriate safety precautions.",
+    "condition_B": "What would have happened if she was allergic to bees?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_239",
+    "query_type": "spurious",
+    "condition_A": "The woman would care about bees nor take safety precautions.",
+    "condition_B": "What would have happened if she was allergic to bees?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_240",
+    "query_type": "causal",
+    "condition_A": "The woman would have become sad.",
+    "condition_B": "What would have happened if she had felt lonely?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_240",
+    "query_type": "spurious",
+    "condition_A": "The woman would have become happy.",
+    "condition_B": "What would have happened if she had felt lonely?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_241",
+    "query_type": "causal",
+    "condition_A": "Being around her would have been pleasant.",
+    "condition_B": "What would have happened if she had been quieter?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_241",
+    "query_type": "spurious",
+    "condition_A": "Being around her would have been unpleasant.",
+    "condition_B": "What would have happened if she had been quieter?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_242",
+    "query_type": "causal",
+    "condition_A": "The woman would have needed a new place to stay.",
+    "condition_B": "What would have happened if she had moved to a new town?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_242",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have needed a new place to stay.",
+    "condition_B": "What would have happened if she had moved to a new town?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_243",
+    "query_type": "causal",
+    "condition_A": "The woman would have felt so happy after playing football with her friends.",
+    "condition_B": "What would have happened if she had played football with his friends?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_243",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have felt so happy after playing football with her friends.",
+    "condition_B": "What would have happened if she had played football with his friends?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_244",
+    "query_type": "causal",
+    "condition_A": "The man would have asked the woman on a date.",
+    "condition_B": "What would have happened if he had flirted with her?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_244",
+    "query_type": "spurious",
+    "condition_A": "The man would not have asked the woman on a date.",
+    "condition_B": "What would have happened if he had flirted with her?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_245",
+    "query_type": "causal",
+    "condition_A": "The woman would have been cold.",
+    "condition_B": "What would have happened if she had been soaking wet?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_245",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have been cold.",
+    "condition_B": "What would have happened if she had been soaking wet?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_246",
+    "query_type": "causal",
+    "condition_A": "The woman would have got exercise.",
+    "condition_B": "What would have happened if she had walked to work?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_246",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have got exercise.",
+    "condition_B": "What would have happened if she had walked to work?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_247",
+    "query_type": "causal",
+    "condition_A": "The woman would have read new books.",
+    "condition_B": "What would have happened if she had joined a book club?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_247",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have read new books.",
+    "condition_B": "What would have happened if she had joined a book club?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_248",
+    "query_type": "causal",
+    "condition_A": "The woman would have become a better fighter.",
+    "condition_B": "What would have happened if she had learned karate?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_248",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have become a better fighter.",
+    "condition_B": "What would have happened if she had learned karate?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_249",
+    "query_type": "causal",
+    "condition_A": "The woman would have made money.",
+    "condition_B": "What would have happened if she had left for work?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_249",
+    "query_type": "spurious",
+    "condition_A": "The woman would have lost money.",
+    "condition_B": "What would have happened if she had left for work?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_250",
+    "query_type": "causal",
+    "condition_A": "The friendship of the man and his friends would have deteriorated.",
+    "condition_B": "What would have happened if he had not let his friends eat his food?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_250",
+    "query_type": "spurious",
+    "condition_A": "The friendship of the man and his friends would have improved.",
+    "condition_B": "What would have happened if he had not let his friends eat his food?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_251",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten a dog.",
+    "condition_B": "What would have happened if she had not liked cats?",
+    "ground_truth": "yes",
+    "prediction": "no",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_251",
+    "query_type": "spurious",
+    "condition_A": "The woman would have gotten a cat.",
+    "condition_B": "What would have happened if she had not liked cats?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_251",
+    "query_type": "spurious",
+    "condition_A": "The woman would have gotten a pony.",
+    "condition_B": "What would have happened if she had not liked cats?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_252",
+    "query_type": "causal",
+    "condition_A": "The woman would have become enthusiastic.",
+    "condition_B": "What would have happened if she had become interested in that idea?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_252",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have become enthusiastic.",
+    "condition_B": "What would have happened if she had become interested in that idea?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_253",
+    "query_type": "causal",
+    "condition_A": "The woman would have regained her strengths.",
+    "condition_B": "What would have happened if she had made a full recovery?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_253",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have regained her strengths.",
+    "condition_B": "What would have happened if she had made a full recovery?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_254",
+    "query_type": "causal",
+    "condition_A": "She would have become rich.",
+    "condition_B": "What would have happened if she had made a lot of money?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_254",
+    "query_type": "spurious",
+    "condition_A": "She would have become poor.",
+    "condition_B": "What would have happened if she had made a lot of money?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_255",
+    "query_type": "causal",
+    "condition_A": "A crisis would have developed.",
+    "condition_B": "What would have happened if she did?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_255",
+    "query_type": "spurious",
+    "condition_A": "A crisis would have been prevented.",
+    "condition_B": "What would have happened if she did?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_256",
+    "query_type": "causal",
+    "condition_A": "The woman would have helped her friends.",
+    "condition_B": "What would have happened if she had made arrangements for her friends?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_256",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have helped her friends.",
+    "condition_B": "What would have happened if she had made arrangements for her friends?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_257",
+    "query_type": "causal",
+    "condition_A": "The woman would have been happier.",
+    "condition_B": "What would have happened if she had made more friends?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_257",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have been happier.",
+    "condition_B": "What would have happened if she had made more friends?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_258",
+    "query_type": "causal",
+    "condition_A": "The woman would have had to have a conversation.",
+    "condition_B": "What would have happened if she had met some friends?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_258",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have had to have a conversation.",
+    "condition_B": "What would have happened if she had met some friends?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_259",
+    "query_type": "causal",
+    "condition_A": "She would have done something illegal.",
+    "condition_B": "What would have happened if she had missed the red light?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_259",
+    "query_type": "spurious",
+    "condition_A": "She would have done something legal.",
+    "condition_B": "What would have happened if she had missed the red light?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_260",
+    "query_type": "causal",
+    "condition_A": "The parents would have been forced to make room.",
+    "condition_B": "What would have happened if she had moved back in with her parents?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_260",
+    "query_type": "spurious",
+    "condition_A": "The parents would not have been forced to make room.",
+    "condition_B": "What would have happened if she had moved back in with her parents?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_261",
+    "query_type": "causal",
+    "condition_A": "The woman would have had a changed interior design.",
+    "condition_B": "What would have happened if she had moved the furniture?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_261",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have had a changed interior design.",
+    "condition_B": "What would have happened if she had moved the furniture?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_262",
+    "query_type": "causal",
+    "condition_A": "She would have gotten an idea about how much to pay.",
+    "condition_B": "What would have happened if she had known the amount of the bill?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_262",
+    "query_type": "spurious",
+    "condition_A": "She would not have gotten an idea about how much to pay.",
+    "condition_B": "What would have happened if she had known the amount of the bill?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_263",
+    "query_type": "causal",
+    "condition_A": "The woman would not have been able to accomplish her tasks as fast.",
+    "condition_B": "What would have happened if she had needed a new computer?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_263",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have been able to accomplish her tasks faster.",
+    "condition_B": "What would have happened if she had needed a new computer?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_264",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten exercise.",
+    "condition_B": "What would have happened if she had needed to lose some weight?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_264",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gotten exercise.",
+    "condition_B": "What would have happened if she had needed to lose some weight?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_265",
+    "query_type": "causal",
+    "condition_A": "The woman would have become less hungry.",
+    "condition_B": "What would have happened if she had ordered Chinese food?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_265",
+    "query_type": "spurious",
+    "condition_A": "The woman would have become very hungry.",
+    "condition_B": "What would have happened if she had ordered Chinese food?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  },
+  {
+    "id": "crass_266",
+    "query_type": "causal",
+    "condition_A": "The woman would have waved at him.",
+    "condition_B": "What would have happened if she had noticed a man?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_266",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have waved at him.",
+    "condition_B": "What would have happened if she had noticed a man?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_267",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten exercise.",
+    "condition_B": "What would have happened if she had run 5 miles?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_267",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gotten exercise.",
+    "condition_B": "What would have happened if she had run 5 miles?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_268",
+    "query_type": "causal",
+    "condition_A": "The girl would have gotten sweaty.",
+    "condition_B": "What would have happened if she had played basketball with her friends after school?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_268",
+    "query_type": "spurious",
+    "condition_A": "The girl would not have gotten sweaty.",
+    "condition_B": "What would have happened if she had played basketball with her friends after school?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_269",
+    "query_type": "causal",
+    "condition_A": "The woman would have made music.",
+    "condition_B": "What would have happened if she had played bass guitar?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_269",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have made music.",
+    "condition_B": "What would have happened if she had played bass guitar?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_270",
+    "query_type": "causal",
+    "condition_A": "The woman would have become more skilled.",
+    "condition_B": "What would have happened if she had practiced her moves?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_270",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have become more skilled.",
+    "condition_B": "What would have happened if she had practiced her moves?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_271",
+    "query_type": "causal",
+    "condition_A": "The woman would have put on make-up.",
+    "condition_B": "What would have happened if she had prepared it?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_271",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have put on make-up.",
+    "condition_B": "What would have happened if she had prepared it?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_272",
+    "query_type": "causal",
+    "condition_A": "The woman would have moved her right hand.",
+    "condition_B": "What would have happened if she had put pen to paper?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_272",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have moved her right hand.",
+    "condition_B": "What would have happened if she had put pen to paper?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_273",
+    "query_type": "causal",
+    "condition_A": "The woman would have gotten a new idea.",
+    "condition_B": "What would have happened if she had realized something?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_273",
+    "query_type": "spurious",
+    "condition_A": "The woman would not have gotten a new idea.",
+    "condition_B": "What would have happened if she had realized something?",
+    "ground_truth": "no",
+    "prediction": "no",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_274",
+    "query_type": "causal",
+    "condition_A": "The woman would not have to work anymore.",
+    "condition_B": "What would have happened if she had retired from work?",
+    "ground_truth": "yes",
+    "prediction": "yes",
+    "correct": true,
+    "memory": "none"
+  },
+  {
+    "id": "crass_274",
+    "query_type": "spurious",
+    "condition_A": "The woman would still have to work.",
+    "condition_B": "What would have happened if she had retired from work?",
+    "ground_truth": "no",
+    "prediction": "yes",
+    "correct": false,
+    "memory": "none"
+  }
+]

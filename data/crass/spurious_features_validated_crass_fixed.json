@@ -1,0 +1,4408 @@
+[
+  {
+    "id": "crass_1",
+    "premise": "A woman opens a treasure chest.",
+    "hypothesis": "What would have happened if the woman had not opened the treasure chest?",
+    "causal_feature": "The treasure chest would have remained closed.",
+    "spurious_features": [
+      {
+        "description": "The treasure chest would have been open.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_2",
+    "premise": "A police officer calms down a hostage-taker.",
+    "hypothesis": "What would have happened if the police officer had not calmed the hostage-taker?",
+    "causal_feature": "The hostages would have remained in danger.",
+    "spurious_features": [
+      {
+        "description": "The hostage-taker would have released the hostages anyway.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_3",
+    "premise": "A man talks about a lion.",
+    "hypothesis": "What would have happened if the man had talked to the lion?",
+    "causal_feature": "Without a barrier, the man would have been eaten.",
+    "spurious_features": [
+      {
+        "description": "Without a barrier, the lion would have been eaten.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_4",
+    "premise": "A girl kisses a boy.",
+    "hypothesis": "What would have happened if the girl had slapped the boy?",
+    "causal_feature": "The girl would have been angry.",
+    "spurious_features": [
+      {
+        "description": "The girl would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_5",
+    "premise": "A girl kisses a boy.",
+    "hypothesis": "What would have happened if the girl had killed the boy?",
+    "causal_feature": "She would have been liable to prosecution.",
+    "spurious_features": [
+      {
+        "description": "The boy would have been arrested for assault.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The boy would have kissed the girl.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_6",
+    "premise": "A woman sees a fire.",
+    "hypothesis": "What would have happened if the woman had touched the fire?",
+    "causal_feature": "She would have been burned.",
+    "spurious_features": [
+      {
+        "description": "She would not have been burned.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "She would have seen fire.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_7",
+    "premise": "A woman sees a fire.",
+    "hypothesis": "What would have happened if the woman had fed the fire?",
+    "causal_feature": "The fire would have become larger.",
+    "spurious_features": [
+      {
+        "description": "The fire would have been not hungry anymore.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The fire would have been on the woman's shoulder.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_8",
+    "premise": "A branch floats in a pond.",
+    "hypothesis": "What would have happened if a corpse had floated in the pond?",
+    "causal_feature": "The lake would have been a crime scene.",
+    "spurious_features": [
+      {
+        "description": "The corpse would have swum back to the barge.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The corpse would have been shot.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_9",
+    "premise": "A branch floats in a pond.",
+    "hypothesis": "What would have happened if a branch had sung in the pond?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "It would have been the usual branch singing.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "It would have been a great concert.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "It would have got stuck.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_10",
+    "premise": "A bird lands in a forest.",
+    "hypothesis": "What would have happened if a plane had landed in the forest?",
+    "causal_feature": "The plane would have crashed.",
+    "spurious_features": [
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The plane would have landed safe and sound.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "In a forest you will find lots of planes.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_11",
+    "premise": "A bird lands in a forest.",
+    "hypothesis": "What would have happened if a meteor had landed in the forest?",
+    "causal_feature": "A big one would have started a wildfire.",
+    "spurious_features": [
+      {
+        "description": "The bird would have liked the meteor.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_12",
+    "premise": "A woman drives on a highway.",
+    "hypothesis": "What would have happened if a child had driven on the highway?",
+    "causal_feature": "It would have been dangerous and illegal.",
+    "spurious_features": [
+      {
+        "description": "The child would have probably died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The woman would have been a licensed driver.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The child wouldn't be driving.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_13",
+    "premise": "A pebble falls from a skyscraper.",
+    "hypothesis": "What would have happened if a man had fallen from the skyscraper?",
+    "causal_feature": "The man would have died.",
+    "spurious_features": [
+      {
+        "description": "The whole city would be destroyed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The man would have landed joyfully.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Pebbles don't fall from skyscrapers.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_14",
+    "premise": "A pebble falls from a skyscraper.",
+    "hypothesis": "What would have happened if a laptop had fallen from a skyscraper?",
+    "causal_feature": "The laptop would have been crushed.",
+    "spurious_features": [
+      {
+        "description": "The pebble would have bounced off the concrete and fallen to the ground.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The laptop would have hit the pebble.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_15",
+    "premise": "A mother bears a child.",
+    "hypothesis": "What would have happened if the child had born a mother?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The child would have had a healthy baby.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The baby would've been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_16",
+    "premise": "A mother bears a child.",
+    "hypothesis": "What would have happened if the mother had born a stroller?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The child would have ridden in the perambulator.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The mother would have had a healthy perambulator.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_17",
+    "premise": "A man catches a ball.",
+    "hypothesis": "What would have happened if the man had caught a water balloon?",
+    "causal_feature": "He would have got wet.",
+    "spurious_features": [
+      {
+        "description": "He would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have remained dry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have caught the ball and not the balloon.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_18",
+    "premise": "A man catches a ball.",
+    "hypothesis": "What would have happened if the man had caught a refrigerator?",
+    "causal_feature": "He would have got hurt.",
+    "spurious_features": [
+      {
+        "description": "That man would have been a refrigerator.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have thrown it back.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_19",
+    "premise": "A mortician prepares a corpse.",
+    "hypothesis": "What would have happened if the mortician had prepared a dinner?",
+    "causal_feature": "He would have had a delicious dish.",
+    "spurious_features": [
+      {
+        "description": "Morticians cannot prepare dinners.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The dinner would have been buried.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The mortician would have killed the corpse.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_20",
+    "premise": "A family starts a trip.",
+    "hypothesis": "What would have happened if the family had ended the trip?",
+    "causal_feature": "The journey would have come to an end.",
+    "spurious_features": [
+      {
+        "description": "The journey would have begun.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The family would have used their car.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_21",
+    "premise": "A president rides a horse.",
+    "hypothesis": "What would have happened if the president had ridden a garden hose?",
+    "causal_feature": "It would have looked silly.",
+    "spurious_features": [
+      {
+        "description": "There are no garden horses.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "They would have been faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_22",
+    "premise": "A president rides a horse.",
+    "hypothesis": "What would have happened if the president had ridden a motorcycle?",
+    "causal_feature": "She or he would have been faster.",
+    "spurious_features": [
+      {
+        "description": "The horse would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "She or he would have enjoyed riding the horse.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_23",
+    "premise": "A man mounts a horse.",
+    "hypothesis": "What would have happened if the horse had mounted the man?",
+    "causal_feature": "That would have been an exceptionally painful experience for the man.",
+    "spurious_features": [
+      {
+        "description": "The horse would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_24",
+    "premise": "A plant grows in a planter.",
+    "hypothesis": "What would have happened if the planter grows in the plant?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "It would have grown quicker.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The plant would have suffered.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The planter would have cultivated the plant.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_25",
+    "premise": "A woman swallows potassium cyanide.",
+    "hypothesis": "What would have happened if the woman had distributed potassium cyanide?",
+    "causal_feature": "She would have survived.",
+    "spurious_features": [
+      {
+        "description": "She would have been vomiting.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "She would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_26",
+    "premise": "A woman swallows potassium cyanide.",
+    "hypothesis": "What would have happened if the woman had watched potassium cyanide?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "She would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_27",
+    "premise": "A student counts numbers.",
+    "hypothesis": "What would have happened if the student had drunk numbers?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The student would have had a stomachache.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "It would have been tasty.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The student would have improved his or her counting skills.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_28",
+    "premise": "A prince rescues a princess.",
+    "hypothesis": "What would have happened if the prince had beaten the princess?",
+    "causal_feature": "That would have been a case of domestic abuse.",
+    "spurious_features": [
+      {
+        "description": "The princess would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The king would have had a bad time at the coronation.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "That would have been a great fight.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_29",
+    "premise": "An oil tanker sails across an ocean.",
+    "hypothesis": "What would have happened if the oil tanker had broken up in an ocean?",
+    "causal_feature": "There would have been environmental pollution.",
+    "spurious_features": [
+      {
+        "description": "The oil tanker would have continued to carry oil.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The oil tanker would have been saved.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_30",
+    "premise": "A bus unloads a family.",
+    "hypothesis": "What would have happened if the bus had run over the family?",
+    "causal_feature": "The family would have been hurt.",
+    "spurious_features": [
+      {
+        "description": "The bus would have successfully unloaded the family.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The bus would have been faster than the family.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Buses do not unload families.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_31",
+    "premise": "A man reports a crime.",
+    "hypothesis": "What would have happened if the man had committed the crime?",
+    "causal_feature": "The police would try to catch him.",
+    "spurious_features": [
+      {
+        "description": "That would have been highly unlikely.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have been innocent.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_32",
+    "premise": "A man reports a crime.",
+    "hypothesis": "What would have happened if the man had cleared up the crime?",
+    "causal_feature": "He would have been a detective.",
+    "spurious_features": [
+      {
+        "description": "He would have been the owner of the crime scene.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The room would have been clean by now.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_33",
+    "premise": "A woman dates a man.",
+    "hypothesis": "What would have happened if the woman had cheated on the man?",
+    "causal_feature": "Their relationship would be put in jeopardy.",
+    "spurious_features": [
+      {
+        "description": "The man would be embarrassed having been caught cheating.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The man would have been very happy and marry her.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_34",
+    "premise": "A dog expects a child.",
+    "hypothesis": "What would have happened if the dog had bitten the child?",
+    "causal_feature": "The dog would have been punished.",
+    "spurious_features": [
+      {
+        "description": "The child would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The dog would have been praised.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_35",
+    "premise": "A politician accepts an invitation.",
+    "hypothesis": "What would have happened if the politician had accepted a bribe?",
+    "causal_feature": "In case someone finds out they would get in trouble and lose their office.",
+    "spurious_features": [
+      {
+        "description": "Politicians accept invitations all the time.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "They would have been congratulated.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Politicians should accept invitations and bribes.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_36",
+    "premise": "A slaughterer slays a pig.",
+    "hypothesis": "What would have happened if the slaughterer had slain a child?",
+    "causal_feature": "He or she would have been punished.",
+    "spurious_features": [
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The pig would have slaughtered the child.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The child would have eaten the pig.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_37",
+    "premise": "An avalanche rolls down a hill.",
+    "hypothesis": "What would have happened if the avalanche had rolled up the hill?",
+    "causal_feature": "Avalanches don't roll uphill.",
+    "spurious_features": [
+      {
+        "description": "It would have caused an earthquake.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "It would have rolled quickly.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_38",
+    "premise": "A thief hides from the police.",
+    "hypothesis": "What would have happened if the thief had called the police?",
+    "causal_feature": "I'm not sure: thieves usually don't call the police.",
+    "spurious_features": [
+      {
+        "description": "The police would have to clear a mission to find him or her.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The police would not have arrested the thief.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_39",
+    "premise": "A boy strikes a match.",
+    "hypothesis": "What would have happened if the boy had ditched the match?",
+    "causal_feature": "The lighting of the match would not have occurred.",
+    "spurious_features": [
+      {
+        "description": "He would have been disqualified.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The game would have ended tied.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "I don't know.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_40",
+    "premise": "A car crashes into a tree.",
+    "hypothesis": "What would have happened if the car had parked beneath the tree?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "The car would have been hit by the tree.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "I think it would have crashed into the tree.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_41",
+    "premise": "A stone hits a window.",
+    "hypothesis": "What would have happened if the stone had flown by the window?",
+    "causal_feature": "The window would have stayed intact.",
+    "spurious_features": [
+      {
+        "description": "The window would have been shattered.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "I would have been hit by a stone.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_42",
+    "premise": "A stone hits a window.",
+    "hypothesis": "What would have happened if the stone had talked to the window?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "It would have been an engaging and entertaining stone window conversation.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "I think it would have spoken to me! I love talking to windows! It's my favorite thing to do!",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_43",
+    "premise": "A student understands an idea.",
+    "hypothesis": "What would have happened if the student had not understood the idea?",
+    "causal_feature": "The student would need additional studying.",
+    "spurious_features": [
+      {
+        "description": "The student would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The student would have increased the probability of performing better on the next test.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_44",
+    "premise": "A country loses a war.",
+    "hypothesis": "What would have happened if the country had won the war?",
+    "causal_feature": "Most people of the winning country would have been happy.",
+    "spurious_features": [
+      {
+        "description": "Most people of the winning country would have been sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The war would have continued.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_45",
+    "premise": "A woman arms a bomb.",
+    "hypothesis": "What would have happened if the woman had defused the bomb?",
+    "causal_feature": "An explosion would have been prevented.",
+    "spurious_features": [
+      {
+        "description": "An explosion would have occurred.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Most people would have been sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_46",
+    "premise": "A girl reveals a thing.",
+    "hypothesis": "What would have happened if the girl had concealed the thing?",
+    "causal_feature": "The thing would not have been visible.",
+    "spurious_features": [
+      {
+        "description": "The thing would have been revealed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_47",
+    "premise": "A father meets a friend.",
+    "hypothesis": "What would have happened if he had lost the friend?",
+    "causal_feature": "He would be sad.",
+    "spurious_features": [
+      {
+        "description": "He would be happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "They would drink beers.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "They would laugh together.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_48",
+    "premise": "A man loves his job.",
+    "hypothesis": "What would have happened if he had lost his job.",
+    "causal_feature": "He would have been very upset.",
+    "spurious_features": [
+      {
+        "description": "He would get a pay raise.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have continued working in his job.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would be happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_49",
+    "premise": "A team wins a game.",
+    "hypothesis": "What would have happened if the team had lost the game?",
+    "causal_feature": "The team would have been sad.",
+    "spurious_features": [
+      {
+        "description": "The team would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_50",
+    "premise": "A train crashes into a mountain.",
+    "hypothesis": "What would have happened if the train had crashed into a feather?",
+    "causal_feature": "The train would have been fine.",
+    "spurious_features": [
+      {
+        "description": "The train would have had a headache.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The train would have been destroyed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_51",
+    "premise": "A man swims in an ocean.",
+    "hypothesis": "What would have happened if the man had drowned in the ocean?",
+    "causal_feature": "The man would have died.",
+    "spurious_features": [
+      {
+        "description": "The man would have had a good time.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_52",
+    "premise": "A child draws a picture.",
+    "hypothesis": "What would have happened if the child had erased the picture?",
+    "causal_feature": "The picture would not have been visible.",
+    "spurious_features": [
+      {
+        "description": "The picture would have been visible.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_53",
+    "premise": "A boy strikes a match.",
+    "hypothesis": "What would have happened if the boy had broken the match?",
+    "causal_feature": "The match would have been rendered useless.",
+    "spurious_features": [
+      {
+        "description": "He would have been disqualified.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The same thing would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_54",
+    "premise": "A boy strikes a match.",
+    "hypothesis": "What would have happened if the boy had swallowed the match?",
+    "causal_feature": "He would be injured or have a stomachache.",
+    "spurious_features": [
+      {
+        "description": "He would have struck the match anyway.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_55",
+    "premise": "A boy strikes a match.",
+    "hypothesis": "What would have happened if the boy had watered the match?",
+    "causal_feature": "The match would be useless.",
+    "spurious_features": [
+      {
+        "description": "The match would be dry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_56",
+    "premise": "A bird flies over a bridge.",
+    "hypothesis": "What would have happened if the bird had hit the bridge?",
+    "causal_feature": "The bird would have been injured.",
+    "spurious_features": [
+      {
+        "description": "The bird would have caused damage to the bridge.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_57",
+    "premise": "A craftsman builds a house.",
+    "hypothesis": "What would have happened if the house had built a craftsman?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The house would have been built faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The craftsman would have hands.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_58",
+    "premise": "A mother wraps a sandwich.",
+    "hypothesis": "What would have happened if the mother had eaten the sandwich?",
+    "causal_feature": "She would have been less hungry.",
+    "spurious_features": [
+      {
+        "description": "She would have put the sandwich in her bag.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The sandwich would have been eaten by someone else.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_59",
+    "premise": "A dog barks at a tree.",
+    "hypothesis": "What would have happened if the dog had run into the tree?",
+    "causal_feature": "The dog would have been hurt.",
+    "spurious_features": [
+      {
+        "description": "The dog would not have been hurt.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The tree would have been cut down.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_60",
+    "premise": "A man greets a friend.",
+    "hypothesis": "What would have happened if the man had killed the friend?",
+    "causal_feature": "The friend would have been dead.",
+    "spurious_features": [
+      {
+        "description": "The friend would have been alive.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The man would have talked to his friend.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_61",
+    "premise": "A dog is chewing its bone.",
+    "hypothesis": "What would have happened if the dog had buried the bone?",
+    "causal_feature": "Nothing would have happened.",
+    "spurious_features": [
+      {
+        "description": "The dog would have eaten the bone.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_62",
+    "premise": "The bartender served the drinks.",
+    "hypothesis": "What would have happened if the bartender had drunk the drinks?",
+    "causal_feature": "The guest would not have gotten their drinks.",
+    "spurious_features": [
+      {
+        "description": "The guest would have gotten their drinks.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_63",
+    "premise": "A car speeds down a road.",
+    "hypothesis": "What would have happened if the car had slowed down on the road?",
+    "causal_feature": "Nothing would have happened.",
+    "spurious_features": [
+      {
+        "description": "The car would have been faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_64",
+    "premise": "The food was frying on the stove.",
+    "hypothesis": "What would have happened if the food had been burnt?",
+    "causal_feature": "The food would have been rendered useless.",
+    "spurious_features": [
+      {
+        "description": "The food would have been edible.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_65",
+    "premise": "A man was sleeping with his mouth wide open.",
+    "hypothesis": "What would have happened if a spider had come down above his mouth?",
+    "causal_feature": "The man would have bitten the spider.",
+    "spurious_features": [
+      {
+        "description": "The spider would have bitten the man.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_66",
+    "premise": "A man wins a competition.",
+    "hypothesis": "What would have happened if he had not competed?",
+    "causal_feature": "He could not have won.",
+    "spurious_features": [
+      {
+        "description": "He could have won.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_67",
+    "premise": "A swimmer competes in the Olympics.",
+    "hypothesis": "What would have happened if she had been afraid of water?",
+    "causal_feature": "She would not have participated.",
+    "spurious_features": [
+      {
+        "description": "She would have participated.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_68",
+    "premise": "A dog barked all night, keeping up the neighbors.",
+    "hypothesis": "What would have happened if the dog had not barked?",
+    "causal_feature": "The neighbors would have slept well.",
+    "spurious_features": [
+      {
+        "description": "The neighbors would have slept badly.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_69",
+    "premise": "A goat walks up a mountain.",
+    "hypothesis": "What would have happened if the goat had fallen down the mountain?",
+    "causal_feature": "It would have gotten injured.",
+    "spurious_features": [
+      {
+        "description": "It would have been well.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_70",
+    "premise": "Some laundry is left on the clothesline in the rain.",
+    "hypothesis": "What would have happened if the laundry had been brought inside from the clothesline before the rain?",
+    "causal_feature": "The laundry could not get wet.",
+    "spurious_features": [
+      {
+        "description": "The laundry could get wet.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_71",
+    "premise": "A girl returns her library book late.",
+    "hypothesis": "What would have happened if the girl had returned her library book on time?",
+    "causal_feature": "She would not have to pay a fee.",
+    "spurious_features": [
+      {
+        "description": "She would get a free present.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "She would have to pay a fee.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_72",
+    "premise": "A cat walks through a puddle.",
+    "hypothesis": "What would have happened if the cat had jumped over the puddle?",
+    "causal_feature": "The cat would not have gotten wet.",
+    "spurious_features": [
+      {
+        "description": "The cat would have gotten wet.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_73",
+    "premise": "A woman picks up a cup.",
+    "hypothesis": "What would have happened if the woman had dropped the cup?",
+    "causal_feature": "The cup would have been broken.",
+    "spurious_features": [
+      {
+        "description": "The cup would not have been broken.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_74",
+    "premise": "A man goes for a bike ride.",
+    "hypothesis": "What would have happened if the man had sold his bike?",
+    "causal_feature": "He could not go for a ride.",
+    "spurious_features": [
+      {
+        "description": "He could go for a ride.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_75",
+    "premise": "A woman cooks waffles for her breakfast.",
+    "hypothesis": "What would have happened if the woman had burned the waffles?",
+    "causal_feature": "She would get sad.",
+    "spurious_features": [
+      {
+        "description": "She would get happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_76",
+    "premise": "A child plays with her doll.",
+    "hypothesis": "What would have happened if the child had broken her doll?",
+    "causal_feature": "It would get sad.",
+    "spurious_features": [
+      {
+        "description": "It would get happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_77",
+    "premise": "A dog chases a ball.",
+    "hypothesis": "What would have happened if the dog had eaten the ball?",
+    "causal_feature": "It would get stomach pain.",
+    "spurious_features": [
+      {
+        "description": "It would get no pain.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_78",
+    "premise": "A company lays off all its employees.",
+    "hypothesis": "What would have happened if the company had given raises to all its employees?",
+    "causal_feature": "All would get joy.",
+    "spurious_features": [
+      {
+        "description": "All would get sadness.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_79",
+    "premise": "A child eats an apple.",
+    "hypothesis": "What would have happened if the child had eaten candy?",
+    "causal_feature": "It would get joy.",
+    "spurious_features": [
+      {
+        "description": "It would get sorrow.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_80",
+    "premise": "A doctor washes their hands at work.",
+    "hypothesis": "What would have happened if the doctor hadn't washed their hands?",
+    "causal_feature": "The patients could get an infection.",
+    "spurious_features": [
+      {
+        "description": "The patients could get better.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_81",
+    "premise": "A music fan bought tickets for a concert.",
+    "hypothesis": "What would have happened if the music fan had bought tickets for a soccer match?",
+    "causal_feature": "The music fan would get sad.",
+    "spurious_features": [
+      {
+        "description": "The music fan would get happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_82",
+    "premise": "A man was hit by a car.",
+    "hypothesis": "What would have happened if the man had looked both ways before crossing?",
+    "causal_feature": "The man would have remained unharmed.",
+    "spurious_features": [
+      {
+        "description": "The man would have been injured.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_83",
+    "premise": "A man went to go get his car fixed.",
+    "hypothesis": "What would have happened if the man hadn't got the car fixed?",
+    "causal_feature": "The car would be unusable.",
+    "spurious_features": [
+      {
+        "description": "The care would be usable.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_84",
+    "premise": "A child chokes on a hotdog.",
+    "hypothesis": "What would have happened if the child had eaten the hotdog?",
+    "causal_feature": "The child would have had an uninterrupted meal.",
+    "spurious_features": [
+      {
+        "description": "The child would have had a harmful experience.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_85",
+    "premise": "A soldier goes to war.",
+    "hypothesis": "What would have happened if the soldier had deserted from war?",
+    "causal_feature": "He would not have to fight in war.",
+    "spurious_features": [
+      {
+        "description": "He would have to fight in war.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_86",
+    "premise": "A man divorces his wife.",
+    "hypothesis": "What would have happened if the man had invested more in appreciating his wife?",
+    "causal_feature": "The marriage would continue.",
+    "spurious_features": [
+      {
+        "description": "The marriage would be dissolved.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_87",
+    "premise": "A girl mopped her floor.",
+    "hypothesis": "What would have happened if the girl had poured mud on her floor?",
+    "causal_feature": "The floor would be dirty.",
+    "spurious_features": [
+      {
+        "description": "The floor would be clean.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_88",
+    "premise": "A boy lits a cigarette with a lighter.",
+    "hypothesis": "What would have happened if the boy had thrown the lighter in the trash before lighting his cigarette?",
+    "causal_feature": "He could not have lit the cigarette.",
+    "spurious_features": [
+      {
+        "description": "He could have lit the cigarette.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_89",
+    "premise": "A horse jumped over a log.",
+    "hypothesis": "What would have happened if the horse had run into the log?",
+    "causal_feature": "It would have hurt itself.",
+    "spurious_features": [
+      {
+        "description": "It would have hurt someone else.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_90",
+    "premise": "An electrician cuts an inert wire.",
+    "hypothesis": "What would have happened if the electrician had cut a live wire?",
+    "causal_feature": "The electrician would get shocked.",
+    "spurious_features": [
+      {
+        "description": "The electrician would not get shocked.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_91",
+    "premise": "A man drives a car.",
+    "hypothesis": "What would have happened if a toddler had driven the car?",
+    "causal_feature": "It would get injured.",
+    "spurious_features": [
+      {
+        "description": "It would not get injured.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_92",
+    "premise": "A lightning bolt strikes a tree.",
+    "hypothesis": "What would have happened if a gust of wind had struck the tree?",
+    "causal_feature": "Nothing would have happened.",
+    "spurious_features": [
+      {
+        "description": "The tree would have broken down.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_93",
+    "premise": "The governor pardons a criminal.",
+    "hypothesis": "What would have happened if the criminal's cellmate had pardoned the criminal?",
+    "causal_feature": "The criminal would not have been released.",
+    "spurious_features": [
+      {
+        "description": "The criminal would have been released.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_94",
+    "premise": "A woman married her husband.",
+    "hypothesis": "What would have happened if the woman had said no when the man proposed?",
+    "causal_feature": "They would not have gotten married.",
+    "spurious_features": [
+      {
+        "description": "They would have gotten married.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_95",
+    "premise": "A mother burned dinner.",
+    "hypothesis": "What would have happened if a timer had been set for dinner?",
+    "causal_feature": "The dinner would not get burnt.",
+    "spurious_features": [
+      {
+        "description": "The dinner would get burnt.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_96",
+    "premise": "A dog chases a squirrel.",
+    "hypothesis": "What would have happened if the dog had eaten the squirrel?",
+    "causal_feature": "The squirrel would have died.",
+    "spurious_features": [
+      {
+        "description": "The squirrel would have lived.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_97",
+    "premise": "A woman plucks her eyebrows.",
+    "hypothesis": "What would have happened if the woman had plucked her teeth?",
+    "causal_feature": "She would have had severe pain.",
+    "spurious_features": [
+      {
+        "description": "She would not have had severe pain.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_98",
+    "premise": "A man hugs a tree.",
+    "hypothesis": "What would have happened if the man had punched the tree?",
+    "causal_feature": "He would have felt pain.",
+    "spurious_features": [
+      {
+        "description": "He would get relief.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_99",
+    "premise": "A boy picks a flower.",
+    "hypothesis": "What would have happened if the boy had sniffed the flower?",
+    "causal_feature": "The flower would have remained at its place.",
+    "spurious_features": [
+      {
+        "description": "The flower would have fallen.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_100",
+    "premise": "A person crushes an empty can.",
+    "hypothesis": "What would have happened if a person had crushed an unopened can?",
+    "causal_feature": "It would spill.",
+    "spurious_features": [
+      {
+        "description": "It would not spill.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_101",
+    "premise": "A cat catches a mouse.",
+    "hypothesis": "What would have happened if the mouse had caught the cat?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The mouse would have eaten the car.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The mouse would not have eaten the car.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_102",
+    "premise": "A bear eats a fish.",
+    "hypothesis": "What would have happened if the fish had eaten a bear?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The fish would have eaten the bear.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The fish would not have eaten the bear.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_103",
+    "premise": "The umbrella stops the rain.",
+    "hypothesis": "What would have happened if the umbrella had been used when there wasn't rain?",
+    "causal_feature": "Nothing would have happened.",
+    "spurious_features": [
+      {
+        "description": "The umbrella would have stopped the rain.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The umbrella would not have stopped the rain.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_104",
+    "premise": "A dog jumps out of a bush.",
+    "hypothesis": "What would have happened if the dog had jumped out of a fast-moving car?",
+    "causal_feature": "The dog would have been injured.",
+    "spurious_features": [
+      {
+        "description": "The dog would have been safe.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_105",
+    "premise": "A man went scuba diving.",
+    "hypothesis": "What would have happened if the man had stayed on land?",
+    "causal_feature": "The man would not have gotten wet.",
+    "spurious_features": [
+      {
+        "description": "The man would have gotten wet.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_106",
+    "premise": "You accepted an MTurk HIT.",
+    "hypothesis": "What would have happened if you had rejected the MTurk HIT?",
+    "causal_feature": "The turker would have been disappointed.",
+    "spurious_features": [
+      {
+        "description": "The turker would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_107",
+    "premise": "A newborn was crying.",
+    "hypothesis": "What would have happened if the newborns' mother had soothed the baby?",
+    "causal_feature": "It would not have cried.",
+    "spurious_features": [
+      {
+        "description": "It would have cried.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_108",
+    "premise": "A boy breaks his leg.",
+    "hypothesis": "What would have happened if the boy had broken his finger?",
+    "causal_feature": "The boy would be able to walk.",
+    "spurious_features": [
+      {
+        "description": "The boy would not be able to walk.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_109",
+    "premise": "A woman shovels snow from her driveway.",
+    "hypothesis": "What would have happened if she had shoved the snow from the road, too?",
+    "causal_feature": "The neighbors would have thanked her.",
+    "spurious_features": [
+      {
+        "description": "The neighbors would have been angry at her.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_110",
+    "premise": "A football player takes her position to play.",
+    "hypothesis": "What would have happened if the player had not gotten into her position?",
+    "causal_feature": "The team would not have played well.",
+    "spurious_features": [
+      {
+        "description": "The team would have played well.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_111",
+    "premise": "A child runs out of a burning house.",
+    "hypothesis": "What would have happened if the child had remained in the house?",
+    "causal_feature": "The child would have died.",
+    "spurious_features": [
+      {
+        "description": "The child would have survived.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_112",
+    "premise": "A woman gets pregnant.",
+    "hypothesis": "What would have happened if the woman had not gotten pregnant?",
+    "causal_feature": "She would not have had children.",
+    "spurious_features": [
+      {
+        "description": "She would have had children.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_113",
+    "premise": "A man paints a fence.",
+    "hypothesis": "What would have happened if the man had not painted the fence?",
+    "causal_feature": "The fence would have stayed the way it was.",
+    "spurious_features": [
+      {
+        "description": "The fence would have had a new color.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_114",
+    "premise": "A child runs out of a burning house.",
+    "hypothesis": "What would have happened if the child had remained in the house?",
+    "causal_feature": "The child would have died.",
+    "spurious_features": [
+      {
+        "description": "The child would have survived.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_115",
+    "premise": "A boy is born.",
+    "hypothesis": "What would have happened if the boy had not been born?",
+    "causal_feature": "The boy would not have existed.",
+    "spurious_features": [
+      {
+        "description": "The boy would have existed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_116",
+    "premise": "A child reads a book.",
+    "hypothesis": "What would have happened if the child had not read the book?",
+    "causal_feature": "The child would have been ignorant.",
+    "spurious_features": [
+      {
+        "description": "The child would have been informed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_117",
+    "premise": "A man cries.",
+    "hypothesis": "What would have happened if the man had laughed?",
+    "causal_feature": "The man would have been happy.",
+    "spurious_features": [
+      {
+        "description": "The man would have been sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_118",
+    "premise": "A man wakes up.",
+    "hypothesis": "What would have happened if the man had not woken up?",
+    "causal_feature": "The man would need additional sleeping.",
+    "spurious_features": [
+      {
+        "description": "The man would have gotten out of bed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_119",
+    "premise": "A man sees a dog.",
+    "hypothesis": "What would have happened if the dog had seen the man?",
+    "causal_feature": "The dog would have barked.",
+    "spurious_features": [
+      {
+        "description": "The dog would not have barked.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_120",
+    "premise": "A woman kicks a ball.",
+    "hypothesis": "What would have happened if the woman had kicked a man?",
+    "causal_feature": "The man would have been hurt.",
+    "spurious_features": [
+      {
+        "description": "The ball would have been hurt.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_121",
+    "premise": "A man opens a door.",
+    "hypothesis": "What would have happened if a man opens a moon?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The moon would have been opened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The door would have been opened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_122",
+    "premise": "A farmer plants a field.",
+    "hypothesis": "What would have happened if the farmer had not planted the field?",
+    "causal_feature": "The field would remain empty.",
+    "spurious_features": [
+      {
+        "description": "The crop would have grown.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_123",
+    "premise": "A skier runs down a hill.",
+    "hypothesis": "What would have happened if the skier had not worn skis?",
+    "causal_feature": "The skier would have fallen.",
+    "spurious_features": [
+      {
+        "description": "The skier would have been faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_124",
+    "premise": "A man drives a car.",
+    "hypothesis": "What would have happened if the man had not worn a seatbelt?",
+    "causal_feature": "The man would have been in danger.",
+    "spurious_features": [
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_125",
+    "premise": "A cat catches a mouse.",
+    "hypothesis": "What would have happened if the cat had not caught the mouse?",
+    "causal_feature": "The mouse would have lived.",
+    "spurious_features": [
+      {
+        "description": "The mouse would have been dead.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_126",
+    "premise": "A man writes a letter.",
+    "hypothesis": "What would have happened if the man had not sent the letter?",
+    "causal_feature": "The letter would not have reached its recipient.",
+    "spurious_features": [
+      {
+        "description": "The letter would not have been written.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_127",
+    "premise": "A woman promises to meet a friend.",
+    "hypothesis": "What would have happened if the woman would not have met her friend?",
+    "causal_feature": "Her friend would be disappointed.",
+    "spurious_features": [
+      {
+        "description": "Her friend would be happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_128",
+    "premise": "A student does not study for an exam.",
+    "hypothesis": "What would have happened if the student would have studied for the exam?",
+    "causal_feature": "He would have passed the class.",
+    "spurious_features": [
+      {
+        "description": "He would have failed the class.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_129",
+    "premise": "A man reads a book.",
+    "hypothesis": "What would have happened if the man had not read the book?",
+    "causal_feature": "The man would have been less informed.",
+    "spurious_features": [
+      {
+        "description": "The man would not have been ignorant.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_130",
+    "premise": "A man sleeps.",
+    "hypothesis": "What would have happened if the man had not slept?",
+    "causal_feature": "He would have been tired.",
+    "spurious_features": [
+      {
+        "description": "He would have been fresh.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_131",
+    "premise": "A newspaper boy throws a newspaper.",
+    "hypothesis": "What would have happened if the newspaper boy had thrown a pie instead?",
+    "causal_feature": "The subscriber would have been angry.",
+    "spurious_features": [
+      {
+        "description": "The subscriber would have been cheerful.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_132",
+    "premise": "A car speeds down a highway.",
+    "hypothesis": "What would have happened if the car had crawled down the highway?",
+    "causal_feature": "It would have hindered traffic.",
+    "spurious_features": [
+      {
+        "description": "It would have been good for traffic.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_133",
+    "premise": "A woman drives a car.",
+    "hypothesis": "What would have happened if the woman had flown the car?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The woman would have landed the car.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_134",
+    "premise": "A boy swims in the ocean.",
+    "hypothesis": "What would have happened if the boy had run on the ocean?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The boy would have been faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_135",
+    "premise": "A man drinks a glass of wine.",
+    "hypothesis": "What would have happened if the man had drunk a glass of milk?",
+    "causal_feature": "He would not have gotten drunk.",
+    "spurious_features": [
+      {
+        "description": "He would have gotten awake.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_136",
+    "premise": "A woman wears a small hat.",
+    "hypothesis": "What would have happened if the woman had worn a large hat?",
+    "causal_feature": "She would have stood out.",
+    "spurious_features": [
+      {
+        "description": "She would have had no hat.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_137",
+    "premise": "A skydiver jumps from a plane.",
+    "hypothesis": "What would have happened if the skydiver had jumped from a car?",
+    "causal_feature": "She would have hurt herself.",
+    "spurious_features": [
+      {
+        "description": "She would have been unharmed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_138",
+    "premise": "A dog sees a bone.",
+    "hypothesis": "What would have happened if a cat had seen the bone?",
+    "causal_feature": "The cat would not be interested.",
+    "spurious_features": [
+      {
+        "description": "The cat would have eaten the bone.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_139",
+    "premise": "A man buys a book.",
+    "hypothesis": "What would have happened if the man had sold the book?",
+    "causal_feature": "He would have earned money.",
+    "spurious_features": [
+      {
+        "description": "He would have lost money.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_140",
+    "premise": "A baseball player catches a ball.",
+    "hypothesis": "What would have happened if the player had dropped the ball?",
+    "causal_feature": "The player would have made a mistake.",
+    "spurious_features": [
+      {
+        "description": "The player would have scored a point.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_141",
+    "premise": "A man makes a bed.",
+    "hypothesis": "What would have happened if the man had not made the bed?",
+    "causal_feature": "The bed would have remained untidy.",
+    "spurious_features": [
+      {
+        "description": "The bed would have looked nice.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_142",
+    "premise": "A fire extinguisher puts out a fire.",
+    "hypothesis": "What would have happened if the fire extinguisher had not put out the fire?",
+    "causal_feature": "The fire would have grown.",
+    "spurious_features": [
+      {
+        "description": "The fire would have died down.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_143",
+    "premise": "An airplane flies over a car.",
+    "hypothesis": "What would have happened if the airplane had crashed into the car?",
+    "causal_feature": "The car would have been damaged.",
+    "spurious_features": [
+      {
+        "description": "The car would have remained intact.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_144",
+    "premise": "A truck hits a tree.",
+    "hypothesis": "What would have happened if the truck had missed the tree?",
+    "causal_feature": "The truck would not have been damaged.",
+    "spurious_features": [
+      {
+        "description": "The truck would have been damaged.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_145",
+    "premise": "A mother cooks a meal.",
+    "hypothesis": "What would have happened if the mother had not cooked the meal?",
+    "causal_feature": "The family would have been hungry.",
+    "spurious_features": [
+      {
+        "description": "The family would have been well fed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_146",
+    "premise": "A man buys a house.",
+    "hypothesis": "What would have happened if he had bought an apartment?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "He would have renovated the house.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_147",
+    "premise": "A man is in a room.",
+    "hypothesis": "What would have happened if the man had not been in the room?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "The man would have remained in the room.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_148",
+    "premise": "A dog is in a house.",
+    "hypothesis": "What would have happened if the dog had not been in the house?",
+    "causal_feature": "The dog would have been outside the house.",
+    "spurious_features": [
+      {
+        "description": "The dog would have been inside the house.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_149",
+    "premise": "A train is in a station.",
+    "hypothesis": "What would have happened if the train had not been in the station?",
+    "causal_feature": "The train would have been on its way.",
+    "spurious_features": [
+      {
+        "description": "The train would have been at the platform.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_150",
+    "premise": "A student is in a school.",
+    "hypothesis": "What would have happened if the student had not been in the school?",
+    "causal_feature": "The student would have received a reprimand.",
+    "spurious_features": [
+      {
+        "description": "The student would have received praise.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_151",
+    "premise": "A team loses a game.",
+    "hypothesis": "What would have happened if the team had won the game?",
+    "causal_feature": "The team would have been happier.",
+    "spurious_features": [
+      {
+        "description": "The team would have been sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_152",
+    "premise": "A student receives a grade of A. ",
+    "hypothesis": "What would have happened if the student had received a grade of D? ",
+    "causal_feature": "The student would be less happy.",
+    "spurious_features": [
+      {
+        "description": "The student would be less sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_153",
+    "premise": "A man paints a picture.",
+    "hypothesis": "What would have happened if a dog had painted the picture?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The man would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The man would have been sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_154",
+    "premise": "A man buys a hat.",
+    "hypothesis": "What would have happened if the man had sold the hat?",
+    "causal_feature": "He would have gained money.",
+    "spurious_features": [
+      {
+        "description": "He would have lost money.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_155",
+    "premise": "A man eats a sandwich.",
+    "hypothesis": "What would have happened if the man had eaten a car?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "He would have been less hungry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have been more hungry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_156",
+    "premise": "A man walks on a street.",
+    "hypothesis": "What would have happened if a man had walked on a bed?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "He would have arrived on time.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have been late.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_157",
+    "premise": "A man watches a video.",
+    "hypothesis": "What would have happened if a video had watched a man?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The video would have been happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_158",
+    "premise": "A woman loses the keys of a man.",
+    "hypothesis": "What would have happened if the woman had found the keys?",
+    "causal_feature": "The woman gets thanked by the man.",
+    "spurious_features": [
+      {
+        "description": "The woman does not get thanked by the man.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_159",
+    "premise": "A woman finds the keys of a man.",
+    "hypothesis": "What would have happened if the woman had lost the keys?",
+    "causal_feature": "The man would have been angry with the woman.",
+    "spurious_features": [
+      {
+        "description": "The man would not have been angry with the woman.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_160",
+    "premise": "A woman loses the phone of a man.",
+    "hypothesis": "What would have happened if the woman had found the phone?",
+    "causal_feature": "The man would be happy.",
+    "spurious_features": [
+      {
+        "description": "The man would be sad.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_161",
+    "premise": "A woman finds the phone of a man.",
+    "hypothesis": "What would have happened if the woman had lost the phone?",
+    "causal_feature": "The man would have become enraged at the woman.",
+    "spurious_features": [
+      {
+        "description": "The man would have thanked the woman.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_162",
+    "premise": "A person loves a product.",
+    "hypothesis": "What would have happened if the person had hated the product?",
+    "causal_feature": "The person would not have bought the product.",
+    "spurious_features": [
+      {
+        "description": "The person would have bought the product.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_163",
+    "premise": "A person hates a product.",
+    "hypothesis": "What would have happened if the person had loved the product?",
+    "causal_feature": "The person would have purchased the product.",
+    "spurious_features": [
+      {
+        "description": "The person would not have bought the product.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Nothing special would have happened.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_164",
+    "premise": "A woman is accepted into college.",
+    "hypothesis": "What would have happened if the woman had gotten rejected from college?",
+    "causal_feature": "The woman would be sad.",
+    "spurious_features": [
+      {
+        "description": "The woman would be happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_165",
+    "premise": "A girl works on her homework.",
+    "hypothesis": "What would have happened if the girl had completed her homework?",
+    "causal_feature": "The girl would have sighed of relief.",
+    "spurious_features": [
+      {
+        "description": "The girl would have continued to work.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_166",
+    "premise": "A fish swims into a waterfall.",
+    "hypothesis": "What would have happened if a human had swum into the waterfall?",
+    "causal_feature": "The human would be in danger.",
+    "spurious_features": [
+      {
+        "description": "The human would not be in danger.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_167",
+    "premise": "A professional dancer performs on a stage.",
+    "hypothesis": "What would have happened if a layperson had performed on the stage?",
+    "causal_feature": "It would have looked clumsy.",
+    "spurious_features": [
+      {
+        "description": "It would have looked skilled.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_168",
+    "premise": "A man destroys a historical artifact.",
+    "hypothesis": "What would have happened if the man had studied the artifact.",
+    "causal_feature": "Knowledge of the artifact would have been made available.",
+    "spurious_features": [
+      {
+        "description": "Deeper knowledge of the artifact would have been last.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_169",
+    "premise": "A woman places an order via mail.",
+    "hypothesis": "What would have happened if the woman had placed the order via phone.",
+    "causal_feature": "The order would have been processed faster.",
+    "spurious_features": [
+      {
+        "description": "The order would have been processed slower.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_170",
+    "premise": "A worker cleans the floor.",
+    "hypothesis": "What would have happened if the worker had not completed the clean-up?",
+    "causal_feature": "The floor would still be dirty.",
+    "spurious_features": [
+      {
+        "description": "The floor would be clean.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_171",
+    "premise": "A worker exits a building through a door.",
+    "hypothesis": "What would have happened if the worker had exited the building through a closed window?",
+    "causal_feature": "The worker would have gotten hurt.",
+    "spurious_features": [
+      {
+        "description": "The worker would not have been injured.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_172",
+    "premise": "A woman shakes hands with her neighbor for a greeting.",
+    "hypothesis": "What would have happened if the woman had kissed her neighbor on her cheek for a greeting?",
+    "causal_feature": "Nothing special would have happened.",
+    "spurious_features": [
+      {
+        "description": "The neighbor would not have greeted the neighbor.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_173",
+    "premise": "A building is mirrored in a still lake?",
+    "hypothesis": "What would have happened if there were large waves on the lake.",
+    "causal_feature": "The mirror image would not be visible.",
+    "spurious_features": [
+      {
+        "description": "The mirror image would be visible.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_174",
+    "premise": "A child looks into the mouth of a plush crocodile.",
+    "hypothesis": "What would have happened if the child would have looked into the mouth of a real crocodile?",
+    "causal_feature": "The child would have been bitten.",
+    "spurious_features": [
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_175",
+    "premise": "A salesman sells his wares to a customer.",
+    "hypothesis": "What would have happened if the salesman had not called?",
+    "causal_feature": "The customer would not have bought the wares.",
+    "spurious_features": [
+      {
+        "description": "The customer would have bought the wares.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_176",
+    "premise": "An unemployed man gets a job.",
+    "hypothesis": "What would have happened if the man had not gotten a job?",
+    "causal_feature": "He would be unemployed.",
+    "spurious_features": [
+      {
+        "description": "He would not still be unemployed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_177",
+    "premise": "A man is standing at the top of a cliff.",
+    "hypothesis": "What would have happened if the man had fallen from the cliff?",
+    "causal_feature": "He would have died.",
+    "spurious_features": [
+      {
+        "description": "He would have lived.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_178",
+    "premise": "A man drives a car.",
+    "hypothesis": "What would have happened if the man had ridden on the car?",
+    "causal_feature": "The car would not have moved.",
+    "spurious_features": [
+      {
+        "description": "The car would have moved.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_179",
+    "premise": "A man lives in a city.",
+    "hypothesis": "What would have happened if he had moved to a village?",
+    "causal_feature": "He would have lost the conveniences of the city.",
+    "spurious_features": [
+      {
+        "description": "He would have had the advantages of a city.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_180",
+    "premise": "A man buys a car.",
+    "hypothesis": "What would have happened if the man had adopted a child?",
+    "causal_feature": "He would have taken on new responsibilities.",
+    "spurious_features": [
+      {
+        "description": "Nothing much.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "He would have had a great time driving the car.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_181",
+    "premise": "A man goes for a bike ride.",
+    "hypothesis": "What would have happened if a man had sold his bike?",
+    "causal_feature": "He could not go for a ride.",
+    "spurious_features": [
+      {
+        "description": "He would have enjoyed the ride.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_182",
+    "premise": "A novice driver drives an automatic transmission car.",
+    "hypothesis": "What would have happened if the car had been built with a manual gear box?",
+    "causal_feature": "It would have been more difficult to drive.",
+    "spurious_features": [
+      {
+        "description": "It would have been easier to drive.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_183",
+    "premise": "A woman trips in a marathon.",
+    "hypothesis": "What would have happened if the woman had not tripped in the marathon?",
+    "causal_feature": "She would have finished sooner.",
+    "spurious_features": [
+      {
+        "description": "She would not have finished as fast.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_184",
+    "premise": "A man fell from a plane.",
+    "hypothesis": "What would have happened if a parachute had been available?",
+    "causal_feature": "He would have landed safely.",
+    "spurious_features": [
+      {
+        "description": "He would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_185",
+    "premise": "A man helped his neighbor.",
+    "hypothesis": "What would have happened if the man had not helped his neighbor?",
+    "causal_feature": "His neighbor would have been in trouble.",
+    "spurious_features": [
+      {
+        "description": "His neighbor would thank him.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_186",
+    "premise": "A girl has a broken leg.",
+    "hypothesis": "What would have happened if the girl had been born with a broken leg?",
+    "causal_feature": "It would have been a medical emergency.",
+    "spurious_features": [
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_187",
+    "premise": "A person plays a piano.",
+    "hypothesis": "What would have happened if a piano had played a person?",
+    "causal_feature": "That is not possible.",
+    "spurious_features": [
+      {
+        "description": "The person would have been a piano player.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "Everything would have been fine.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_188",
+    "premise": "A father buys his son some candy.",
+    "hypothesis": "What would have happened if the father had bought some carrots?",
+    "causal_feature": "The boy would have had a healthy snack.",
+    "spurious_features": [
+      {
+        "description": "The boy would have enjoyed the candy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_189",
+    "premise": "An investment manager funds several start-ups.",
+    "hypothesis": "What would have happened if the investment manager had put money into buying cars?",
+    "causal_feature": "The startups would have had no financial resources.",
+    "spurious_features": [
+      {
+        "description": "The startups would have had more money.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_190",
+    "premise": "A farmer does not plant a field.",
+    "hypothesis": "What would have happened if the farmer had planted the field?",
+    "causal_feature": "The crop would have grown.",
+    "spurious_features": [
+      {
+        "description": "The field would remain empty.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_191",
+    "premise": "A man does not paint a fence.",
+    "hypothesis": "What would have happened if the man had painted the fence?",
+    "causal_feature": "The fence would have had a new color.",
+    "spurious_features": [
+      {
+        "description": "The fence would have stayed the way it was.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_192",
+    "premise": "A child remains inside a burning house.",
+    "hypothesis": "What would have happened if the child had run out of the house?",
+    "causal_feature": "The child would have survived.",
+    "spurious_features": [
+      {
+        "description": "The child would have died.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_193",
+    "premise": "A woman does not cut the tree down.",
+    "hypothesis": "What would have happened if the woman had cut the tree down?",
+    "causal_feature": "She would have chopped firewood.",
+    "spurious_features": [
+      {
+        "description": "She would not have chopped firewood.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_194",
+    "premise": "A woman does not dance the night away.",
+    "hypothesis": "What would have happened if the woman had danced the night away?",
+    "causal_feature": "She would have gotten sore legs.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten sore legs.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_195",
+    "premise": "A woman does not take the ferry.",
+    "hypothesis": "What would have happened if the woman had taken the ferry?",
+    "causal_feature": "She would have gotten on a boat.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten on a boat.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_196",
+    "premise": "A woman does not take the money.",
+    "hypothesis": "What would have happened if the woman had taken the money?",
+    "causal_feature": "She would have had more money.",
+    "spurious_features": [
+      {
+        "description": "She would not have had more money.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_197",
+    "premise": "A woman does not take time off.",
+    "hypothesis": "What would have happened if the woman had taken time off?",
+    "causal_feature": "She would have rested.",
+    "spurious_features": [
+      {
+        "description": "She would not have rested.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_198",
+    "premise": "A woman does not text while driving.",
+    "hypothesis": "What would have happened if the woman had texted while driving?",
+    "causal_feature": "She would have gotten pulled over by the cops.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten pulled over by the cops.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_199",
+    "premise": "A woman does not travel to France.",
+    "hypothesis": "What would have happened if the woman had traveled to France?",
+    "causal_feature": "She would have gotten to know France.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten to know France.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_200",
+    "premise": "A woman does not work well.",
+    "hypothesis": "What would have happened if the woman had worked well?",
+    "causal_feature": "She would have gotten paid.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten paid.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_201",
+    "premise": "A woman does not write an article.",
+    "hypothesis": "What would have happened if the woman had written an article?",
+    "causal_feature": "She would have gotten it published.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten it published.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_202",
+    "premise": "A woman does not take a picture.",
+    "hypothesis": "What would have happened if the woman had taken a picture?",
+    "causal_feature": "The woman would have posted it to social media.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have posted it to social media.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_203",
+    "premise": "A man does not attend school.",
+    "hypothesis": "What would have happened if he had attended school?",
+    "causal_feature": "The man would have learned something.",
+    "spurious_features": [
+      {
+        "description": "The man would not have learned something.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_204",
+    "premise": "A man does not become frustrated.",
+    "hypothesis": "What would have happened if he had become frustrated?",
+    "causal_feature": "The man would have felt irritable.",
+    "spurious_features": [
+      {
+        "description": "The man would not have felt irritable.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_205",
+    "premise": "A man does not become tired.",
+    "hypothesis": "What would have happened if he had become tired?",
+    "causal_feature": "The man would have gone to sleep.",
+    "spurious_features": [
+      {
+        "description": "The man would not have gone to sleep.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_206",
+    "premise": "A man does not build his new house.",
+    "hypothesis": "What would have happened if he had built his new house?",
+    "causal_feature": "The man would have had a new house.",
+    "spurious_features": [
+      {
+        "description": "The man would not have had a new house.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_207",
+    "premise": "A man does not cut a woman's arm.",
+    "hypothesis": "What would have happened if he had cut her arm?",
+    "causal_feature": "The woman would have become angry.",
+    "spurious_features": [
+      {
+        "description": "The woman would have become happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_208",
+    "premise": "A man does not commit a crime.",
+    "hypothesis": "What would have happened if he had committed a crime?",
+    "causal_feature": "The man would have gotten charged.",
+    "spurious_features": [
+      {
+        "description": "The man would not have gotten charged.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_209",
+    "premise": "A man does not buy souvenirs.",
+    "hypothesis": "What would have happened if he had bought souvenirs?",
+    "causal_feature": "The man would have made his loved ones happy.",
+    "spurious_features": [
+      {
+        "description": "The man would not have made his loved ones happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_210",
+    "premise": "A man does not buy a bike.",
+    "hypothesis": "What would have happened if he had bought a bike?",
+    "causal_feature": "The man would have gotten in shape.",
+    "spurious_features": [
+      {
+        "description": "The man would not have gotten in shape.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_211",
+    "premise": "A man does not buy a woman's first car.",
+    "hypothesis": "What would have happened if he had bought her first car?",
+    "causal_feature": "The woman would have felt excited.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have felt excited.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_212",
+    "premise": "A woman does not come on time.",
+    "hypothesis": "What would have happened if she had come on time?",
+    "causal_feature": "The woman would have been punctual.",
+    "spurious_features": [
+      {
+        "description": "The woman would have been unpunctual.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_213",
+    "premise": "A woman does not run away.",
+    "hypothesis": "What would have happened if she had run away?",
+    "causal_feature": "The woman would have become breathless.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have become breathless.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_214",
+    "premise": "A woman does not dig up dirt.",
+    "hypothesis": "What would have happened if she had dug up dirt?",
+    "causal_feature": "The woman would have gotten her hands dirty.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gotten her hands dirty.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_215",
+    "premise": "A woman does not download a new browser.",
+    "hypothesis": "What would have happened if she had downloaded a new browser?",
+    "causal_feature": "The woman would have gotten a new experience.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gotten a new experience.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_216",
+    "premise": "A man does not drop a woman's laptop.",
+    "hypothesis": "What would have happened if he had dropped her laptop?",
+    "causal_feature": "The woman would have become sad.",
+    "spurious_features": [
+      {
+        "description": "The woman would have become happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_217",
+    "premise": "A man does not eat a burger.",
+    "hypothesis": "What would have happened if he had eaten a burger?",
+    "causal_feature": "The man would have been less hungry.",
+    "spurious_features": [
+      {
+        "description": "The man would have been more hungry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_218",
+    "premise": "A man does not feel very embarrassed.",
+    "hypothesis": "What would have happened if he had felt very embarrassed?",
+    "causal_feature": "The man would have blushed.",
+    "spurious_features": [
+      {
+        "description": "The man would not have blushed.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_219",
+    "premise": "A man gets many compliments.",
+    "hypothesis": "What would have happened if he had not gotten many compliments?",
+    "causal_feature": "The man would have felt uncomfortable.",
+    "spurious_features": [
+      {
+        "description": "The man would have felt comfortable.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_220",
+    "premise": "A man gets caught.",
+    "hypothesis": "What would have happened if he had not gotten caught?",
+    "causal_feature": "The man would not have been accused.",
+    "spurious_features": [
+      {
+        "description": "The man would have been accused.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_221",
+    "premise": "A man does not get an A on the test.",
+    "hypothesis": "What would have happened if he had gotten an A on the test?",
+    "causal_feature": "The man would have shown his talent.",
+    "spurious_features": [
+      {
+        "description": "The man would not have shown his talent.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_222",
+    "premise": "A man does not get a real job.",
+    "hypothesis": "What would have happened if he had gotten a real job?",
+    "causal_feature": "The man would have had to get up and go on time.",
+    "spurious_features": [
+      {
+        "description": "The man would not have had to get up and go on time.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_223",
+    "premise": "A man does not get a massage.",
+    "hypothesis": "What would have happened if he had gotten a massage?",
+    "causal_feature": "The man would have managed his body.",
+    "spurious_features": [
+      {
+        "description": "The man would not have managed his body.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_224",
+    "premise": "A man does not get a good night's sleep.",
+    "hypothesis": "What would have happened if he had gotten a good night's sleep?",
+    "causal_feature": "The man would have had better health in the morning.",
+    "spurious_features": [
+      {
+        "description": "The man would have felt tired in the morning.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_225",
+    "premise": "A man does not get a call for an interview.",
+    "hypothesis": "What would have happened if he had gotten a call for an interview?",
+    "causal_feature": "The man would have started preparing.",
+    "spurious_features": [
+      {
+        "description": "The man would not have started preparing.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_226",
+    "premise": "A man does not get very nervous.",
+    "hypothesis": "What would have happened if he had gotten very nervous?",
+    "causal_feature": "The man would have passed out.",
+    "spurious_features": [
+      {
+        "description": "The man would not have passed out.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_227",
+    "premise": "A man does not give a good appearance.",
+    "hypothesis": "What would have happened if he had given a good appearance?",
+    "causal_feature": "The man would have been admired.",
+    "spurious_features": [
+      {
+        "description": "The man would not have been admired.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_228",
+    "premise": "A man does not give a woman trouble.",
+    "hypothesis": "What would have happened if he had given her trouble?",
+    "causal_feature": "The man would have caused a problem.",
+    "spurious_features": [
+      {
+        "description": "The man would not have caused a problem.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_229",
+    "premise": "A man does not hear a sound.",
+    "hypothesis": "What would have happened if he had heard a sound?",
+    "causal_feature": "The man would have followed the flow.",
+    "spurious_features": [
+      {
+        "description": "The man would not have followed the flow.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_230",
+    "premise": "A man does not head back to the hotel.",
+    "hypothesis": "What would have happened if he had headed back to the hotel?",
+    "causal_feature": "The man would have taken a rest.",
+    "spurious_features": [
+      {
+        "description": "The man would not have taken a rest.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_231",
+    "premise": "A man does not call a tow truck.",
+    "hypothesis": "What would have happened if he had called a tow truck?",
+    "causal_feature": "He would have gotten his car to a mechanic.",
+    "spurious_features": [
+      {
+        "description": "He would not have gotten his car to a mechanic.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_232",
+    "premise": "A man loses ten pounds.",
+    "hypothesis": "What would have happened if he had not lost ten pounds?",
+    "causal_feature": "The man would have fit in his old clothes.",
+    "spurious_features": [
+      {
+        "description": "The man would not have fit in his old clothes.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_233",
+    "premise": "A man does not help his team.",
+    "hypothesis": "What would happen if he had helped his team?",
+    "causal_feature": "The man would have been appreciated.",
+    "spurious_features": [
+      {
+        "description": "The man would not have been appreciated.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_234",
+    "premise": "A man does not throw a ball with his hand.",
+    "hypothesis": "What would happen if he had thrown the ball with his hand?",
+    "causal_feature": "His hand would have rotated.",
+    "spurious_features": [
+      {
+        "description": "His hand would not have rotated.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_235",
+    "premise": "A man does not hit something.",
+    "hypothesis": "What would have happened if he had hit something?",
+    "causal_feature": "The man would have stopped driving.",
+    "spurious_features": [
+      {
+        "description": "The man would have continued driving.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_236",
+    "premise": "A man does not hurt his girlfriend's knee.",
+    "hypothesis": "What would have happened if he had hurt her knee?",
+    "causal_feature": "The man would have gotten in trouble.",
+    "spurious_features": [
+      {
+        "description": "The man would not have gotten in trouble.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_237",
+    "premise": "A woman does not immediately start.",
+    "hypothesis": "What would have happened if she had immediately started?",
+    "causal_feature": "The woman would have gone fast.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gone fast.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_238",
+    "premise": "A woman does not increase his own capacity.",
+    "hypothesis": "What would have happened if she had increased his own capacity?",
+    "causal_feature": "The woman would have felt accomplished.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have felt accomplished.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_239",
+    "premise": "A woman is not allergic to bees.",
+    "hypothesis": "What would have happened if she was allergic to bees?",
+    "causal_feature": "The woman would be aware of bees and would take the appropriate safety precautions.",
+    "spurious_features": [
+      {
+        "description": "The woman would care about bees nor take safety precautions.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_240",
+    "premise": "A woman does not feel lonely.",
+    "hypothesis": "What would have happened if she had felt lonely?",
+    "causal_feature": "The woman would have become sad.",
+    "spurious_features": [
+      {
+        "description": "The woman would have become happy.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_241",
+    "premise": "A woman is loud and annoying.",
+    "hypothesis": "What would have happened if she had been quieter?",
+    "causal_feature": "Being around her would have been pleasant.",
+    "spurious_features": [
+      {
+        "description": "Being around her would have been unpleasant.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_242",
+    "premise": "A woman is not moving to a new town.",
+    "hypothesis": "What would have happened if she had moved to a new town?",
+    "causal_feature": "The woman would have needed a new place to stay.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have needed a new place to stay.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_243",
+    "premise": "A woman does not play football with his friends.",
+    "hypothesis": "What would have happened if she had played football with his friends?",
+    "causal_feature": "The woman would have felt so happy after playing football with her friends.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have felt so happy after playing football with her friends.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_244",
+    "premise": "A man does not flirt with a woman.",
+    "hypothesis": "What would have happened if he had flirted with her?",
+    "causal_feature": "The man would have asked the woman on a date.",
+    "spurious_features": [
+      {
+        "description": "The man would not have asked the woman on a date.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_245",
+    "premise": "A woman is not soaking wet.",
+    "hypothesis": "What would have happened if she had been soaking wet?",
+    "causal_feature": "The woman would have been cold.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have been cold.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_246",
+    "premise": "A woman does not walk to work.",
+    "hypothesis": "What would have happened if she had walked to work?",
+    "causal_feature": "The woman would have got exercise.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have got exercise.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_247",
+    "premise": "A woman does not join a book club.",
+    "hypothesis": "What would have happened if she had joined a book club?",
+    "causal_feature": "The woman would have read new books.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have read new books.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_248",
+    "premise": "A woman does not learn karate.",
+    "hypothesis": "What would have happened if she had learned karate?",
+    "causal_feature": "The woman would have become a better fighter.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have become a better fighter.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_249",
+    "premise": "A woman does not leave for work.",
+    "hypothesis": "What would have happened if she had left for work?",
+    "causal_feature": "The woman would have made money.",
+    "spurious_features": [
+      {
+        "description": "The woman would have lost money.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_250",
+    "premise": "A man lets his friends eat his food.",
+    "hypothesis": "What would have happened if he had not let his friends eat his food?",
+    "causal_feature": "The friendship of the man and his friends would have deteriorated.",
+    "spurious_features": [
+      {
+        "description": "The friendship of the man and his friends would have improved.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_251",
+    "premise": "A woman likes cats.",
+    "hypothesis": "What would have happened if she had not liked cats?",
+    "causal_feature": "The woman would have gotten a dog.",
+    "spurious_features": [
+      {
+        "description": "The woman would have gotten a cat.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      },
+      {
+        "description": "The woman would have gotten a pony.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_252",
+    "premise": "A woman does not like a particular idea.",
+    "hypothesis": "What would have happened if she had become interested in that idea?",
+    "causal_feature": "The woman would have become enthusiastic.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have become enthusiastic.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_253",
+    "premise": "A woman does not make a full recovery.",
+    "hypothesis": "What would have happened if she had made a full recovery?",
+    "causal_feature": "The woman would have regained her strengths.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have regained her strengths.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_254",
+    "premise": "A woman does not make a lot of money.",
+    "hypothesis": "What would have happened if she had made a lot of money?",
+    "causal_feature": "She would have become rich.",
+    "spurious_features": [
+      {
+        "description": "She would have become poor.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_255",
+    "premise": "A woman does not make matters worse.",
+    "hypothesis": "What would have happened if she did?",
+    "causal_feature": "A crisis would have developed.",
+    "spurious_features": [
+      {
+        "description": "A crisis would have been prevented.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_256",
+    "premise": "A woman does not make arrangements for her friends.",
+    "hypothesis": "What would have happened if she had made arrangements for her friends?",
+    "causal_feature": "The woman would have helped her friends.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have helped her friends.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_257",
+    "premise": "A woman makes some friends.",
+    "hypothesis": "What would have happened if she had made more friends?",
+    "causal_feature": "The woman would have been happier.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have been happier.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_258",
+    "premise": "A woman does not meet some friends.",
+    "hypothesis": "What would have happened if she had met some friends?",
+    "causal_feature": "The woman would have had to have a conversation.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have had to have a conversation.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_259",
+    "premise": "A woman does not miss the red light.",
+    "hypothesis": "What would have happened if she had missed the red light?",
+    "causal_feature": "She would have done something illegal.",
+    "spurious_features": [
+      {
+        "description": "She would have done something legal.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_260",
+    "premise": "A woman does not move back in with his parents.",
+    "hypothesis": "What would have happened if she had moved back in with her parents?",
+    "causal_feature": "The parents would have been forced to make room.",
+    "spurious_features": [
+      {
+        "description": "The parents would not have been forced to make room.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_261",
+    "premise": "A woman does not move the furniture.",
+    "hypothesis": "What would have happened if she had moved the furniture?",
+    "causal_feature": "The woman would have had a changed interior design.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have had a changed interior design.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_262",
+    "premise": "A woman does not know the amount of the bill.",
+    "hypothesis": "What would have happened if she had known the amount of the bill?",
+    "causal_feature": "She would have gotten an idea about how much to pay.",
+    "spurious_features": [
+      {
+        "description": "She would not have gotten an idea about how much to pay.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_263",
+    "premise": "A woman does not need a new computer.",
+    "hypothesis": "What would have happened if she had needed a new computer?",
+    "causal_feature": "The woman would not have been able to accomplish her tasks as fast.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have been able to accomplish her tasks faster.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_264",
+    "premise": "A woman does not need to lose weight.",
+    "hypothesis": "What would have happened if she had needed to lose some weight?",
+    "causal_feature": "The woman would have gotten exercise.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gotten exercise.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_265",
+    "premise": "A woman does not order Chinese food.",
+    "hypothesis": "What would have happened if she had ordered Chinese food?",
+    "causal_feature": "The woman would have become less hungry.",
+    "spurious_features": [
+      {
+        "description": "The woman would have become very hungry.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_266",
+    "premise": "A woman does not notice a man.",
+    "hypothesis": "What would have happened if she had noticed a man?",
+    "causal_feature": "The woman would have waved at him.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have waved at him.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_267",
+    "premise": "A woman does not run 5 miles.",
+    "hypothesis": "What would have happened if she had run 5 miles?",
+    "causal_feature": "The woman would have gotten exercise.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gotten exercise.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_268",
+    "premise": "A girl does not play basketball with her friends after school.",
+    "hypothesis": "What would have happened if she had played basketball with her friends after school?",
+    "causal_feature": "The girl would have gotten sweaty.",
+    "spurious_features": [
+      {
+        "description": "The girl would not have gotten sweaty.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_269",
+    "premise": "A woman does not play bass guitar.",
+    "hypothesis": "What would have happened if she had played bass guitar?",
+    "causal_feature": "The woman would have made music.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have made music.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_270",
+    "premise": "A woman does not practice her moves.",
+    "hypothesis": "What would have happened if she had practiced her moves?",
+    "causal_feature": "The woman would have become more skilled.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have become more skilled.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_271",
+    "premise": "A woman does not prepare for someone's reception.",
+    "hypothesis": "What would have happened if she had prepared it?",
+    "causal_feature": "The woman would have put on make-up.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have put on make-up.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_272",
+    "premise": "A woman does not put pen to paper.",
+    "hypothesis": "What would have happened if she had put pen to paper?",
+    "causal_feature": "The woman would have moved her right hand.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have moved her right hand.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_273",
+    "premise": "A woman does not realize something.",
+    "hypothesis": "What would have happened if she had realized something?",
+    "causal_feature": "The woman would have gotten a new idea.",
+    "spurious_features": [
+      {
+        "description": "The woman would not have gotten a new idea.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  },
+  {
+    "id": "crass_274",
+    "premise": "A woman does not retire from work.",
+    "hypothesis": "What would have happened if she had retired from work?",
+    "causal_feature": "The woman would not have to work anymore.",
+    "spurious_features": [
+      {
+        "description": "The woman would still have to work.",
+        "causal_judgment": {
+          "verdict": "spurious"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,5614 @@
+{
+  "results": [
+    {
+      "instance_id": "clomo_train_2524",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2524",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2524",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2524",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_326",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_326",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_326",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_326",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_469",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_469",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_469",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_469",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3623",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3623",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3623",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3623",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2297",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4161",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4161",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4161",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4161",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4293",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4293",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4293",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4293",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_153",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_153",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_153",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_153",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2186",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2186",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2186",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2186",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_393",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_393",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_393",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_393",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3471",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3471",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3471",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3471",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1606",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1606",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1606",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1606",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2383",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2383",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2383",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2383",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_819",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_819",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_819",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_819",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3759",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3759",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3759",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3759",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1903",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1903",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1903",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1903",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2846",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2846",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2846",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2846",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3152",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3152",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3152",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3152",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2277",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2277",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2277",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2277",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3527",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3527",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3527",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3527",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_207",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_207",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_207",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_207",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3379",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3379",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3379",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3379",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1530",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1530",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1530",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1530",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2057",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2057",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2057",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2057",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3681",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1571",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1571",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1571",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1571",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2129",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2129",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2129",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2129",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2874",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2874",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2874",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2874",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2156",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2156",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2156",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2156",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2836",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2836",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2836",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2836",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2554",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2554",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2554",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2554",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1664",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1664",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1664",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1664",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3582",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2905",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2905",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2905",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2905",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4366",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4366",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4366",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4366",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3702",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3702",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3702",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3702",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2230",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4296",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4296",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4296",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4296",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1674",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1674",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1674",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1674",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2729",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2729",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2729",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2729",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3325",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_226",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_226",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_226",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_226",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1951",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1951",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1951",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1951",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_246",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_246",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_246",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_246",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1233",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1233",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1233",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1233",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3596",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3596",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3596",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3596",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_822",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_822",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_822",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_822",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2117",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2117",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2117",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2117",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3668",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3668",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3668",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3668",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_791",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_791",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_791",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_791",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_681",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_681",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3416",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3416",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3416",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3416",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_517",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_517",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_517",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_517",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1956",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1956",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1956",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1956",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4449",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4449",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4449",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4449",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_68",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_68",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_68",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_68",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_837",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_837",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_837",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_837",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1862",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1862",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1862",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1862",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2696",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2696",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2696",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2696",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3074",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3074",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3074",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3074",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3540",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3540",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3540",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3540",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1013",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1013",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1013",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1013",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2678",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2678",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2678",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2678",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2654",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2654",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2654",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2654",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1384",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1384",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1384",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1384",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2927",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2927",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2927",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2927",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1738",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1738",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1738",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1738",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1649",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1649",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1649",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1649",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4086",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4086",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4086",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4086",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1519",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1519",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1519",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1519",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_61",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_61",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_61",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_61",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_901",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_901",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_901",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_901",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_6",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_6",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_6",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_6",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_163",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_163",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_163",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_163",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1352",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1352",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1352",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1352",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2225",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2225",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2225",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2225",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1188",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1188",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1188",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1188",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2294",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2294",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2294",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2294",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4170",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4170",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4170",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4170",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3297",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3297",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4131",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4131",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4131",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4131",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_329",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_329",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_329",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_329",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4230",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4230",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3684",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3684",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3684",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3684",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2298",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2298",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2298",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2298",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_797",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_797",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_797",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_797",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3890",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3890",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3890",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3890",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_878",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_878",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_878",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_878",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3544",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3544",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3544",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3544",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4218",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4218",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4218",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4218",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1367",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1367",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1367",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1367",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2446",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2446",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2446",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2446",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_89",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_89",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_89",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_89",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3203",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3203",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3203",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3203",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_942",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_942",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_942",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_942",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1943",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1943",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1943",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1943",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2406",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2406",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2406",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2406",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_155",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_155",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_155",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_155",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4325",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4325",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1784",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1784",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1784",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1784",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2807",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1378",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1378",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1378",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1378",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3924",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3924",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3924",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3924",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3083",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3083",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3083",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3083",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1323",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1323",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1323",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1323",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4365",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4365",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4365",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4365",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4380",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4380",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4380",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4380",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2802",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4430",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4430",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4430",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4430",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4350",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4350",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4350",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4350",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3372",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3372",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3372",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3372",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1332",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1332",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1332",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1332",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2403",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2403",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2403",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2403",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3752",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3752",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3752",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3752",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1088",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1088",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1088",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1088",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1993",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1993",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1993",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1993",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_121",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_121",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_121",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_121",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1689",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1689",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1689",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1689",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3807",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3807",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1462",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1462",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1462",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1462",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2585",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2585",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2585",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2585",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1173",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1173",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1173",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1173",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_679",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_679",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_679",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_679",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2349",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2349",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2349",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2349",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1896",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1896",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1896",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1896",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3039",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3039",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3039",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3039",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_864",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_864",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_864",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_864",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2675",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2675",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2675",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2675",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1480",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1480",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1480",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1480",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3823",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3245",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3245",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3245",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3245",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4396",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4396",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4396",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4396",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2319",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2319",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2319",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2319",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3996",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3996",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3996",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3996",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3860",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3860",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3860",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3860",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4078",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4078",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4078",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4078",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1624",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1624",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1624",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1624",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2724",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2724",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2724",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2724",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3666",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3666",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3666",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3666",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_833",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_833",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_833",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_833",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_286",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_286",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_286",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_286",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1612",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1612",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1612",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1612",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3709",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3709",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3709",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3709",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4184",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4184",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4184",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4184",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4289",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4289",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4289",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4289",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4374",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4374",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4374",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4374",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1495",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1495",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1495",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1495",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3348",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3348",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3348",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3348",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1773",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1773",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1773",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1773",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2110",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2110",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2110",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2110",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1766",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1766",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1766",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1766",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1431",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1431",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1431",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1431",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3149",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3149",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3149",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3149",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3423",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3423",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3423",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3423",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4291",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4291",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4291",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4291",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2105",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2105",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2105",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2105",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2382",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2382",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2382",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2382",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2906",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2906",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2906",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2906",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2213",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2213",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2213",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2213",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_859",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_859",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_859",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_859",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1216",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1216",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1216",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1216",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3202",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3202",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3202",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3202",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3414",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3414",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3414",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3414",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2634",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2634",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2634",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2634",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_708",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_708",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_708",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_708",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2823",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2823",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1764",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1764",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1764",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1764",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4468",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4468",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4468",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4468",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3191",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3191",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3191",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3191",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1629",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1629",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1629",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1629",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3788",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3788",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3788",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3788",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1802",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1802",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_420",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_420",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_420",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_420",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4278",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4278",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4278",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4278",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2204",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2204",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2204",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2204",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2064",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2064",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2064",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2064",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1196",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1196",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1196",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1196",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3006",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3006",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3006",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3006",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3567",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3567",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3567",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3567",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3087",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3087",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3087",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3087",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_582",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_582",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2925",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2925",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2925",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2925",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4564",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4564",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4564",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4564",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1550",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1550",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1550",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1550",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1425",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1425",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_1425",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1425",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_601",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_601",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_601",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_601",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_404",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_404",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_404",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_404",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1488",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1488",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1488",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1488",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2148",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2148",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2148",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2148",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4535",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4535",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4535",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4535",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3933",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3933",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3933",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3933",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4141",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_4141",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4141",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_4141",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1699",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1699",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1699",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1699",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_799",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_799",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_799",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_799",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_100",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_100",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_100",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_100",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1570",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1570",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1570",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_1570",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2266",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2266",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2266",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2266",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2147",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "Yes",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2147",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2147",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2147",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2853",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2853",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_2853",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "Yes",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_2853",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3219",
+      "type": "causal",
+      "ground_truth": "Yes",
+      "prediction": "No",
+      "correct": false
+    },
+    {
+      "instance_id": "clomo_train_3219",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3219",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    },
+    {
+      "instance_id": "clomo_train_3219",
+      "type": "spurious",
+      "ground_truth": "No",
+      "prediction": "No",
+      "correct": true
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.85375,
+    "precision": 0.7085427135678392,
+    "recall": 0.705,
+    "f1": 0.706766917293233,
+    "TP": 141,
+    "TN": 542,
+    "FP": 58,
+    "FN": 59
+  }
+}

@@ -1,0 +1,43 @@
+================================================================================
+  CAUSAL GRAPH MEMORY BENCHMARK — FAIR EVALUATION
+  Date: 2026-04-05  Dataset: CRASS  Instances: 274
+================================================================================
+
+Memory design: causal graph structure only
+  - NO true causal chain labels
+  - NO spurious candidate labels
+  - NO mechanism hints
+  - ONLY context + candidate relationships
+  - Model must reason by itself
+
+[Qwen alone]
+  (i)  Spurious acc  : 153/369 = 41.5%
+  (ii) Disentangle   : 81/274 = 29.6%
+  Causal acc         : 230/274 = 83.9%
+  Fooled             : 216/369 = 58.5%
+
+[Mem0 + Qwen]
+  (i)  Spurious acc  : 183/369 = 49.6%
+  (ii) Disentangle   : 69/274 = 25.2%
+  Causal acc         : 176/274 = 64.2%
+  Fooled             : 186/369 = 50.4%
+
+[A-mem-sys + Qwen]
+  (i)  Spurious acc  : 233/369 = 63.1%
+  (ii) Disentangle   : 79/274 = 28.8%
+  Causal acc         : 151/274 = 55.1%
+  Fooled             : 136/369 = 36.9%
+
+================================================================================
+  COMPARISON TABLE
+================================================================================
+  System                        Causal   (i)Spurious  (ii)Disentangle     Fooled
+  ------------------------------------------------------------------------------
+  Qwen alone                     83.9%         41.5%            29.6%      58.5%
+  Mem0 + Qwen                    64.2%         49.6%            25.2%      50.4%
+  A-mem-sys + Qwen               55.1%         63.1%            28.8%      36.9%
+  ------------------------------------------------------------------------------
+
+================================================================================
+END OF OUTPUT
+================================================================================

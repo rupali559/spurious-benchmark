@@ -1,0 +1,43 @@
+================================================================================
+  SPURIOUS CORRELATION BENCHMARK — RESULTS OUTPUT
+  Date: 2026-04-03
+  Instances evaluated: 200
+================================================================================
+
+================================================================================
+  HOW THE RESULTS WERE CALCULATED
+================================================================================
+
+Ground truth logic:
+  Causal query   -> 'Does X cause Y?'  -> correct answer = Yes
+                    (X is the real causal feature from your data)
+  Spurious query -> 'Does Z cause Y?'  -> correct answer = No
+                    (Z is validated as spurious by step2b)
+
+A model is FOOLED when it answers 'Yes' to a spurious query.
+
+Metric formulas:
+  Causal accuracy   = correct Yes answers / total causal queries   x 100
+  Spurious accuracy = correct No  answers / total spurious queries x 100
+  Overall accuracy  = (correct Yes + correct No) / all queries     x 100
+
+================================================================================
+  STEP-BY-STEP RESULTS PER SYSTEM
+================================================================================
+
+================================================================================
+  SUMMARY TABLE
+================================================================================
+
+  System                       Causal Acc.        Spurious Acc.      Overall Acc.
+  ----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+================================================================================
+  KEY FINDINGS
+================================================================================
+
+
+================================================================================
+END OF OUTPUT
+================================================================================

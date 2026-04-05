@@ -1,0 +1,43 @@
+================================================================================
+  CAUSAL GRAPH MEMORY BENCHMARK — FAIR EVALUATION
+  Date: 2026-04-05  Dataset: CLOMO  Instances: 200
+================================================================================
+
+Memory design: causal graph structure only
+  - NO true causal chain labels
+  - NO spurious candidate labels
+  - NO mechanism hints
+  - ONLY context + candidate relationships
+  - Model must reason by itself
+
+[Qwen alone]
+  (i)  Spurious acc  : 351/600 = 58.5%
+  (ii) Disentangle   : 35/200 = 17.5%
+  Causal acc         : 135/200 = 67.5%
+  Fooled             : 249/600 = 41.5%
+
+[Mem0 + Qwen]
+  (i)  Spurious acc  : 270/600 = 45.0%
+  (ii) Disentangle   : 32/200 = 16.0%
+  Causal acc         : 162/200 = 81.0%
+  Fooled             : 330/600 = 55.0%
+
+[A-mem-sys + Qwen]
+  (i)  Spurious acc  : 318/600 = 53.0%
+  (ii) Disentangle   : 40/200 = 20.0%
+  Causal acc         : 155/200 = 77.5%
+  Fooled             : 282/600 = 47.0%
+
+================================================================================
+  COMPARISON TABLE
+================================================================================
+  System                        Causal   (i)Spurious  (ii)Disentangle     Fooled
+  ------------------------------------------------------------------------------
+  Qwen alone                     67.5%         58.5%            17.5%      41.5%
+  Mem0 + Qwen                    81.0%         45.0%            16.0%      55.0%
+  A-mem-sys + Qwen               77.5%         53.0%            20.0%      47.0%
+  ------------------------------------------------------------------------------
+
+================================================================================
+END OF OUTPUT
+================================================================================
