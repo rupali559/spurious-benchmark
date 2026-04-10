@@ -150,9 +150,12 @@ Output: `results/final/results_clomo_fair_final.output`
 
 ## How To Run — CRASS
 
-> **Note:** CRASS skips Steps 2 and 2b because the dataset already contains
-> spurious features as wrong answer choices (Answer1, Answer2).
-> We only need to parse, build memory, and evaluate.
+>  **Note:** CRASS skips Steps 2 and 2b because the CRASS dataset already
+> contains spurious features natively — the wrong counterfactual answer choices
+> (Answer1, Answer2) from the original CSV are used directly as spurious features.
+> For example: X = "The treasure chest would have remained closed" and
+> S = "The treasure chest would have been open" (wrong answer = spurious feature).
+> These are pre-validated in data/crass/spurious_features_validated_crass_fixed.json
 
 
 ### Step 1 — Parse CRASS
