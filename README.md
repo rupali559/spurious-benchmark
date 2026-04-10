@@ -184,6 +184,20 @@ CUDA_VISIBLE_DEVICES=1 python3 pipeline/evaluate_fair.py \
 ## Memory Design
 
 For every query, a causal graph structure is built automatically as memory:
+
+    [CAUSAL GRAPH MEMORY]
+    Context: Consumer advocate: the government is responsible...
+
+    Outcome: The government can bear responsibility...
+
+    Candidate relationships observed:
+      - gasoline prices rise because consumers buy more
+      - government's policies increase consumer demand    (true cause)
+      - consumer advocacy claims government responsible   (spurious)
+
+    Task: Determine which candidate directly causes the outcome.
+    Note: Some candidates may be correlated but not causal.
+
 **Key design principles:**
 - No true/spurious labels
 - Candidates shuffled randomly
