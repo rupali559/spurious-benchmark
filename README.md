@@ -217,6 +217,21 @@ For every query, a causal graph structure is built automatically as memory:
 
 ---
 
-## Reference
+## References
 
-Based on: Yang et al., arXiv 2505.11839
+1. **Yang et al.** — Causal-Memory-Arena benchmark construction guide. arXiv 2505.11839
+
+2. **CLOMO Dataset** — Huang et al., "CLOMO: Counterfactual Logical Modification with Large Language Models", ACL 2024.
+   [Paper](https://aclanthology.org/2024.acl-long.593/) | [GitHub](https://github.com/Eleanor-H/CLOMO)
+
+3. **CRASS Dataset** — Frohberg & Binder, "CRASS: A Novel Data Set and Benchmark to Test Counterfactual Reasoning of Large Language Models".
+   [GitHub](https://github.com/apergo-ai/CRASS-data-set)
+
+4. **Qwen2.5 Model** — Qwen Team, Qwen2.5-1.5B-Instruct.
+   [HuggingFace](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
+
+5. **Mem0** — Memory system for LLM agents.
+   [GitHub](https://github.com/mem0ai/mem0)
+
+6. **A-MEM** — Agentic memory system.
+   [GitHub](https://github.com/WujiangXu/A-MEM)
