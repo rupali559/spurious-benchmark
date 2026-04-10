@@ -203,8 +203,8 @@ For every query, a causal graph structure is built automatically as memory:
 
     Candidate relationships observed:
       - gasoline prices rise because consumers buy more
-      - government's policies increase consumer demand    (true cause)
-      - consumer advocacy claims government responsible   (spurious)
+      - government's policies increase consumer demand
+      - consumer advocacy claims government responsible
 
     Task: Determine which candidate directly causes the outcome.
     Note: Some candidates may be correlated but not causal.
