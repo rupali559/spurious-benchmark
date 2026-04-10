@@ -15,9 +15,9 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 - **CRASS** — 274 instances, 369 spurious features (counterfactual reasoning) — [GitHub](https://github.com/apergo-ai/CRASS-data-set)
 
 **Systems tested:**
-- Qwen alone (no memory)
-- Mem0 + Qwen (memory system)
-- A-mem-sys + Qwen (memory system)
+- **Qwen alone** (no memory) — [HuggingFace](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
+- **Mem0 + Qwen** (memory system) — [GitHub](https://github.com/mem0ai/mem0)
+- **A-mem-sys + Qwen** (memory system) — [GitHub](https://github.com/WujiangXu/A-MEM)
 
 ---
 
