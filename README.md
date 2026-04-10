@@ -21,26 +21,6 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 
 ---
 
-## Results
-
-### CLOMO (200 instances)
-
-| System | Causal Acc | Spurious Acc | Disentangle |
-|--------|-----------|--------------|-------------|
-| Qwen alone | 67.5% | 58.5% | 17.5% |
-| Mem0 + Qwen | 81.0% | 45.0% | 16.0% |
-| A-mem-sys + Qwen | 77.5% | 53.0% | 20.0% |
-
-### CRASS (274 instances)
-
-| System | Causal Acc | Spurious Acc | Disentangle |
-|--------|-----------|--------------|-------------|
-| Qwen alone | 83.9% | 41.5% | 29.6% |
-| Mem0 + Qwen | 65.0% | 48.5% | 23.4% |
-| A-mem-sys + Qwen | 55.1% | 63.7% | 27.4% |
-
----
-
 ## Project Structure
 
     spurious-benchmark/
@@ -213,15 +193,6 @@ For every query, a causal graph structure is built automatically as memory:
 - No true/spurious labels
 - Candidates shuffled randomly
 - Model must reason by itself
-
----
-
-## Key Findings
-
-1. Memory helps causal accuracy in CLOMO (67.5% to 81%)
-2. CRASS is harder due to counterfactual question format
-3. Disentanglement remains the biggest challenge (~17-20% CLOMO, ~23-27% CRASS)
-4. Memory is critical for CRASS complex reasoning
 
 ---
 
