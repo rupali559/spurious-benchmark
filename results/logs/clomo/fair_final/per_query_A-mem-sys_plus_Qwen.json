@@ -55,8 +55,8 @@
     "condition_A": "the success of an advertising campaign is determined by its alignment with corporate goals rather than audience persuasion.",
     "condition_B": "Premise1: The usefulness of an advertising campaign is based solely on the degree to which the campaign's advertisements persuade their audiences.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: To suit the needs of corporate clients, advertising agencies have successfully modified a strategy originally developed for political campaigns. Statement2: This strategy aims to provide clients with free publicity and air time by designing an advertising c"
   },
   {
@@ -105,8 +105,8 @@
     "condition_A": "consumer preferences for specific types of detergents",
     "condition_B": "Premise1: A laundry detergent does not get clothes really clean in a washer unless it dissolves readily in it.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Consumer magazine : because front-loading washers use less water than top-loading washers, ordinary powder detergent does not dissolve readily in front-loading washers. Statement2: So, to get clothes really clean in a front-loading machine you need to use a"
   },
   {
@@ -165,8 +165,8 @@
     "condition_A": "the comparison between echinacea and ephedra's side effects being made without evidence or context",
     "condition_B": "Premise1: The side effects of echinacea and ephedra are comparably serious.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Consumer advocate : ephedra is a naturally occurring compound that some people use as a weight-loss aid. Statement2: Recently, the government prohibited the sale of dietary supplements containing ephedra on the grounds that ephedra has been shown to have gr"
   },
   {
@@ -255,8 +255,8 @@
     "condition_A": "firms' ability to predict win rates based on past performance",
     "condition_B": "Premise1: Since the majority of firms specialize in certain kinds of cases, they are able to assess accurately their chances of winning each potential case",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: More and more law firms specializing in corporate taxes are paid on a contingency-fee basis. Statement2: Under this arrangement, if a case is won, the firm usually receives more than it would have received if it had been paid on the alternate hourly rate ba"
   },
   {
@@ -405,8 +405,8 @@
     "condition_A": "manufacturing sector performance over time",
     "condition_B": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pundra made darfir's manufacture"
   },
   {
@@ -415,8 +415,8 @@
     "condition_A": "currency fluctuation impact on export prices",
     "condition_B": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pundra made darfir's manufacture"
   },
   {
@@ -455,8 +455,8 @@
     "condition_A": "Parental background in early childhood education",
     "condition_B": "Premise1: Most of the parents participating in the programs have prior experience as educators.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Educator : some experimental educational programs, based on the principle that children's first education should take place at home, instruct parents in how to be their child's\" first teacher. This shows that these programs are successful and should be expa"
   },
   {
@@ -695,8 +695,8 @@
     "condition_A": "the critic's misunderstanding of legislative language",
     "condition_B": "Premise1: The proposed legislation is not made up of a set of statements some of which are overly specific and some of which are overly vague.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Tax reformer : the proposed tax reform legislation is being criticized by political groups on the right for being too specific and by political groups on the left for being too vague. Statement2: Since one and the same statement can not be both too specific"
   },
   {
@@ -1055,8 +1055,8 @@
     "condition_A": "people's attention spans have increased in recent years",
     "condition_B": "Premise1: The amount of time spent looking at a work of art is a reliable measure of engagement with that work",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Art critic : nowadays, museum visitors seldom pause to look at a work of art for even a full minute. Statement2: They look, perhaps take a snapshot, and move on. Statement3: This tells us something about how our relationship to art has changed over time. Pe"
   },
   {
@@ -1155,8 +1155,8 @@
     "condition_A": "group differences in children's reactions to violence",
     "condition_B": "Premise1: The children who had been shown the film were found to be no more likely than the children who had not been shown the film to punch other children.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Politician : a major social problem is children hurting other children. The results of a recent experiment by psychologists establish that watching violent films is at least partly responsible for this aggressive behavior. Statement2: The psychologists cond"
   },
   {
@@ -1205,8 +1205,8 @@
     "condition_A": "recent military success makes the prime minister personally popular",
     "condition_B": "Premise1: The prime minister's party will not win the next election if the electorate believes the prime minister is responsible for a continuing recession.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Editorial : despite the fact that recent military success has made the prime minister personally popular, her party will lose the next election unless the economy is no longer in recession ; the electorate will blame the state of the economy on her, even th"
   },
   {
@@ -1225,8 +1225,8 @@
     "condition_A": "policies will be beneficial in the long run",
     "condition_B": "Premise1: The prime minister's party will not win the next election if the electorate believes the prime minister is responsible for a continuing recession.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Editorial : despite the fact that recent military success has made the prime minister personally popular, her party will lose the next election unless the economy is no longer in recession ; the electorate will blame the state of the economy on her, even th"
   },
   {
@@ -1375,8 +1375,8 @@
     "condition_A": "a popular sport linked to various health issues",
     "condition_B": "Premise1: The link between jogging and certain structural disorders appears to be a causal one.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Physiological research has uncovered disturbing evidence linking a number of structural disorders to jogging. Among the ailments seemingly connected with this now-popular sport are spinal disk displacements, stress fractures of the feet and ankles, knee and"
   },
   {
@@ -1455,8 +1455,8 @@
     "condition_A": "citizens' expectations about governmental fairness",
     "condition_B": "Premise1: In any form of government, if anybody gains a greater share of political power than others have, then somebody's rights will be violated.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Some political thinkers hope to devise a form of government in which every citizen's rights are respected. But such a form of government is impossible. Statement2: For any government must be defined and controlled by laws that determine its powers and limit"
   },
   {
@@ -1565,8 +1565,8 @@
     "condition_A": "the definition of productivity and its impact on service quality",
     "condition_B": "Premise1: The quality of services rendered can appropriately be ignored in computing productivity.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Correctly measuring the productivity of service workers is complex. Statement2: Consider, for example, postal workers : they are often said to be more productive if more letters are delivered per postal worker. What if more letters are lost or delayed per w"
   },
   {
@@ -1595,8 +1595,8 @@
     "condition_A": "confusion between productivity and service reliability",
     "condition_B": "Premise1: The quality of services rendered can appropriately be ignored in computing productivity.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Correctly measuring the productivity of service workers is complex. Statement2: Consider, for example, postal workers : they are often said to be more productive if more letters are delivered per postal worker. What if more letters are lost or delayed per w"
   },
   {
@@ -1615,8 +1615,8 @@
     "condition_A": "population size comparison",
     "condition_B": "Premise1: There are fewer traffic accidents annually in sparva than in any of the provinces of comparable or greater population.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Sparva, unlike treland's other provinces, requires automobile insurers to pay for any medical treatment sought by someone who has been involved in an accident ; in the other provinces, insurers pay for nonemergency treatment only if they preapprove the trea"
   },
   {
@@ -1645,8 +1645,8 @@
     "condition_A": "the age of construction has no direct impact on the likelihood of a hotel falling into disuse or being demolished.",
     "condition_B": "Premise1: The better the quality of original carpentry in a building, the less likely that building is to fall into disuse and be demolished.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Guidebook writer : i have visited hotels throughout the country and have noticed that in those built before 1930 the quality of the original carpentry work is generally superior to that in hotels built afterward. Statement2: Clearly carpenters working on ho"
   },
   {
@@ -1665,8 +1665,8 @@
     "condition_A": "the condition of a hotel after its completion is solely determined by the initial design choices made during construction.",
     "condition_B": "Premise1: The better the quality of original carpentry in a building, the less likely that building is to fall into disuse and be demolished.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Guidebook writer : i have visited hotels throughout the country and have noticed that in those built before 1930 the quality of the original carpentry work is generally superior to that in hotels built afterward. Statement2: Clearly carpenters working on ho"
   },
   {
@@ -1735,8 +1735,8 @@
     "condition_A": "a direct link between popularity and truthfulness of content",
     "condition_B": "Premise1: A book will not give its readers pleasure unless it was intended by its author to have that effect.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: It has been said that authors who write in order to give pleasure can not impart to their readers the truth of their subject matter. That claim can not be true. Statement2: If it were, one could determine the truthfulness of a book simply by looking at its "
   },
   {
@@ -1745,8 +1745,8 @@
     "condition_A": "an assumption about the nature of books as entertainment versus informational texts",
     "condition_B": "Premise1: A book will not give its readers pleasure unless it was intended by its author to have that effect.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: It has been said that authors who write in order to give pleasure can not impart to their readers the truth of their subject matter. That claim can not be true. Statement2: If it were, one could determine the truthfulness of a book simply by looking at its "
   },
   {
@@ -1825,8 +1825,8 @@
     "condition_A": "declining interest in traditional print books among younger demographics",
     "condition_B": "Premise1: Mail order book clubs have enjoyed substantial growth in fiction sales throughout the last five years.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Statistics from the national booksellers association indicate that during the last five years most bookstores have started to experience declining revenues from the sale of fiction, despite national campaigns to encourage people to read more fiction. Statem"
   },
   {
@@ -1975,8 +1975,8 @@
     "condition_A": "long-established fact about permanent high blood pressure",
     "condition_B": "Premise1: The physiological factors that cause permanently high blood pressure generally make people quick to anger.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Psychologist : it is well known that becoming angry often induces temporary incidents of high blood pressure. Statement2: A recent study further showed, however, that people who are easily angered are significantly more likely to have permanently high blood"
   },
   {
@@ -1985,8 +1985,8 @@
     "condition_A": "psychological factors causing heart disease",
     "condition_B": "Premise1: The physiological factors that cause permanently high blood pressure generally make people quick to anger.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Psychologist : it is well known that becoming angry often induces temporary incidents of high blood pressure. Statement2: A recent study further showed, however, that people who are easily angered are significantly more likely to have permanently high blood"
   },
   {
@@ -2195,8 +2195,8 @@
     "condition_A": "The hypothesis does not consider the historical context or cultural factors influencing capital punishment laws.",
     "condition_B": "Premise1: The legal status of capital punishment in the united states and the philippines aligns with how the majority of citizens in those respective countries view the death penalty.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: The legislature of the philippines voted recently to abolish the death penalty. In contrast, the death penalty remains legal in the united states. Statement2: The difference in the legality of capital punishment demonstrates that the majority of american ci"
   },
   {
@@ -2275,8 +2275,8 @@
     "condition_A": "the cultural similarities between Ireland and this country",
     "condition_B": "Premise1: The original ecology of the peat-harvesting areas of ireland was virtually identical to that of the undisturbed wetlands of this country.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Opponents of peat harvesting in this country argue that it would alter the ecological balance of our peatrich wetlands and that, as a direct consequence of this, much of the country's water supply would be threatened with contamination. But this can not be "
   },
   {
@@ -2355,8 +2355,8 @@
     "condition_A": "environmental regulations favoring the use of steel in building codes.",
     "condition_B": "Premise1: Training home construction workers to work with steel is very costly.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Builder : within ten years, most of the new homes constructed in north america will have steel frameworks rather than wood ones. Statement2: After all, two-by-fours and two-by-sixes -- the sizes of lumber most commonly used in home construction -- are deter"
   },
   {
@@ -2455,8 +2455,8 @@
     "condition_A": "decreased levels of anxiety and depression",
     "condition_B": "Premise1: Among adults between the ages of 40 and 60, increased levels of spending on recreation are strongly correlated with decreased levels of anxiety and depression.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Psychiatrist : in treating first-year students at this university, i have noticed that those reporting the highest levels of spending on recreation score at about the same level on standard screening instruments for anxiety and depression as those reporting"
   },
   {
@@ -2545,8 +2545,8 @@
     "condition_A": "computer programs can solve complex problems without human intervention.",
     "condition_B": "Premise1: The effective use of computer programs that provide solutions to mathematical problems in engineering requires an understanding of mathematical principles.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: More and more computer programs that provide solutions to mathematical problems in engineering are being produced, and it is thus increasingly unnecessary for practicing engineers to have a thorough understanding of fundamental mathematical principles. Stat"
   },
   {
@@ -2575,8 +2575,8 @@
     "condition_A": "the freshness of the mussels",
     "condition_B": "Premise1: The mussels the chef is using for the mussel recipe came from a seafood market.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Chef : this mussel recipe's first step is to sprinkle the live mussels with cornmeal. Statement2: The cornmeal is used to clean them out : they take the cornmeal in and eject the sand that they contain. Statement3: But i can skip this step, because the muss"
   },
   {
@@ -3025,8 +3025,8 @@
     "condition_A": "Global economic growth affecting British purchasing power",
     "condition_B": "Premise1: If more of the british people of 30 years ago had had enough money to vacation abroad, more would have done so.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Thirty years ago, the percentage of the british people who vacationed in foreign countries was very small compared with the large percentage of the british population who travel abroad for vacations now. Foreign travel is, and always has been, expensive fro"
   },
   {
@@ -3145,8 +3145,8 @@
     "condition_A": "historical records may contain inaccuracies or misattribution",
     "condition_B": "Premise1: Works known to have been written by the same modern writer are as different from each other in the respects mentioned as are the iliad and the odyssey.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: The iliad and the odyssey were both attributed to homer in ancient times. But these two poems differ greatly in tone and vocabulary and in certain details of the fictional world they depict. Statement2: So they are almost certainly not the work of the same "
   },
   {
@@ -3265,8 +3265,8 @@
     "condition_A": "The hypothesis suggests an assumption about future data availability, which was not discussed in the premises.",
     "condition_B": "Premise1: It can be known at this time what data will be of most use to scientific investigators in the future",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Millions of irreplaceable exhibits in natural history museums are currently allowed to decay. Statement2: Yet without analyses of eggs from museums, the studies linking pesticides with the decline of birds of prey would have been impossible. Statement3: The"
   },
   {
@@ -3275,8 +3275,8 @@
     "condition_A": "Statement3 implies a need for funding, while the premises do not discuss financial implications.",
     "condition_B": "Premise1: It can be known at this time what data will be of most use to scientific investigators in the future",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Millions of irreplaceable exhibits in natural history museums are currently allowed to decay. Statement2: Yet without analyses of eggs from museums, the studies linking pesticides with the decline of birds of prey would have been impossible. Statement3: The"
   },
   {
@@ -3295,8 +3295,8 @@
     "condition_A": "specialization in outdated technologies",
     "condition_B": "Premise1: The current technological knowledge of most specialists within computer programming could also be applied to many technologies that will replace present ones.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Analyst : the increasing complexity of computers may lead those who pursue a career in computer programming to think that job security and higher wages can be attained by becoming more specialized as the field becomes more complex. Even though specialists e"
   },
   {
@@ -3365,8 +3365,8 @@
     "condition_A": "Insurance premiums based on car ownership location",
     "condition_B": "Premise1: Repairing typical collision damage does not cost more in greatport than in fairmont.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: For similar cars and drivers, automobile insurance for collision damage has always cost more in greatport than in fairmont. Police studies, however, show that cars owned by greatport residents are, on average, slightly less likely to be involved in a collis"
   },
   {
@@ -3445,8 +3445,8 @@
     "condition_A": "the current tree species being more efficient at absorbing CO2 due to genetic mutations or selective breeding practices over recent decades",
     "condition_B": "Premise1: The trees currently found in the rainforest are largely hybrids and a product of crossbreeding that occurred in the late twentieth century.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Biologists studying plant life in the prehistoric rainforest by utilizing samples of ancient ice and fossilized evidence of biological processes found that most of the plants removed an astonishingly small amount of carbon dioxide from the atmosphere. State"
   },
   {
@@ -3475,8 +3475,8 @@
     "condition_A": "fossilized evidence of biological processes is unreliable data for determining current ecological impacts",
     "condition_B": "Premise1: The trees currently found in the rainforest are largely hybrids and a product of crossbreeding that occurred in the late twentieth century.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Biologists studying plant life in the prehistoric rainforest by utilizing samples of ancient ice and fossilized evidence of biological processes found that most of the plants removed an astonishingly small amount of carbon dioxide from the atmosphere. State"
   },
   {
@@ -3505,8 +3505,8 @@
     "condition_A": "Local fishermen will benefit significantly from reduced pollution levels.",
     "condition_B": "Premise1: Humans often become ill as a result of eating lobsters with gill diseases.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Lobsters and other crustaceans eaten by humans are more likely to contract gill diseases when sewage contaminates their water. Under a recent proposal, millions of gallons of local sewage each day would be rerouted many kilometers offshore. Statement2: Alth"
   },
   {
@@ -3665,8 +3665,8 @@
     "condition_A": "conductors who win respect from their orchestra tend to receive more invitations to conduct other ensembles",
     "condition_B": "Premise1: Top orchestras can appreciate the merits of an interpretation even before they have brought it to full realization.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: It is the mark of a superior conductor that he or she has the authority to insist, even with a top orchestra, that rehearsal work must be intensified. Statement2: This authority can not simply be claimed ; the conductor must earn it by winning the orchestra"
   },
   {
@@ -3685,8 +3685,8 @@
     "condition_A": "Outsourcing benefits include cost savings and access to specialized resources.",
     "condition_B": "Premise1: Successful outsourcing requires a company to provide its suppliers with information about its products and plans that can fall into the hands of its competitors and give them a business advantage.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Outsourcing is the practice of obtaining from an independent supplier a product or service that a company has previously provided for itself. Statement2: Since a company 's chief objective is to realize the highest possible year-end profits, any product or "
   },
   {
@@ -3715,8 +3715,8 @@
     "condition_A": "Higher profit margins result from successful outsourcing strategies.",
     "condition_B": "Premise1: Successful outsourcing requires a company to provide its suppliers with information about its products and plans that can fall into the hands of its competitors and give them a business advantage.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Outsourcing is the practice of obtaining from an independent supplier a product or service that a company has previously provided for itself. Statement2: Since a company 's chief objective is to realize the highest possible year-end profits, any product or "
   },
   {
@@ -3745,8 +3745,8 @@
     "condition_A": "aggression levels vary based on individual monkey personality",
     "condition_B": "Premise1: Rhesus monkeys respond with aggression to a wider range of stimuli than any other monkeys do.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: In 1960's studies of rats, scientists found that crowding increases the number of attacks among the animals significantly. Statement2: But in recent experiments in which rhesus monkeys were placed in crowded conditions, although there was an increase in ins"
   },
   {
@@ -3755,8 +3755,8 @@
     "condition_A": "previous research may be biased due to different study populations",
     "condition_B": "Premise1: Rhesus monkeys respond with aggression to a wider range of stimuli than any other monkeys do.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: In 1960's studies of rats, scientists found that crowding increases the number of attacks among the animals significantly. Statement2: But in recent experiments in which rhesus monkeys were placed in crowded conditions, although there was an increase in ins"
   },
   {
@@ -3955,8 +3955,8 @@
     "condition_A": "future missions to Mars being solely dependent on technological advancements",
     "condition_B": "Premise1: The exploration of mars will be carried out by people traveling in spacecraft and not by robots alone",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Building a space station, in which astronauts would live for a considerable time, is essential even if the space station project were to contribute no new knowledge about space or earth that could not otherwise be obtained. Statement2: For future missions t"
   },
   {
@@ -3975,8 +3975,8 @@
     "condition_A": "current economic instability affecting government budgets",
     "condition_B": "Premise1: Serving as stewards of cultural heritage requires that contemporary societies help to maintain the fine arts.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Curator : since ancient times, the fine arts were developed and sustained with the aid of large subsidies from the aristocracies and religious institutions that were the public sectors of their day ; it is doubtful that the arts would have survived without "
   },
   {
@@ -3985,8 +3985,8 @@
     "condition_A": "public opinion on the role of private versus public funding in culture",
     "condition_B": "Premise1: Serving as stewards of cultural heritage requires that contemporary societies help to maintain the fine arts.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Curator : since ancient times, the fine arts were developed and sustained with the aid of large subsidies from the aristocracies and religious institutions that were the public sectors of their day ; it is doubtful that the arts would have survived without "
   },
   {
@@ -3995,8 +3995,8 @@
     "condition_A": "artistic trends shifting towards more self-funded initiatives",
     "condition_B": "Premise1: Serving as stewards of cultural heritage requires that contemporary societies help to maintain the fine arts.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Curator : since ancient times, the fine arts were developed and sustained with the aid of large subsidies from the aristocracies and religious institutions that were the public sectors of their day ; it is doubtful that the arts would have survived without "
   },
   {
@@ -4225,8 +4225,8 @@
     "condition_A": "lower fatality rates due to technological advancements",
     "condition_B": "Premise1: Fatalities involving all trains in state p are fewer due to lower speed limits and stricter training requirements for train conductors.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Critics of a new law that will allow extra-long passenger trains to travel on the state's railroads are mistaken in claiming that these extra-long passenger trains are more dangerous than other types of passenger trains. In our neighboring state p, where ex"
   },
   {
@@ -4385,8 +4385,8 @@
     "condition_A": "the trainers' consistent reinforcement of certain behaviors",
     "condition_B": "Premise1: The dolphins often exhibit complex new responses to the hand signal.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Sometimes when their trainer gives the hand signal for\" do something creative together, \" two dolphins circle a pool in tandem and then leap through the air simultaneously. On other occasions the same signal elicits synchronized backward swims or tail-wavin"
   },
   {
@@ -4465,8 +4465,8 @@
     "condition_A": "human-like emotions observed in chimpanzee groups",
     "condition_B": "Premise1: Feelings of affection in chimp communities are at least sometimes reciprocated.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: A chimp who displays feelings of affection toward the other members of its social group is more likely to be defended by these group members from raiders outside of the group -- even at the risk of harm to these defenders -- than are those chimps who rarely"
   },
   {
@@ -4775,8 +4775,8 @@
     "condition_A": "chemicals leaked into rivers due to old dumps",
     "condition_B": "Premise1: Before the federal law requiring testing of nonpharmaceutical chemicals went into effect recently, there were 40, 000 such chemicals being manufactured, many of them dangerous.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: To allay public concern about chemicals that are leaking into a river from a chemical company's long-established dump, a company representative said, \" federal law requires that every new chemical be tested for safety before it is put onto the market. State"
   },
   {
@@ -4785,8 +4785,8 @@
     "condition_A": "recent implementation of federal drug testing laws",
     "condition_B": "Premise1: Before the federal law requiring testing of nonpharmaceutical chemicals went into effect recently, there were 40, 000 such chemicals being manufactured, many of them dangerous.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: To allay public concern about chemicals that are leaking into a river from a chemical company's long-established dump, a company representative said, \" federal law requires that every new chemical be tested for safety before it is put onto the market. State"
   },
   {
@@ -4915,8 +4915,8 @@
     "condition_A": "Women naturally produce more HDLs due to hormonal differences.",
     "condition_B": "Premise1: Hdls are less easily removed from the bloodstream than are ldls.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Cholesterol, which is a known factor in coronary heart disease and stroke, needs a carrier, known as a lipoprotein, to transport it through the bloodstream. Statement2: Low-density lipoproteins ( ldls ) increase the risk of coronary heart disease and stroke"
   },
   {
@@ -5065,8 +5065,8 @@
     "condition_A": "market demand for startup founders with diverse skills",
     "condition_B": "Premise1: New companies are more likely to succeed when their founders can provide adequate funding and skills in marketing, management, and technical abilities than if they must secure funding or skills from nonfounders.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: When a group of people starts a company, the founders usually serve as sources both of funding and of skills in marketing, management, and technical matters. Statement2: It is unlikely that a single individual can both provide adequate funding and be skille"
   },
   {
@@ -5115,8 +5115,8 @@
     "condition_A": "leadership effectiveness can be measured independently from fiscal policies",
     "condition_B": "Premise1: Opposing higher taxes is not a factor contributing to good leadership.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Politician : of the candidates running, thompson is the best person to lead this nation. Statement2: For one thing, thompson opposes higher taxes whereas the other candidates support them. Many would agree that anyone who opposes higher taxes will make a be"
   },
   {
@@ -5195,8 +5195,8 @@
     "condition_A": "historical trends in funding allocation within academic departments",
     "condition_B": "Premise1: The chemistry department's funding for basic science research is not likely to increase if its funding from sources other than profit-driven institutions does not increase.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Professor : unfortunately, pharmaceutical companies and other profit-driven institutions provide nearly all of the funding for the chemistry department's research. Moreover, unless we can secure more funding for basic science research, it is highly unlikely"
   },
   {
@@ -5295,8 +5295,8 @@
     "condition_A": "people suddenly became wealthy enough to buy more books",
     "condition_B": "Premise1: In the first years after the printing press was invented, printed books were purchased primarily by people who had always bought and read expensive manuscripts but could afford a greater number of printed books for the same money.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Before the printing press, books could be purchased only in expensive manuscript copies. Statement2: The printing press produced books that were significantly less expensive than the manuscript editions. Statement3: The public's demand for printed books in "
   },
   {
@@ -5435,8 +5435,8 @@
     "condition_A": "citation count indicates peer review quality",
     "condition_B": "Premise1: The number of citations a paper receives is a measure of the importance of the research it reports.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Scientific research that involves international collaboration has produced papers of greater influence, as measured by the number of times a paper is cited in subsequent papers, than has research without any collaboration. Papers that result from internatio"
   },
   {
@@ -5455,8 +5455,8 @@
     "condition_A": "Statement2: Good-quality pianos, whether new or secondhand, are costly.",
     "condition_B": "Premise1: Learners, particularly those with genuine musical talent, are apt to lose interest in the instrument if they have to play on a piano that fails to produce a pleasing sound.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: A child learning to play the piano will not succeed unless the child has an instrument at home on which to practice. Statement2: However, good-quality pianos, whether new or secondhand, are costly. Statement3: Buying one is justified only if the child has t"
   },
   {
@@ -5465,8 +5465,8 @@
     "condition_A": "Statement3: Buying one is justified only if the child has the necessary talent and perseverance, which is precisely what one can not know in advance.",
     "condition_B": "Premise1: Learners, particularly those with genuine musical talent, are apt to lose interest in the instrument if they have to play on a piano that fails to produce a pleasing sound.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: A child learning to play the piano will not succeed unless the child has an instrument at home on which to practice. Statement2: However, good-quality pianos, whether new or secondhand, are costly. Statement3: Buying one is justified only if the child has t"
   },
   {
@@ -5575,8 +5575,8 @@
     "condition_A": "antelope bones were discovered at a million-year-old site",
     "condition_B": "Premise1: The antelope bones were charred in a fire controlled by humans.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Fragments of charred antelope bone have recently been found at a million-year-old settlement of homo erectus, an early human species. Statement2: This discovery demonstrates that humans were making controlled use of fire to cook meat at a very early stage o"
   },
   {
@@ -5705,8 +5705,8 @@
     "condition_A": "Economic conditions affecting purchasing power",
     "condition_B": "Premise1: Katrovians in households that already have computers are unlikely to purchase the new infotek model as an additional computer for home use.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Infotek, a computer manufacturer in katrovia, has just introduced a new personal computer model that sells for significantly less than any other model. Statement2: Market research shows, however, that very few katrovian households without personal computers"
   },
   {
@@ -5785,8 +5785,8 @@
     "condition_A": "the hydro's marketing strategy focusing on environmental appeal",
     "condition_B": "Premise1: The hydro is recognizable as environmentally friendly in a way that its competitors are not.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: While sales of other highly fuel-efficient automobiles are in decline, sales of the hydro are rising. Statement2: The hydro's manufacturers attribute its success to the hydro's price and very low fuel consumption. Statement3: However, the hydro is comparabl"
   },
   {
@@ -5915,8 +5915,8 @@
     "condition_A": "the overall market demand for syrup products",
     "condition_B": "Premise1: In general, customers who prefer regular syrup will buy low-calorie syrup if regular is unavailable, but those who prefer low-calorie will not buy regular syrup.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Fastmart, a convenience store chain, is planning to add pancake syrup to the items it sells. Statement2: Fastmart stores do not have shelf space to stock more than one variety of syrup. Surveys of fastmart customers indicate that one-fourth of them prefer l"
   },
   {
@@ -5945,8 +5945,8 @@
     "condition_A": "older planes had similar low-power circuitry to modern ones",
     "condition_B": "Premise1: Planes were first equipped with low-power circuitry at about the same time portable electronic devices became popular.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Modern navigation systems, which are found in most of today's commercial aircraft, are made with low-power circuitry, which is more susceptible to interference than the vacuum-tube circuitry found in older planes. Statement2: During landing, navigation syst"
   },
   {
@@ -5955,8 +5955,8 @@
     "condition_A": "passengers' laptops can interfere with both old and new navigation systems equally",
     "condition_B": "Premise1: Planes were first equipped with low-power circuitry at about the same time portable electronic devices became popular.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Modern navigation systems, which are found in most of today's commercial aircraft, are made with low-power circuitry, which is more susceptible to interference than the vacuum-tube circuitry found in older planes. Statement2: During landing, navigation syst"
   },
   {
@@ -5985,8 +5985,8 @@
     "condition_A": "home gardener feedback improves map detail",
     "condition_B": "Premise1: Some of the weather stations currently in use are more than 60 years old.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Current maps showing the north american regions where different types of garden plants will flourish are based on weather data gathered 60 years ago from a few hundred primitive weather stations. Statement2: New maps are now being compiled using computerize"
   },
   {
@@ -6055,8 +6055,8 @@
     "condition_A": "manufacturing relocation motives",
     "condition_B": "Premise1: If workers were more productive in industrialized nations, manufacturers would not move their jobs to less-developed nations.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Most industrialized nations face the prospect of losing most of their manufacturing jobs to less-developed nations within the next few decades. Many of these nations will have a number of idle manufacturing facilities that will be unusable for other purpose"
   },
   {
@@ -6145,8 +6145,8 @@
     "condition_A": "the clarity of quackery compared to scientific papers",
     "condition_B": "Premise1: People who attempt to diagnose their medical conditions are likely to do themselves more harm than good unless they rely exclusively on scientifically valid information.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who browse the web for medical information often can not discriminate between scientifically valid information and quackery. Much of the quackery is particularly appealing to readers with no medical background because it is usually written more clear"
   },
   {
@@ -6295,8 +6295,8 @@
     "condition_A": "The similarity between the musical styles of Moral Vacuum and Cruel Herd",
     "condition_B": "Premise1: Jackie has not previously cared for the cruel herd, but on the new album the cruel herd's previous musical arranger has been replaced by moral vacuum's musical arranger.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Since jackie is such a big fan of moral vacuum's music, she will probably like the cruel herd's new album. Statement2: Like moral vacuum, the cruel herd on this album plays complex rock music that employs the acoustic instrumentation and harmonic sophistica"
   },
   {
@@ -6495,8 +6495,8 @@
     "condition_A": "legislators' lack of public interest in constituent welfare",
     "condition_B": "Premise1: Legislators considering a proposed law for which they have repugnance or enthusiasm do not consider the consequences that it will actually have.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: If legislators are to enact laws that benefit constituents, they must be sure to consider what the consequences of enacting a proposed law will actually be. Concerned primarily with advancing their own political careers, legislators present legislation in p"
   },
   {
@@ -6525,8 +6525,8 @@
     "condition_A": "the introduction of high-speed internet access",
     "condition_B": "Premise1: The most popular movies and programs on channels carried by cable companies will also be offered on channels carried by the fiberoptic lines owned by the telephone companies.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: The average cable television company offers its customers 50 channels, but new fiber-optic lines will enable telephone companies to provide 100 to 150 television channels to their customers for the same price as cable companies charge for 50. sent2: therefo"
   },
   {
@@ -6545,8 +6545,8 @@
     "condition_A": "changes in consumer preferences over time",
     "condition_B": "Premise1: The most popular movies and programs on channels carried by cable companies will also be offered on channels carried by the fiberoptic lines owned by the telephone companies.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: The average cable television company offers its customers 50 channels, but new fiber-optic lines will enable telephone companies to provide 100 to 150 television channels to their customers for the same price as cable companies charge for 50. sent2: therefo"
   },
   {
@@ -6555,8 +6555,8 @@
     "condition_A": "market saturation levels of existing media platforms",
     "condition_B": "Premise1: The most popular movies and programs on channels carried by cable companies will also be offered on channels carried by the fiberoptic lines owned by the telephone companies.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: The average cable television company offers its customers 50 channels, but new fiber-optic lines will enable telephone companies to provide 100 to 150 television channels to their customers for the same price as cable companies charge for 50. sent2: therefo"
   },
   {
@@ -6675,8 +6675,8 @@
     "condition_A": "a change in societal expectations regarding education levels",
     "condition_B": "Premise1: The average number of years kravonian college students remain enrolled before completing a degree has been increasing over the past several years.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: In kravonia, the average salary for jobs requiring a college degree has always been higher than the average salary for jobs that do not require a degree. Statement2: Over the last few years, the number of kravonians enrolled in college has been growing stea"
   },
   {
@@ -6725,8 +6725,8 @@
     "condition_A": "the effectiveness of the mixture in treating colds",
     "condition_B": "Premise1: The mixture is powerful enough to prevent almost everybody who uses it from contracting any further colds.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Some people have been promoting a new herbal mixture as a remedy for the common cold. Statement2: The mixture contains, among other things, extracts of the plants purple coneflower and goldenseal. Statement3: A cold sufferer, skeptical of the claim that the"
   },
   {
@@ -6805,8 +6805,8 @@
     "condition_A": "the presence of similar motifs across different regions indicates that artists had access to a shared repertoire.",
     "condition_B": "Premise1: There was not a common repertory of mosaic designs with which artisans who lived in various parts of the roman empire were familiar.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Excavations of the roman city of sepphoris have uncovered numerous detailed mosaics depicting several readily identifiable animal species : a hare, a partridge, and various mediterranean fish. Oddly, most of the species represented did not live in the sepph"
   },
   {
@@ -6825,8 +6825,8 @@
     "condition_A": "historical records do not detail the specific sources of inspiration for Roman mosaics.",
     "condition_B": "Premise1: There was not a common repertory of mosaic designs with which artisans who lived in various parts of the roman empire were familiar.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Excavations of the roman city of sepphoris have uncovered numerous detailed mosaics depicting several readily identifiable animal species : a hare, a partridge, and various mediterranean fish. Oddly, most of the species represented did not live in the sepph"
   },
   {
@@ -6845,8 +6845,8 @@
     "condition_A": "the effectiveness of IPV compared to OPV",
     "condition_B": "Premise1: If ipv replaces opv as the most commonly used polio vaccine, at least a few new cases of naturally occurring polio in north america will result each year.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: There have been no new cases of naturally occurring polio in north america in recent years. Statement2: Yet there are approximately 12 new cases of polio each year in north america, all caused by the commonly administered live oral polio vaccine ( opv ). Su"
   },
   {
@@ -6925,8 +6925,8 @@
     "condition_A": "Polling methods and time frame differences",
     "condition_B": "Premise1: Polls of those who graduated from a university more than five years before being polled show a higher percentage of people in favor of reducing government social services than do polls of the overall population.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Polls have shown that a higher percentage of graduating university students are against proposals to reduce government social services than are students entering their first year at a university. Statement2: These polls lead us to the conclusion that people"
   },
   {
@@ -6955,8 +6955,8 @@
     "condition_A": "Time period variation",
     "condition_B": "Premise1: Polls of those who graduated from a university more than five years before being polled show a higher percentage of people in favor of reducing government social services than do polls of the overall population.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Polls have shown that a higher percentage of graduating university students are against proposals to reduce government social services than are students entering their first year at a university. Statement2: These polls lead us to the conclusion that people"
   },
   {
@@ -7135,8 +7135,8 @@
     "condition_A": "complaints are rare events within an ideal bureaucracy.",
     "condition_B": "Premise1: An ideal bureaucracy will never be permanently without complaints about problems that are not covered by that bureaucracy's regulations.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Bureaucrat : the primary, constant goal of an ideal bureaucracy is to define and classify all possible problems and set out regulations regarding each eventuality. Also, an ideal bureaucracy provides an appeal procedure for any complaint. Statement2: If a c"
   },
   {
@@ -7385,8 +7385,8 @@
     "condition_A": "auditor bias towards certain types of reports",
     "condition_B": "Premise1: The scheduled highway projects identified as wasteful in the report were not mostly projects in districts controlled by the president's party.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Press secretary : our critics claim that the president's recent highway project cancellations demonstrate a vindictive desire to punish legislative districts controlled by opposition parties. They offer as evidence the fact that 90 percent of the projects c"
   },
   {
@@ -7435,8 +7435,8 @@
     "condition_A": "the orbital characteristics of planets can change over time due to various factors",
     "condition_B": "Premise1: In most cases in which planets have been discovered orbiting a distant star, more than one planet has been found orbiting the star.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Astronomer : in most cases in which a planet has been detected orbiting a distant star, the planet's orbit is distinctly oval, whereas the orbits of earth and several other planets around our sun are approximately circular. Statement2: However, many comets "
   },
   {
@@ -7595,8 +7595,8 @@
     "condition_A": "The budget constraints of public libraries prevent them from purchasing rare or specialized materials.",
     "condition_B": "Premise1: Library users as a group depend on their public library for access to a wide variety of up-to-date reference books that are published in hardcover only.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Paperback books wear out more quickly than hardcover books do, but paperback books cost much less. Statement2: Therefore, users of public libraries would be better served if public libraries bought only paperback books, since by so doing these libraries cou"
   },
   {
@@ -7625,8 +7625,8 @@
     "condition_A": "misinterpretation of cultural exchange patterns",
     "condition_B": "Premise1: There is no third language from which both english and mbarbaram borrowed the word \"dog.\"",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: English and the austronesian language mbarbaram both use the word\" dog\" for canines. Statement2: These two languages are unrelated, and since speakers of the two languages only came in contact with one another long after the word\" dog\" was first used in thi"
   },
   {
@@ -7745,8 +7745,8 @@
     "condition_A": "the traps were designed with multiple compartments to prevent overcrowding",
     "condition_B": "Premise1: Any food that the eight lobsters in the trap might have obtained was not enough to ward off hunger.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Marine biologists had hypothesized that lobsters kept together in lobster traps eat one another in response to hunger. Statement2: Periodic checking of lobster traps, however, has revealed instances of lobsters sharing traps together for weeks. Eight lobste"
   },
   {
@@ -7755,8 +7755,8 @@
     "condition_A": "the researchers used advanced technology to monitor the traps more frequently than previously thought possible",
     "condition_B": "Premise1: Any food that the eight lobsters in the trap might have obtained was not enough to ward off hunger.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Marine biologists had hypothesized that lobsters kept together in lobster traps eat one another in response to hunger. Statement2: Periodic checking of lobster traps, however, has revealed instances of lobsters sharing traps together for weeks. Eight lobste"
   },
   {
@@ -7935,8 +7935,8 @@
     "condition_A": "Statement1: Fishermen illegally caught fish without permission before the ban.",
     "condition_B": "Premise1: Prior to the ban, there was practically no fishing at quapaw lake.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[CAUSAL GRAPH MEMORY]\nContext: Statement1: Two lakes in the pawpaw mountains, quapaw and highwater, were suffering from serious declines in their fish populations ten years ago. Statement2: Since that time, there has been a moratorium on fishing at quapaw lake, and the fish population there has reco"
   },
   {

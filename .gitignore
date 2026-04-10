@@ -1,37 +1,26 @@
 # Python
 __pycache__/
 *.pyc
-venv/
 *.egg-info/
 
-# Large model files
+# Virtual env
+venv/
+
+# Large/temp files
 *.bin
 *.pt
 *.safetensors
-
-# Temporary files
 *.tmp
 *.log
 
 # Large data files
 data/clomo/memory_streams.jsonl
 data/crass/memory_streams.jsonl
-data/clomo/clomo_converted.json
-data/crass/crass_converted.json
-data/clomo/seeds.json
-data/clomo/spurious_features.json
 
-# Debug results
-results/debug/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Virtual env
-venv/
+# Excluded repos
 A-mem-sys/
 CLOMO/
 HippoRAG/
-memory/
-notebooks/
-__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/

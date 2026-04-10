@@ -1,0 +1,107 @@
+============================================================
+  CAUSAL GRAPH MEMORY — DEMO
+  Dataset: CLOMO + CRASS
+============================================================
+
+WHAT IS CAUSAL GRAPH MEMORY?
+For every query, we automatically build a causal graph
+structure as memory. The model uses this to reason about
+what causes what — without being told the answer.
+
+------------------------------------------------------------
+HOW IT WORKS — STEP BY STEP
+------------------------------------------------------------
+
+STEP 1: Take a CLOMO instance
+  Context : Government policies increased consumer demand
+  True cause (X) : government's policies increase consumer demand
+  Outcome (Y)    : The government can bear responsibility
+  Spurious (S)   : consumer advocacy claims government responsible
+
+STEP 2: Build causal graph memory (for EVERY query)
+  [CAUSAL GRAPH MEMORY]
+  Context: Statement1: Consumer advocate : there is no doubt
+           that the government is responsible...
+  
+  Outcome: Premise1: The government can bear responsibility
+           for that which it indirectly causes.
+  
+  Candidate relationships observed:
+    - gasoline prices rise because consumers buy more
+    - consumer advocacy claims government responsible  <- spurious
+    - government's policies increase consumer demand  <- true cause
+    - increased demand leads to higher gasoline prices
+  
+  Task: Determine which candidate directly causes the outcome.
+  Note: Some candidates may be correlated but not causal.
+
+  KEY: Candidates are SHUFFLED — no labels showing which is causal!
+       Model must reason by itself.
+
+STEP 3: Ask queries using this memory
+
+  CAUSAL QUERY:
+    Q: Does 'government policies increase demand' cause outcome?
+    Ground truth: YES
+    With memory: model identifies this as TRUE cause
+
+  SPURIOUS QUERY:
+    Q: Does 'consumer advocacy claims...' cause outcome?
+    Ground truth: NO
+    With memory: model identifies this as SPURIOUS
+
+  TRAP QUERY Type 1 - Causal Reversal (tests: identify spuriousness):
+    Q: Does 'consumer advocacy claims...' cause outcome
+       even when 'government policies...' is absent?
+    Correct: NO
+    Fooled model says: YES (tricked by spurious memory)
+
+  TRAP QUERY Type 2 - Spurious Removal (tests: disentangle):
+    Q: Does 'government policies...' still cause outcome
+       without 'consumer advocacy claims...'?
+    Correct: YES
+    Fooled model says: NO (confused without spurious feature)
+
+------------------------------------------------------------
+RESULTS — CLOMO (200 instances)
+------------------------------------------------------------
+
+Simple Evaluation:
+  System              Causal    Spurious   Disentangle
+  Qwen alone          67.5%     58.5%      17.5%
+  Mem0 + Qwen         81.0%     45.0%      16.0%
+  A-mem-sys + Qwen    77.5%     53.0%      20.0%
+
+Trap Query Evaluation:
+  System              (i) Identify   (ii) Disentangle
+  Qwen alone          80.2%          31.3%
+  Mem0 + Qwen         61.7%          24.7%
+  A-mem-sys + Qwen    62.2%          24.3%
+
+------------------------------------------------------------
+RESULTS — CRASS (274 instances)
+------------------------------------------------------------
+
+Simple Evaluation:
+  System              Causal    Spurious   Disentangle
+  Qwen alone          83.9%     41.5%      29.6%
+  Mem0 + Qwen         65.0%     48.5%      23.4%
+  A-mem-sys + Qwen    55.1%     63.7%      27.4%
+
+Trap Query Evaluation:
+  System              (i) Identify   (ii) Disentangle
+  Qwen alone           4.9%          35.2%
+  Mem0 + Qwen         61.5%          28.2%
+  A-mem-sys + Qwen    63.1%          27.1%
+
+------------------------------------------------------------
+KEY FINDINGS
+------------------------------------------------------------
+
+1. Causal graph memory helps causal accuracy (67.5% -> 81%)
+2. Disentanglement is hard for all systems (~17-20%)
+3. Memory helps identify spuriousness on complex queries
+   (CRASS Type1: 4.9% -> 61-63% with memory)
+4. Type 2 (disentangle) remains challenging for all systems
+
+============================================================

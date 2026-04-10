@@ -225,8 +225,8 @@
     "condition_A": "variability in orthopedic practices across different hospitals",
     "condition_B": "Premise1: X-rays of patients of many different orthopedists working in several hospitals were reviewed.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Often patients with ankle fractures that are stable, and thus do not require surgery, are given follow-up x-rays because their orthopedists are concerned about possibly having misjudged the stability of the fracture. Statement2:"
   },
   {
@@ -285,8 +285,8 @@
     "condition_A": "the popularity and subjective nature of poetic interpretations",
     "condition_B": "Premise1: A given poem can be objectively evaluated only if the poem's aesthetic value can be discussed.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: It is popularly believed that a poem has whatever meaning is assigned to it by the reader. Statement2: But objective evaluation of poetry is possible only if this popular belief is false ; for the aesthetic value of a poem can n"
   },
   {
@@ -405,8 +405,8 @@
     "condition_A": "manufacturing sector performance over time",
     "condition_B": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pun"
   },
   {
@@ -415,8 +415,8 @@
     "condition_A": "currency fluctuation impact on export prices",
     "condition_B": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pun"
   },
   {
@@ -435,8 +435,8 @@
     "condition_A": "historical precedent for currency weakness",
     "condition_B": "Premise1: After several decades of operating well below peak capacity, darfir's manufacturing sector is now operating at near-peak levels.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Twelve years ago and again five years ago, there were extended periods when the darfir republic's currency, the pundra, was weak : its value was unusually low relative to the world's most stable currencies. Both times a weak pun"
   },
   {
@@ -455,8 +455,8 @@
     "condition_A": "Parental background in early childhood education",
     "condition_B": "Premise1: Most of the parents participating in the programs have prior experience as educators.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Educator : some experimental educational programs, based on the principle that children's first education should take place at home, instruct parents in how to be their child's\" first teacher. This shows that these programs are "
   },
   {
@@ -705,8 +705,8 @@
     "condition_A": "the critics' personal biases influencing their assessment",
     "condition_B": "Premise1: The proposed legislation is not made up of a set of statements some of which are overly specific and some of which are overly vague.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Tax reformer : the proposed tax reform legislation is being criticized by political groups on the right for being too specific and by political groups on the left for being too vague. Statement2: Since one and the same statement"
   },
   {
@@ -875,8 +875,8 @@
     "condition_A": "humans do not give off any gaseous substances that could be detected by mosquitoes",
     "condition_B": "Premise1: Mosquitoes are not attracted to humans by body heat.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Human skin gives off an array of gaseous substances, including carbon dioxide and lactic acid, both of which attract mosquitoes. However, neither of these two substances, whether alone or combined with one another, will attract "
   },
   {
@@ -925,8 +925,8 @@
     "condition_A": "Acme's earnings were inflated due to fraudulent activities.",
     "condition_B": "Premise1: Acme's earnings for last year, when accurately stated, are below $1 million",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Acme's bank loan must be immediately repaid in full if acme's earnings fall below $ 1 million per year. If acme has to repay the entire loan immediately, it will have to declare bankruptcy. Statement2: Acme had seemed safe from "
   },
   {
@@ -945,8 +945,8 @@
     "condition_A": "The bank loan was extended beyond what Acme could realistically afford.",
     "condition_B": "Premise1: Acme's earnings for last year, when accurately stated, are below $1 million",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Acme's bank loan must be immediately repaid in full if acme's earnings fall below $ 1 million per year. If acme has to repay the entire loan immediately, it will have to declare bankruptcy. Statement2: Acme had seemed safe from "
   },
   {
@@ -1155,8 +1155,8 @@
     "condition_A": "group differences in children's reactions to violence",
     "condition_B": "Premise1: The children who had been shown the film were found to be no more likely than the children who had not been shown the film to punch other children.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Politician : a major social problem is children hurting other children. The results of a recent experiment by psychologists establish that watching violent films is at least partly responsible for this aggressive behavior. State"
   },
   {
@@ -1165,8 +1165,8 @@
     "condition_A": "Margaret's husband taking the dog to work all day is unrelated to the incident described.",
     "condition_B": "Premise1: Margaret's husband brought the dog home on his lunch break.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Margaret came home after a long day of work to find her front door open and her waste basket knocked over with all of the contents strewn about the kitchen floor. Statement2: She believes that her dog must have knocked it over i"
   },
   {
@@ -1275,8 +1275,8 @@
     "condition_A": "the reflex's constant operation without human intervention",
     "condition_B": "Premise1: The monitoring function of the reflex is not subject to frequent unpredictable malfunctioning.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Advertisement : the new reflex computer represents a conceptual advance. Statement2: Unlike traditional computers, the reflex has a built-in monitoring function that continuously checks all other computer operations and lets you"
   },
   {
@@ -1315,8 +1315,8 @@
     "condition_A": "the role of therapist expertise in treatment outcomes",
     "condition_B": "Premise1: It is difficult for any form of psychotherapy to be effective without focusing on mental states that are under the patient's direct conscious control.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Therapist : cognitive psychotherapy focuses on changing a patient's conscious beliefs. Statement2: Thus, cognitive psychotherapy is likely to be more effective at helping patients overcome psychological problems than are forms o"
   },
   {
@@ -1335,8 +1335,8 @@
     "condition_A": "the researchers' actions being coincidental with the crows' reactions",
     "condition_B": "Premise1: Some of the crows that shrieked at and dive-bombed people wearing the masks were not among the crows that had been trapped",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: A scientific study provides evidence that crows are capable of recognizing threatening people and can even pass their concerns on to other crows. Statement2: Researchers wearing rubber caveman masks trapped wild crows and then r"
   },
   {
@@ -1375,8 +1375,8 @@
     "condition_A": "a popular sport linked to various health issues",
     "condition_B": "Premise1: The link between jogging and certain structural disorders appears to be a causal one.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Physiological research has uncovered disturbing evidence linking a number of structural disorders to jogging. Among the ailments seemingly connected with this now-popular sport are spinal disk displacements, stress fractures of "
   },
   {
@@ -1565,8 +1565,8 @@
     "condition_A": "the definition of productivity and its impact on service quality",
     "condition_B": "Premise1: The quality of services rendered can appropriately be ignored in computing productivity.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Correctly measuring the productivity of service workers is complex. Statement2: Consider, for example, postal workers : they are often said to be more productive if more letters are delivered per postal worker. What if more lett"
   },
   {
@@ -1745,8 +1745,8 @@
     "condition_A": "an assumption about the nature of books as entertainment versus informational texts",
     "condition_B": "Premise1: A book will not give its readers pleasure unless it was intended by its author to have that effect.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: It has been said that authors who write in order to give pleasure can not impart to their readers the truth of their subject matter. That claim can not be true. Statement2: If it were, one could determine the truthfulness of a b"
   },
   {
@@ -1795,8 +1795,8 @@
     "condition_A": "consumer control has no impact on production decisions.",
     "condition_B": "Premise1: Making decisions about patterns of work organization, resource allocation, and location of industry is not the core of a public official's job.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Economist : in free market systems, the primary responsibility of corporate executives is to determine a nation's industrial technology, the pattern of work organization, location of industry, and resource allocation. They also "
   },
   {
@@ -1835,8 +1835,8 @@
     "condition_A": "increased competition from online retailers and digital content providers",
     "condition_B": "Premise1: Mail order book clubs have enjoyed substantial growth in fiction sales throughout the last five years.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Statistics from the national booksellers association indicate that during the last five years most bookstores have started to experience declining revenues from the sale of fiction, despite national campaigns to encourage people"
   },
   {
@@ -1885,8 +1885,8 @@
     "condition_A": "none of the 20 trucks was sold before last year",
     "condition_B": "Premise1: None of the 20 trucks was sold before last year.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Auditor : xyz, a construction company, purchased 20 new trucks 3 years ago, and there is no record of any of those trucks being sold last year. Statement2: Records indicate, however, that xyz sold off all of its diesel-powered t"
   },
   {
@@ -1975,8 +1975,8 @@
     "condition_A": "long-established fact about permanent high blood pressure",
     "condition_B": "Premise1: The physiological factors that cause permanently high blood pressure generally make people quick to anger.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Psychologist : it is well known that becoming angry often induces temporary incidents of high blood pressure. Statement2: A recent study further showed, however, that people who are easily angered are significantly more likely t"
   },
   {
@@ -2095,8 +2095,8 @@
     "condition_A": "sales performance is solely dependent on external factors like market trends",
     "condition_B": "Premise1: The sales team's effectiveness depends on contributions from the other departments.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Businessman : sales are the most important part of any business. Statement2: Marketing and communications are never as effective as a strong sales team. Statement3: Persuasive salesmen can sell as many units of an inferior produ"
   },
   {
@@ -2135,8 +2135,8 @@
     "condition_A": "school records show all students paid full tuition equally.",
     "condition_B": "Premise1: The merchant tailors' school did not reduce its fees for the children of the more affluent guild members.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Although there is no record of poet edmund spenser 's parentage, we do know that as a youth spenser attended the merchant tailors'school in london for a period between 1560 and 1570. records from this time indicate that the merc"
   },
   {
@@ -2145,8 +2145,8 @@
     "condition_A": "guild membership does not affect student fees.",
     "condition_B": "Premise1: The merchant tailors' school did not reduce its fees for the children of the more affluent guild members.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Although there is no record of poet edmund spenser 's parentage, we do know that as a youth spenser attended the merchant tailors'school in london for a period between 1560 and 1570. records from this time indicate that the merc"
   },
   {
@@ -2155,8 +2155,8 @@
     "condition_A": "scholarship programs exist to assist less affluent students.",
     "condition_B": "Premise1: The merchant tailors' school did not reduce its fees for the children of the more affluent guild members.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Although there is no record of poet edmund spenser 's parentage, we do know that as a youth spenser attended the merchant tailors'school in london for a period between 1560 and 1570. records from this time indicate that the merc"
   },
   {
@@ -2195,8 +2195,8 @@
     "condition_A": "The hypothesis does not consider the historical context or cultural factors influencing capital punishment laws.",
     "condition_B": "Premise1: The legal status of capital punishment in the united states and the philippines aligns with how the majority of citizens in those respective countries view the death penalty.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: The legislature of the philippines voted recently to abolish the death penalty. In contrast, the death penalty remains legal in the united states. Statement2: The difference in the legality of capital punishment demonstrates tha"
   },
   {
@@ -2355,8 +2355,8 @@
     "condition_A": "environmental regulations favoring the use of steel in building codes.",
     "condition_B": "Premise1: Training home construction workers to work with steel is very costly.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Builder : within ten years, most of the new homes constructed in north america will have steel frameworks rather than wood ones. Statement2: After all, two-by-fours and two-by-sixes -- the sizes of lumber most commonly used in h"
   },
   {
@@ -2545,8 +2545,8 @@
     "condition_A": "computer programs can solve complex problems without human intervention.",
     "condition_B": "Premise1: The effective use of computer programs that provide solutions to mathematical problems in engineering requires an understanding of mathematical principles.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: More and more computer programs that provide solutions to mathematical problems in engineering are being produced, and it is thus increasingly unnecessary for practicing engineers to have a thorough understanding of fundamental "
   },
   {
@@ -3075,8 +3075,8 @@
     "condition_A": "shifts in public opinion on environmental issues",
     "condition_B": "Premise1: Enabling people to believe that better futures are possible will help prevent the loss of motivation that results from pessimistic beliefs about the future.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Young people believe efforts to reduce pollution, poverty, and war are doomed to failure. This pessimism is probably harmful to humanity's future, because people lose motivation to work for goals they think are unrealizable. Sta"
   },
   {
@@ -3265,8 +3265,8 @@
     "condition_A": "The hypothesis suggests an assumption about future data availability, which was not discussed in the premises.",
     "condition_B": "Premise1: It can be known at this time what data will be of most use to scientific investigators in the future",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Millions of irreplaceable exhibits in natural history museums are currently allowed to decay. Statement2: Yet without analyses of eggs from museums, the studies linking pesticides with the decline of birds of prey would have bee"
   },
   {
@@ -3305,8 +3305,8 @@
     "condition_A": "generalist vs. specialist wage disparity",
     "condition_B": "Premise1: The current technological knowledge of most specialists within computer programming could also be applied to many technologies that will replace present ones.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Analyst : the increasing complexity of computers may lead those who pursue a career in computer programming to think that job security and higher wages can be attained by becoming more specialized as the field becomes more compl"
   },
   {
@@ -3325,8 +3325,8 @@
     "condition_A": "Statement1's assertion about distinguishing between annoyances and important problems.",
     "condition_B": "Premise1: Students having cell phones does not constitute an important problem for the city schools.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Parent : the city education department is unable to distinguish between annoyances and important problems. Statement2: For instance, prohibiting students from having cell phones is an overreaction. If a student uses one and thus"
   },
   {
@@ -3335,8 +3335,8 @@
     "condition_A": "Statement2's example of prohibiting cell phone use as an overreaction.",
     "condition_B": "Premise1: Students having cell phones does not constitute an important problem for the city schools.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Parent : the city education department is unable to distinguish between annoyances and important problems. Statement2: For instance, prohibiting students from having cell phones is an overreaction. If a student uses one and thus"
   },
   {
@@ -3365,8 +3365,8 @@
     "condition_A": "Insurance premiums based on car ownership location",
     "condition_B": "Premise1: Repairing typical collision damage does not cost more in greatport than in fairmont.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: For similar cars and drivers, automobile insurance for collision damage has always cost more in greatport than in fairmont. Police studies, however, show that cars owned by greatport residents are, on average, slightly less like"
   },
   {
@@ -3385,8 +3385,8 @@
     "condition_A": "Population density differences between Greatport and Fairmont",
     "condition_B": "Premise1: Repairing typical collision damage does not cost more in greatport than in fairmont.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: For similar cars and drivers, automobile insurance for collision damage has always cost more in greatport than in fairmont. Police studies, however, show that cars owned by greatport residents are, on average, slightly less like"
   },
   {
@@ -3415,8 +3415,8 @@
     "condition_A": "a high percentage of individuals within the study group developed herniated disks due to other factors unrelated to the genetic defect.",
     "condition_B": "Premise1: When the researchers examined the families of the 5 subjects who had the defective gene, they found that 30 family members also had the defective gene, and each of them suffered from herniated disks.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Researchers examined 100 people suffering from herniated disks in their backs. Five of them were found to have a defect in a particular gene. The researchers also examined 100 people who had no problems with the disks in their b"
   },
   {
@@ -3425,8 +3425,8 @@
     "condition_A": "the number of subjects with the genetic defect was not representative of the general population.",
     "condition_B": "Premise1: When the researchers examined the families of the 5 subjects who had the defective gene, they found that 30 family members also had the defective gene, and each of them suffered from herniated disks.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Researchers examined 100 people suffering from herniated disks in their backs. Five of them were found to have a defect in a particular gene. The researchers also examined 100 people who had no problems with the disks in their b"
   },
   {
@@ -3475,8 +3475,8 @@
     "condition_A": "fossilized evidence of biological processes is unreliable data for determining current ecological impacts",
     "condition_B": "Premise1: The trees currently found in the rainforest are largely hybrids and a product of crossbreeding that occurred in the late twentieth century.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Biologists studying plant life in the prehistoric rainforest by utilizing samples of ancient ice and fossilized evidence of biological processes found that most of the plants removed an astonishingly small amount of carbon dioxi"
   },
   {
@@ -3575,8 +3575,8 @@
     "condition_A": "jury selection process bias",
     "condition_B": "Premise1: The more a juror knows about a particular scientific or technical issue involved in a trial, the more likely it is that the juror will be prejudiced in favor of one of the litigating parties before the trial begins.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who have specialized knowledge about a scientific or technical issue are systematically excluded from juries for trials where that issue is relevant. Statement2: Thus, trial by jury is not a fair means of settling dispute"
   },
   {
@@ -3585,8 +3585,8 @@
     "condition_A": "trial complexity affecting impartiality",
     "condition_B": "Premise1: The more a juror knows about a particular scientific or technical issue involved in a trial, the more likely it is that the juror will be prejudiced in favor of one of the litigating parties before the trial begins.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who have specialized knowledge about a scientific or technical issue are systematically excluded from juries for trials where that issue is relevant. Statement2: Thus, trial by jury is not a fair means of settling dispute"
   },
   {
@@ -3595,8 +3595,8 @@
     "condition_A": "litigation strategy influencing prejudice",
     "condition_B": "Premise1: The more a juror knows about a particular scientific or technical issue involved in a trial, the more likely it is that the juror will be prejudiced in favor of one of the litigating parties before the trial begins.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who have specialized knowledge about a scientific or technical issue are systematically excluded from juries for trials where that issue is relevant. Statement2: Thus, trial by jury is not a fair means of settling dispute"
   },
   {
@@ -3625,8 +3625,8 @@
     "condition_A": "The passage of the clean air act could be coincidental and unrelated to any specific contributor.",
     "condition_B": "Premise1: Mayor pollister would not have passed the law unless he was doing so for a contributor.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Mayor pollister always repays his contributors by passing the laws they desire. Statement2: Since mayor pollister recently passed the city's first clean air act, he must have had a contributor to repay.\n\nOutcome: Premise1: Mayor"
   },
   {
@@ -3655,8 +3655,8 @@
     "condition_A": "top orchestras always prefer new interpretations over established ones",
     "condition_B": "Premise1: Top orchestras can appreciate the merits of an interpretation even before they have brought it to full realization.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: It is the mark of a superior conductor that he or she has the authority to insist, even with a top orchestra, that rehearsal work must be intensified. Statement2: This authority can not simply be claimed ; the conductor must ear"
   },
   {
@@ -3865,8 +3865,8 @@
     "condition_A": "the historical sales data of the automobile dealer",
     "condition_B": "Premise1: Cars in the class to which the pz 1000 belongs are more likely to be involved in accidents than are other types of cars.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Automobile dealer's advertisement : the highway traffic safety institute reports that the pz 1000 has the fewest injuries per accident of any car in its class. Statement2: This shows that the pz 1000 is one of the safest cars av"
   },
   {
@@ -3885,8 +3885,8 @@
     "condition_A": "the student's academic performance history",
     "condition_B": "Premise1: The student previously studied alone but is receiving help from several outstanding students during the present course.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: A student has taken twelve courses and received a b in a majority of them. Statement2: The student is now taking another course and will probably, given her record, receive a b in it.\n\nOutcome: Premise1: The student previously s"
   },
   {
@@ -3985,8 +3985,8 @@
     "condition_A": "public opinion on the role of private versus public funding in culture",
     "condition_B": "Premise1: Serving as stewards of cultural heritage requires that contemporary societies help to maintain the fine arts.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Curator : since ancient times, the fine arts were developed and sustained with the aid of large subsidies from the aristocracies and religious institutions that were the public sectors of their day ; it is doubtful that the arts"
   },
   {
@@ -4095,8 +4095,8 @@
     "condition_A": "recent studies on e-cigarette benefits",
     "condition_B": "Premise1: The current regulations are designed to prevent children from using nicotine.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Electronic cigarettes should not be subject to the same regulation as other products that contain nicotine. Statement2: Recent studies indicate that electronic cigarettes help people quit smoking by providing nicotine without th"
   },
   {
@@ -4105,8 +4105,8 @@
     "condition_A": "comparison with traditional cigarettes",
     "condition_B": "Premise1: The current regulations are designed to prevent children from using nicotine.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Electronic cigarettes should not be subject to the same regulation as other products that contain nicotine. Statement2: Recent studies indicate that electronic cigarettes help people quit smoking by providing nicotine without th"
   },
   {
@@ -4115,8 +4115,8 @@
     "condition_A": "association between e-cigarettes and reduced cancer risk",
     "condition_B": "Premise1: The current regulations are designed to prevent children from using nicotine.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Electronic cigarettes should not be subject to the same regulation as other products that contain nicotine. Statement2: Recent studies indicate that electronic cigarettes help people quit smoking by providing nicotine without th"
   },
   {
@@ -4225,8 +4225,8 @@
     "condition_A": "lower fatality rates due to technological advancements",
     "condition_B": "Premise1: Fatalities involving all trains in state p are fewer due to lower speed limits and stricter training requirements for train conductors.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Critics of a new law that will allow extra-long passenger trains to travel on the state's railroads are mistaken in claiming that these extra-long passenger trains are more dangerous than other types of passenger trains. In our "
   },
   {
@@ -4245,8 +4245,8 @@
     "condition_A": "eye orientation skills are innate and not influenced by IQ.",
     "condition_B": "Premise1: The speed in which a person orients his or her eyes towards a stimulus is a skill that cannot be modified by experience.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Cognitive psychologist : sent2: the argument against iq as a hereditary trait that is fixed throughout one 's lifetime ignores the evidence of eye orientation. Statement2: That is, there is a high correlation between the speed i"
   },
   {
@@ -4265,8 +4265,8 @@
     "condition_A": "Eye orientation speed varies significantly with age and practice.",
     "condition_B": "Premise1: The speed in which a person orients his or her eyes towards a stimulus is a skill that cannot be modified by experience.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Cognitive psychologist : sent2: the argument against iq as a hereditary trait that is fixed throughout one 's lifetime ignores the evidence of eye orientation. Statement2: That is, there is a high correlation between the speed i"
   },
   {
@@ -4395,8 +4395,8 @@
     "condition_A": "the dolphins' natural curiosity towards human interaction",
     "condition_B": "Premise1: The dolphins often exhibit complex new responses to the hand signal.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Sometimes when their trainer gives the hand signal for\" do something creative together, \" two dolphins circle a pool in tandem and then leap through the air simultaneously. On other occasions the same signal elicits synchronized"
   },
   {
@@ -4445,8 +4445,8 @@
     "condition_A": "affectionate behavior between chimps and raiders",
     "condition_B": "Premise1: Feelings of affection in chimp communities are at least sometimes reciprocated.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: A chimp who displays feelings of affection toward the other members of its social group is more likely to be defended by these group members from raiders outside of the group -- even at the risk of harm to these defenders -- tha"
   },
   {
@@ -4585,8 +4585,8 @@
     "condition_A": "carbon dioxide absorption by plants is influenced by factors other than car usage",
     "condition_B": "Premise1: Cars burn on the average slightly more gasohol per kilometer than they do gasoline.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: There should be a greater use of gasohol. Statement2: Gasohol is a mixture of alcohol and gasoline, and has a higher octane rating and fewer carbon monoxide emissions than straight gasoline. Burning gasohol adds no more carbon d"
   },
   {
@@ -4695,8 +4695,8 @@
     "condition_A": "candidate's charisma is the sole determinant of voter preference",
     "condition_B": "Premise1: The tendency of a candidate's visual image to evoke positive feelings in voters at least sometimes increases as media exposure increases.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Political commentator : voters tend to elect the candidate whose visual image most evokes positive feelings. Statement2: Thus, laws designed to increase the fairness of elections should not allow one candidate to buy significant"
   },
   {
@@ -4775,8 +4775,8 @@
     "condition_A": "chemicals leaked into rivers due to old dumps",
     "condition_B": "Premise1: Before the federal law requiring testing of nonpharmaceutical chemicals went into effect recently, there were 40, 000 such chemicals being manufactured, many of them dangerous.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: To allay public concern about chemicals that are leaking into a river from a chemical company's long-established dump, a company representative said, \" federal law requires that every new chemical be tested for safety before it "
   },
   {
@@ -4795,8 +4795,8 @@
     "condition_A": "number of chemicals manufactured and their safety status",
     "condition_B": "Premise1: Before the federal law requiring testing of nonpharmaceutical chemicals went into effect recently, there were 40, 000 such chemicals being manufactured, many of them dangerous.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: To allay public concern about chemicals that are leaking into a river from a chemical company's long-established dump, a company representative said, \" federal law requires that every new chemical be tested for safety before it "
   },
   {
@@ -4845,8 +4845,8 @@
     "condition_A": "Musical training and anatomical changes in the corpus callosum.",
     "condition_B": "Premise1: The corpora callosa of musicians, before they started training, do not tend to be larger than those of nonmusicians of the same age.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: The corpus callosum -- the thick band of nerve fibers connecting the brain's two hemispheres -- of a musician is on average larger than that of a nonmusician. Statement2: The differences in the size of corpora callosa are partic"
   },
   {
@@ -4875,8 +4875,8 @@
     "condition_A": "Corpus callosum size correlates with years of formal music education.",
     "condition_B": "Premise1: The corpora callosa of musicians, before they started training, do not tend to be larger than those of nonmusicians of the same age.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: The corpus callosum -- the thick band of nerve fibers connecting the brain's two hemispheres -- of a musician is on average larger than that of a nonmusician. Statement2: The differences in the size of corpora callosa are partic"
   },
   {
@@ -4915,8 +4915,8 @@
     "condition_A": "Women naturally produce more HDLs due to hormonal differences.",
     "condition_B": "Premise1: Hdls are less easily removed from the bloodstream than are ldls.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Cholesterol, which is a known factor in coronary heart disease and stroke, needs a carrier, known as a lipoprotein, to transport it through the bloodstream. Statement2: Low-density lipoproteins ( ldls ) increase the risk of coro"
   },
   {
@@ -4965,8 +4965,8 @@
     "condition_A": "current salaries of both unions",
     "condition_B": "Premise1: The current salaries of the members of the chefs' union are, on average, higher than the current salaries of the members of the hotel managers' union.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: For the next year, the chefs'union has requested a 10 percent salary increase for each of its members, whereas the hotel managers'union has requested only an 8 percent salary increase for each of its members. Statement2: These f"
   },
   {
@@ -4995,8 +4995,8 @@
     "condition_A": "time frame for salary negotiations",
     "condition_B": "Premise1: The current salaries of the members of the chefs' union are, on average, higher than the current salaries of the members of the hotel managers' union.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: For the next year, the chefs'union has requested a 10 percent salary increase for each of its members, whereas the hotel managers'union has requested only an 8 percent salary increase for each of its members. Statement2: These f"
   },
   {
@@ -5095,8 +5095,8 @@
     "condition_A": "lower tax rates correlate with poor governance",
     "condition_B": "Premise1: Opposing higher taxes is not a factor contributing to good leadership.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Politician : of the candidates running, thompson is the best person to lead this nation. Statement2: For one thing, thompson opposes higher taxes whereas the other candidates support them. Many would agree that anyone who oppose"
   },
   {
@@ -5295,8 +5295,8 @@
     "condition_A": "people suddenly became wealthy enough to buy more books",
     "condition_B": "Premise1: In the first years after the printing press was invented, printed books were purchased primarily by people who had always bought and read expensive manuscripts but could afford a greater number of printed books for the same money.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Before the printing press, books could be purchased only in expensive manuscript copies. Statement2: The printing press produced books that were significantly less expensive than the manuscript editions. Statement3: The public's"
   },
   {
@@ -5465,8 +5465,8 @@
     "condition_A": "Statement3: Buying one is justified only if the child has the necessary talent and perseverance, which is precisely what one can not know in advance.",
     "condition_B": "Premise1: Learners, particularly those with genuine musical talent, are apt to lose interest in the instrument if they have to play on a piano that fails to produce a pleasing sound.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: A child learning to play the piano will not succeed unless the child has an instrument at home on which to practice. Statement2: However, good-quality pianos, whether new or secondhand, are costly. Statement3: Buying one is just"
   },
   {
@@ -5685,8 +5685,8 @@
     "condition_A": "Market demand and pricing strategy",
     "condition_B": "Premise1: Katrovians in households that already have computers are unlikely to purchase the new infotek model as an additional computer for home use.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Infotek, a computer manufacturer in katrovia, has just introduced a new personal computer model that sells for significantly less than any other model. Statement2: Market research shows, however, that very few katrovian househol"
   },
   {
@@ -5695,8 +5695,8 @@
     "condition_A": "Consumer preferences towards brand loyalty",
     "condition_B": "Premise1: Katrovians in households that already have computers are unlikely to purchase the new infotek model as an additional computer for home use.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Infotek, a computer manufacturer in katrovia, has just introduced a new personal computer model that sells for significantly less than any other model. Statement2: Market research shows, however, that very few katrovian househol"
   },
   {
@@ -5705,8 +5705,8 @@
     "condition_A": "Economic conditions affecting purchasing power",
     "condition_B": "Premise1: Katrovians in households that already have computers are unlikely to purchase the new infotek model as an additional computer for home use.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Infotek, a computer manufacturer in katrovia, has just introduced a new personal computer model that sells for significantly less than any other model. Statement2: Market research shows, however, that very few katrovian househol"
   },
   {
@@ -5765,8 +5765,8 @@
     "condition_A": "the hydro's price and fuel efficiency compared to competitors",
     "condition_B": "Premise1: The hydro is recognizable as environmentally friendly in a way that its competitors are not.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: While sales of other highly fuel-efficient automobiles are in decline, sales of the hydro are rising. Statement2: The hydro's manufacturers attribute its success to the hydro's price and very low fuel consumption. Statement3: Ho"
   },
   {
@@ -5775,8 +5775,8 @@
     "condition_A": "the hydro's popularity among eco-conscious consumers",
     "condition_B": "Premise1: The hydro is recognizable as environmentally friendly in a way that its competitors are not.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: While sales of other highly fuel-efficient automobiles are in decline, sales of the hydro are rising. Statement2: The hydro's manufacturers attribute its success to the hydro's price and very low fuel consumption. Statement3: Ho"
   },
   {
@@ -5785,8 +5785,8 @@
     "condition_A": "the hydro's marketing strategy focusing on environmental appeal",
     "condition_B": "Premise1: The hydro is recognizable as environmentally friendly in a way that its competitors are not.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: While sales of other highly fuel-efficient automobiles are in decline, sales of the hydro are rising. Statement2: The hydro's manufacturers attribute its success to the hydro's price and very low fuel consumption. Statement3: Ho"
   },
   {
@@ -5835,8 +5835,8 @@
     "condition_A": "general public's perception of lottery risks",
     "condition_B": "Premise1: Becoming aware of individuals who have won a major jackpot leads at least some people to incorrectly estimate their own chances of winning such a jackpot.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: The odds of winning any major lottery jackpot are extremely slight. However, the very few people who do win major jackpots receive a great deal of attention from the media. Statement2: Thus, since most people come to have at lea"
   },
   {
@@ -5855,8 +5855,8 @@
     "condition_A": "volunteer work being more common among healthier individuals",
     "condition_B": "Premise1: People tend not to become involved in regular volunteer work unless they are healthy and energetic to begin with.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who do regular volunteer work tend to live longer, on average, than people who do not. It has been found that\" doing good, \" a category that certainly includes volunteer work, releases endorphins, the brain 's natural opi"
   },
   {
@@ -5865,8 +5865,8 @@
     "condition_A": "people's desire to feel better motivating them to engage in volunteer work",
     "condition_B": "Premise1: People tend not to become involved in regular volunteer work unless they are healthy and energetic to begin with.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who do regular volunteer work tend to live longer, on average, than people who do not. It has been found that\" doing good, \" a category that certainly includes volunteer work, releases endorphins, the brain 's natural opi"
   },
   {
@@ -5915,8 +5915,8 @@
     "condition_A": "the overall market demand for syrup products",
     "condition_B": "Premise1: In general, customers who prefer regular syrup will buy low-calorie syrup if regular is unavailable, but those who prefer low-calorie will not buy regular syrup.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Fastmart, a convenience store chain, is planning to add pancake syrup to the items it sells. Statement2: Fastmart stores do not have shelf space to stock more than one variety of syrup. Surveys of fastmart customers indicate tha"
   },
   {
@@ -5935,8 +5935,8 @@
     "condition_A": "modern navigation systems have been around since before portable electronics became common",
     "condition_B": "Premise1: Planes were first equipped with low-power circuitry at about the same time portable electronic devices became popular.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Modern navigation systems, which are found in most of today's commercial aircraft, are made with low-power circuitry, which is more susceptible to interference than the vacuum-tube circuitry found in older planes. Statement2: Du"
   },
   {
@@ -5975,8 +5975,8 @@
     "condition_A": "modern technology ensures higher map quality",
     "condition_B": "Premise1: Some of the weather stations currently in use are more than 60 years old.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Current maps showing the north american regions where different types of garden plants will flourish are based on weather data gathered 60 years ago from a few hundred primitive weather stations. Statement2: New maps are now bei"
   },
   {
@@ -6145,8 +6145,8 @@
     "condition_A": "the clarity of quackery compared to scientific papers",
     "condition_B": "Premise1: People who attempt to diagnose their medical conditions are likely to do themselves more harm than good unless they rely exclusively on scientifically valid information.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: People who browse the web for medical information often can not discriminate between scientifically valid information and quackery. Much of the quackery is particularly appealing to readers with no medical background because it "
   },
   {
@@ -6395,8 +6395,8 @@
     "condition_A": "the historical significance of the tree species",
     "condition_B": "Premise1: The wood used in the table is large enough to contain a span of one thousand tree rings.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: A table made entirely from the trunk of a tree said to have lived a thousand years was recently claimed to be that of a much younger tree. Statement2: In order to rebut this charge, the craftsman summoned a team of dendrochronol"
   },
   {
@@ -6415,8 +6415,8 @@
     "condition_A": "the economy's overall health affects employment rates",
     "condition_B": "Premise1: Automation is the leading cause for unemployment.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Employer : in the current economic climate, the best way to run a business is to pay employees the least amount possible to do the job. Statement2: The supply of labor is far outpacing demand since the number of college graduate"
   },
   {
@@ -6495,8 +6495,8 @@
     "condition_A": "legislators' lack of public interest in constituent welfare",
     "condition_B": "Premise1: Legislators considering a proposed law for which they have repugnance or enthusiasm do not consider the consequences that it will actually have.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: If legislators are to enact laws that benefit constituents, they must be sure to consider what the consequences of enacting a proposed law will actually be. Concerned primarily with advancing their own political careers, legisla"
   },
   {
@@ -6515,8 +6515,8 @@
     "condition_A": "historical data showing past failures in legislating for constituents",
     "condition_B": "Premise1: Legislators considering a proposed law for which they have repugnance or enthusiasm do not consider the consequences that it will actually have.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: If legislators are to enact laws that benefit constituents, they must be sure to consider what the consequences of enacting a proposed law will actually be. Concerned primarily with advancing their own political careers, legisla"
   },
   {
@@ -6565,8 +6565,8 @@
     "condition_A": "the accuracy of the test is not directly related to its ability to diagnose autism.",
     "condition_B": "Premise1: A diagnostic test that sometimes falsely gives a positive diagnosis can still provide a reasonable basis for treatment decisions.",
     "ground_truth": "yes",
-    "prediction": "no",
-    "correct": false,
+    "prediction": "yes",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Reporter : a team of scientists has recently devised a new test that for the first time accurately diagnoses autism in children as young as 18 months old. Statement2: When used to evaluate 16,000 children at their 18-month check"
   },
   {
@@ -6925,8 +6925,8 @@
     "condition_A": "Polling methods and time frame differences",
     "condition_B": "Premise1: Polls of those who graduated from a university more than five years before being polled show a higher percentage of people in favor of reducing government social services than do polls of the overall population.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Polls have shown that a higher percentage of graduating university students are against proposals to reduce government social services than are students entering their first year at a university. Statement2: These polls lead us "
   },
   {
@@ -6955,8 +6955,8 @@
     "condition_A": "Time period variation",
     "condition_B": "Premise1: Polls of those who graduated from a university more than five years before being polled show a higher percentage of people in favor of reducing government social services than do polls of the overall population.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Polls have shown that a higher percentage of graduating university students are against proposals to reduce government social services than are students entering their first year at a university. Statement2: These polls lead us "
   },
   {
@@ -6975,8 +6975,8 @@
     "condition_A": "marketing strategies of competing corporations",
     "condition_B": "Premise1: The industry consultants employed by travaillier typically recommend that companies expand by introducing their current customers to new products and services.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Travaillier corporation has recently hired employees with experience in the bus tour industry, and its executives have also been negotiating with charter bus companies that subcontract with bus tour companies. But travaillier ha"
   },
   {
@@ -7015,8 +7015,8 @@
     "condition_A": "foreign investment in pollution control technology",
     "condition_B": "Premise1: The clean growth plan will provide tax incentives for local businesses to develop and manufacture pollution-control devices.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Unprecedented industrial growth in the country of remo has created serious environmental problems because factories there lack adequate pollution-control systems. Remo is developing a clean growth plan that includes environmenta"
   },
   {
@@ -7275,8 +7275,8 @@
     "condition_A": "semantic context does not influence the distinction between homophones.",
     "condition_B": "Premise1: In order for computer voice-recognition technology to distinguish between homophones, it must be able to recognize grammatical and semantic relations among words.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Columnist : computer voice-recognition technology currently can not distinguish between homophones such as\" their\" and\" there. \" Statement2: As a consequence, until voice-recognition technology is improved to recognize and utili"
   },
   {
@@ -7425,8 +7425,8 @@
     "condition_A": "some stars may not be suitable for detecting planets due to their distance from Earth",
     "condition_B": "Premise1: In most cases in which planets have been discovered orbiting a distant star, more than one planet has been found orbiting the star.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Astronomer : in most cases in which a planet has been detected orbiting a distant star, the planet's orbit is distinctly oval, whereas the orbits of earth and several other planets around our sun are approximately circular. Stat"
   },
   {
@@ -7445,8 +7445,8 @@
     "condition_A": "Legalization of drugs reduces crime rates.",
     "condition_B": "Premise1: Legalizing drugs would raise government healthcare expenditures.",
     "ground_truth": "yes",
-    "prediction": "yes",
-    "correct": true,
+    "prediction": "no",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Activist : all drugs should be legalized. Statement2: Despite the current crackdown, the black market has filled the supply, ensuring that people can obtain any drug at any time, if desired. Statement3: The government currently "
   },
   {
@@ -7535,8 +7535,8 @@
     "condition_A": "minor artists were more prolific due to higher demand",
     "condition_B": "Premise1: Seventeenth-century art dealers paid minor artists extra money to leave their landscapes unsigned so that the dealers could add phony signatures and pass such works off as valuable paintings.",
     "ground_truth": "no",
-    "prediction": "yes",
-    "correct": false,
+    "prediction": "no",
+    "correct": true,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Surviving seventeenth-century dutch landscapes attributed to major artists now equal in number those attributed to minor ones. Statement2: But since in the seventeenth century many prolific minor artists made a living supplying "
   },
   {
@@ -7595,8 +7595,8 @@
     "condition_A": "The budget constraints of public libraries prevent them from purchasing rare or specialized materials.",
     "condition_B": "Premise1: Library users as a group depend on their public library for access to a wide variety of up-to-date reference books that are published in hardcover only.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Paperback books wear out more quickly than hardcover books do, but paperback books cost much less. Statement2: Therefore, users of public libraries would be better served if public libraries bought only paperback books, since by"
   },
   {
@@ -7705,8 +7705,8 @@
     "condition_A": "molecular clock errors affecting genetic comparisons",
     "condition_B": "Premise1: Some pairs of species not having a common ancestor are genetically more similar to each other than are some pairs that do have a common ancestor.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Researcher : it is commonly believed that species belonging to the same biological order, such as rodents, descended from a single common ancestor. Statement2: However, i compared the genetic pattern in 3 rodent species -- guine"
   },
   {
@@ -7895,8 +7895,8 @@
     "condition_A": "All plants contain phytoliths.",
     "condition_B": "Premise1: Plants of every type eaten by the apes left phytoliths on their teeth.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Fossilized teeth of an extinct species of herbivorous great ape have on them phytoliths, which are microscopic petrified remains of plants. Statement2: Since only phytoliths from certain species of plants are found on the teeth,"
   },
   {
@@ -7905,8 +7905,8 @@
     "condition_A": "Apes' diet is diverse and varied.",
     "condition_B": "Premise1: Plants of every type eaten by the apes left phytoliths on their teeth.",
     "ground_truth": "no",
-    "prediction": "no",
-    "correct": true,
+    "prediction": "yes",
+    "correct": false,
     "memory": "[MEM0 \u2014 causal graph memory]\n[CAUSAL GRAPH MEMORY]\nContext: Statement1: Fossilized teeth of an extinct species of herbivorous great ape have on them phytoliths, which are microscopic petrified remains of plants. Statement2: Since only phytoliths from certain species of plants are found on the teeth,"
   },
   {

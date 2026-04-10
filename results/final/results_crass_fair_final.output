@@ -1,6 +1,6 @@
 ================================================================================
   CAUSAL GRAPH MEMORY BENCHMARK — FAIR EVALUATION
-  Date: 2026-04-10  Dataset: CLOMO  Instances: 200
+  Date: 2026-04-10  Dataset: CRASS  Instances: 274
 ================================================================================
 
 Memory design: causal graph structure only
@@ -11,31 +11,31 @@ Memory design: causal graph structure only
   - Model must reason by itself
 
 [Qwen alone]
-  (i)  Spurious acc  : 351/600 = 58.5%
-  (ii) Disentangle   : 35/200 = 17.5%
-  Causal acc         : 135/200 = 67.5%
-  Fooled             : 249/600 = 41.5%
+  (i)  Spurious acc  : 153/369 = 41.5%
+  (ii) Disentangle   : 81/274 = 29.6%
+  Causal acc         : 230/274 = 83.9%
+  Fooled             : 216/369 = 58.5%
 
 [Mem0 + Qwen]
-  (i)  Spurious acc  : 281/600 = 46.8%
-  (ii) Disentangle   : 37/200 = 18.5%
-  Causal acc         : 162/200 = 81.0%
-  Fooled             : 319/600 = 53.2%
+  (i)  Spurious acc  : 188/369 = 50.9%
+  (ii) Disentangle   : 57/274 = 20.8%
+  Causal acc         : 175/274 = 63.9%
+  Fooled             : 181/369 = 49.1%
 
 [A-mem-sys + Qwen]
-  (i)  Spurious acc  : 309/600 = 51.5%
-  (ii) Disentangle   : 32/200 = 16.0%
-  Causal acc         : 150/200 = 75.0%
-  Fooled             : 291/600 = 48.5%
+  (i)  Spurious acc  : 234/369 = 63.4%
+  (ii) Disentangle   : 80/274 = 29.2%
+  Causal acc         : 143/274 = 52.2%
+  Fooled             : 135/369 = 36.6%
 
 ================================================================================
   COMPARISON TABLE
 ================================================================================
   System                        Causal   (i)Spurious  (ii)Disentangle     Fooled
   ------------------------------------------------------------------------------
-  Qwen alone                     67.5%         58.5%            17.5%      41.5%
-  Mem0 + Qwen                    81.0%         46.8%            18.5%      53.2%
-  A-mem-sys + Qwen               75.0%         51.5%            16.0%      48.5%
+  Qwen alone                     83.9%         41.5%            29.6%      58.5%
+  Mem0 + Qwen                    63.9%         50.9%            20.8%      49.1%
+  A-mem-sys + Qwen               52.2%         63.4%            29.2%      36.6%
   ------------------------------------------------------------------------------
 
 ================================================================================
