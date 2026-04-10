@@ -42,44 +42,47 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 ---
 
 ## Project Structure
-spurious-benchmark/
-├── pipeline/
-│   ├── step1_parse_clomo.py              # Parse CLOMO dataset
-│   ├── step1_parse_crass.py              # Parse CRASS dataset
-│   ├── step2_discover_spurious.py        # Generate spurious features
-│   ├── step2b_validate_spurious.py       # Validate spurious features
-│   ├── step3_generate_memory_streams.py  # Generate memory streams
-│   ├── step4_generate_trap_queries.py    # Generate trap queries
-│   ├── evaluate_fair.py                  # Main evaluation script
-│   ├── evaluate_traps.py                 # Trap query evaluation
-│   └── utils.py                          # Shared utilities
-├── data/
-│   ├── clomo/
-│   │   ├── spurious_features_validated.json
-│   │   └── trap_queries.json
-│   ├── crass/
-│   │   ├── crass_raw.csv
-│   │   ├── spurious_features_validated_crass_fixed.json
-│   │   └── trap_queries.json
-│   └── seeds/
-│       ├── clomo_seeds.json
-│       └── crass_seeds.json
-├── results/
-│   ├── final/                            # Final evaluation results
-│   └── logs/                             # Per-query logs
-├── DEMO_causal_graph_memory.txt          # Demo of causal graph memory
-├── README.md
-└── requirements.txt
+
+    spurious-benchmark/
+    |
+    +-- pipeline/
+    |   +-- step1_parse_clomo.py              (Parse CLOMO dataset)
+    |   +-- step1_parse_crass.py              (Parse CRASS dataset)
+    |   +-- step2_discover_spurious.py        (Generate spurious features)
+    |   +-- step2b_validate_spurious.py       (Validate spurious features)
+    |   +-- step3_generate_memory_streams.py  (Generate memory streams)
+    |   +-- step4_generate_trap_queries.py    (Generate trap queries)
+    |   +-- evaluate_fair.py                  (Main evaluation script)
+    |   +-- evaluate_traps.py                 (Trap query evaluation)
+    |   +-- utils.py                          (Shared utilities)
+    |
+    +-- data/
+    |   +-- clomo/
+    |   |   +-- spurious_features_validated.json
+    |   |   +-- trap_queries.json
+    |   +-- crass/
+    |   |   +-- crass_raw.csv
+    |   |   +-- spurious_features_validated_crass_fixed.json
+    |   |   +-- trap_queries.json
+    |   +-- seeds/
+    |       +-- clomo_seeds.json
+    |       +-- crass_seeds.json
+    |
+    +-- results/
+    |   +-- final/    (Final evaluation results)
+    |   +-- logs/     (Per-query logs)
+    |
+    +-- DEMO_causal_graph_memory.txt  (Demo of causal graph memory)
+    +-- README.md
+    +-- requirements.txt
+
 ---
 
 ## Setup
 
 ```bash
-# Clone the repo
 git clone https://github.com/rupali559/spurious-benchmark.git
 cd spurious-benchmark
-
-# Activate environment
 . ~/spurious-benchmark/CLOMO/venv/bin/activate
 ```
 
@@ -91,7 +94,6 @@ cd spurious-benchmark
 ```bash
 python3 pipeline/step1_parse_clomo.py
 ```
-Output: `data/seeds/seeds.json` (3000 seeds)
 
 ### Step 2 — Discover spurious features
 ```bash
@@ -100,7 +102,6 @@ python3 pipeline/step2_discover_spurious.py \
     --output data/clomo/spurious_features.json \
     --limit 200
 ```
-Output: `data/clomo/spurious_features.json` (200 instances, 600 spurious features)
 
 ### Step 2b — Validate spurious features
 ```bash
@@ -108,7 +109,6 @@ python3 pipeline/step2b_validate_spurious.py \
     --input_file data/clomo/spurious_features.json \
     --output_file data/clomo/spurious_features_validated.json
 ```
-Output: `data/clomo/spurious_features_validated.json`
 
 ### Step 3 — Generate memory streams
 ```bash
@@ -117,7 +117,6 @@ CUDA_VISIBLE_DEVICES=1 python3 pipeline/step3_generate_memory_streams.py \
     --output_file data/clomo/memory_streams.jsonl \
     --sleep 0.3
 ```
-Output: `data/clomo/memory_streams.jsonl` (800 memories)
 
 ### Step 4 — Generate trap queries
 ```bash
@@ -125,7 +124,6 @@ CUDA_VISIBLE_DEVICES=1 python3 pipeline/step4_generate_trap_queries.py \
     --input_file data/clomo/spurious_features_validated.json \
     --output_file data/clomo/trap_queries.json
 ```
-Output: `data/clomo/trap_queries.json` (1200 trap queries)
 
 ### Step 5 — Evaluate
 ```bash
@@ -136,7 +134,6 @@ CUDA_VISIBLE_DEVICES=1 python3 pipeline/evaluate_fair.py \
     --dataset CLOMO \
     --systems qwen,mem0,amem
 ```
-Output: `results/final/results_clomo_fair_final.output`
 
 ---
 
@@ -179,7 +176,21 @@ CUDA_VISIBLE_DEVICES=1 python3 pipeline/evaluate_fair.py \
 ## Memory Design
 
 For every query, a causal graph structure is built automatically as memory:
-**Key design principles:**
+
+    [CAUSAL GRAPH MEMORY]
+    Context: Consumer advocate: the government is responsible...
+
+    Outcome: The government can bear responsibility...
+
+    Candidate relationships observed:
+      - gasoline prices rise because consumers buy more
+      - government's policies increase consumer demand    (true cause)
+      - consumer advocacy claims government responsible   (spurious)
+
+    Task: Determine which candidate directly causes the outcome.
+    Note: Some candidates may be correlated but not causal.
+
+Key design principles:
 - No true/spurious labels
 - Candidates shuffled randomly
 - Model must reason by itself
