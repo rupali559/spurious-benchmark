@@ -11,8 +11,8 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 - **(ii) Disentangle** — handle both causal and spurious queries correctly for the same instance?
 
 **Datasets:**
-- **CLOMO** — 200 instances, 600 spurious features (standard causal reasoning)
-- **CRASS** — 274 instances, 369 spurious features (counterfactual reasoning)
+- **CLOMO** — 200 instances, 600 spurious features (standard causal reasoning) — [GitHub](https://github.com/Eleanor-H/CLOMO)
+- **CRASS** — 274 instances, 369 spurious features (counterfactual reasoning) — [GitHub](https://github.com/apergo-ai/CRASS-data-set)
 
 **Systems tested:**
 - Qwen alone (no memory)
