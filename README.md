@@ -42,35 +42,40 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 ---
 
 ## Project Structure
-spurious-benchmark/
-├── pipeline/
-│   ├── step1_parse_clomo.py              # Parse CLOMO dataset
-│   ├── step1_parse_crass.py              # Parse CRASS dataset
-│   ├── step2_discover_spurious.py        # Generate spurious features
-│   ├── step2b_validate_spurious.py       # Validate spurious features
-│   ├── step3_generate_memory_streams.py  # Generate memory streams
-│   ├── step4_generate_trap_queries.py    # Generate trap queries
-│   ├── evaluate_fair.py                  # Main evaluation script
-│   ├── evaluate_traps.py                 # Trap query evaluation
-│   └── utils.py                          # Shared utilities
-├── data/
-│   ├── clomo/
-│   │   ├── spurious_features_validated.json
-│   │   └── trap_queries.json
-│   ├── crass/
-│   │   ├── crass_raw.csv
-│   │   ├── spurious_features_validated_crass_fixed.json
-│   │   └── trap_queries.json
-│   └── seeds/
-│       ├── clomo_seeds.json
-│       └── crass_seeds.json
-├── results/
-│   ├── final/                            # Final evaluation results
-│   └── logs/                             # Per-query logs
-├── DEMO_causal_graph_memory.txt          # Demo of causal graph memory
-├── README.md
-└── requirements.txt
----
+
+    spurious-benchmark/
+    |
+    +-- pipeline/
+    |   +-- step1_parse_clomo.py              (Parse CLOMO dataset)
+    |   +-- step1_parse_crass.py              (Parse CRASS dataset)
+    |   +-- step2_discover_spurious.py        (Generate spurious features)
+    |   +-- step2b_validate_spurious.py       (Validate spurious features)
+    |   +-- step3_generate_memory_streams.py  (Generate memory streams)
+    |   +-- step4_generate_trap_queries.py    (Generate trap queries)
+    |   +-- evaluate_fair.py                  (Main evaluation script)
+    |   +-- evaluate_traps.py                 (Trap query evaluation)
+    |   +-- utils.py                          (Shared utilities)
+    |
+    +-- data/
+    |   +-- clomo/
+    |   |   +-- spurious_features_validated.json
+    |   |   +-- trap_queries.json
+    |   +-- crass/
+    |   |   +-- crass_raw.csv
+    |   |   +-- spurious_features_validated_crass_fixed.json
+    |   |   +-- trap_queries.json
+    |   +-- seeds/
+    |       +-- clomo_seeds.json
+    |       +-- crass_seeds.json
+    |
+    +-- results/
+    |   +-- final/    (Final evaluation results)
+    |   +-- logs/     (Per-query logs)
+    |
+    +-- DEMO_causal_graph_memory.txt  (Demo of causal graph memory)
+    +-- README.md
+    +-- requirements.txt
+
 
 ## Setup
 
