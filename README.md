@@ -150,6 +150,11 @@ Output: `results/final/results_clomo_fair_final.output`
 
 ## How To Run — CRASS
 
+> **Note:** CRASS skips Steps 2 and 2b because the dataset already contains
+> spurious features as wrong answer choices (Answer1, Answer2).
+> We only need to parse, build memory, and evaluate.
+
+
 ### Step 1 — Parse CRASS
 ```bash
 python3 pipeline/step1_parse_crass.py \
