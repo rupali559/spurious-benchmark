@@ -84,6 +84,9 @@ A benchmark to test whether LLMs can distinguish real causal relationships from 
 git clone https://github.com/rupali559/spurious-benchmark.git
 cd spurious-benchmark
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Activate environment
 . ~/spurious-benchmark/CLOMO/venv/bin/activate
 ```
